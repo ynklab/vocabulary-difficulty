@@ -1,0 +1,33 @@
+#!/bin/bash
+#PJM -g gi52
+#PJM -L rscgrp=share
+#PJM -L gpu=1
+#PJM -L elapse=24:00:00
+#PJM -N mar26-mmbert-ep10-cn_f5
+#PJM -j
+#PJM -o results/finetuned_llm/logs/pj_ftllm_mar26-mmbert-ep10-cn_fold5.out
+
+cd "$HOME/bea2026st"
+
+module load miniconda/py39_4.9.2
+
+conda run --no-capture-output -n llm_plus python -u scripts/finetune_llm.py \
+  -v \
+  --mlm \
+  --config-name mar26-mmbert-ep10-cn \
+  --model-name jhu-clsp/mmBERT-base \
+  --folds 5 \
+  --languages cn \
+  --epochs 10 \
+  --batch-size 16 \
+  --grad-accum 1 \
+  --lr-scheduler constant \
+  --learning-rate 3e-5 \
+  --weight-decay 0.1 \
+  --warmup-ratio 0.1 \
+  --loss-type ce_prob \
+  --predict prob \
+  --token-form bare \
+  --calibrate \
+  --results-path results/finetuned_llm/mar26-mmbert-ep10-cn.csv \
+  --stdout-file results/finetuned_llm/logs/mar26-mmbert-ep10-cn.log

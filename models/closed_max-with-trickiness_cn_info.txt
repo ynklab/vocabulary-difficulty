@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py -m xgbr --sdiff-l1 --cqp morphtran calque --bnc spoken written --gn cnc imag fam aoa -G --os -f --fc mmbert-base-closed --final-train closed_max --over
+
+Final-predict command:
+python scripts/run_features.py -m xgbr --sdiff-l1 --cqp morphtran calque --bnc spoken written --gn cnc imag fam aoa -G --os -f --fc mmbert-base-closed --over --final-predict closed_max --track '<open|closed>'

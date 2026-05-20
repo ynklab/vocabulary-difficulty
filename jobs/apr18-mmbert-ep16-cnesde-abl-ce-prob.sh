@@ -1,0 +1,57 @@
+#!/bin/bash
+#PJM -g gh35
+#PJM -L rscgrp=share
+#PJM -L gpu=1
+#PJM -L elapse=48:00:00
+#PJM -N apr18-mmbert-abl-ceprob
+#PJM -j
+#PJM -o results/finetuned_llm/logs/apr18-mmbert-ep16-cnesde-abl-ce-prob.out
+
+set -euo pipefail
+
+cd "$HOME/bea2026st"
+
+module load miniconda/py39_4.9.2
+
+conda run --no-capture-output -n llm_plus python -u scripts/finetune_llm.py \
+  -v \
+  --mlm \
+  --config-name apr18-mmbert-ep16-cnesde-abl-ce-prob \
+  --model-name jhu-clsp/mmBERT-base \
+  --final-data \
+  --languages cn es de \
+  --epochs 16 \
+  --batch-size 16 \
+  --grad-accum 1 \
+  --lr-scheduler constant \
+  --learning-rate 3e-5 \
+  --weight-decay 0.1 \
+  --warmup-ratio 0.1 \
+  --loss-type ce \
+  --predict prob \
+  --token-form bare \
+  --calibrate \
+  --results-path results/finetuned_llm/apr18-mmbert-ep16-cnesde-abl-ce-prob.csv \
+  --stdout-file results/finetuned_llm/logs/apr18-mmbert-ep16-cnesde-abl-ce-prob.log
+
+conda run --no-capture-output -n llm_plus python -u scripts/finetune_llm.py \
+  -v \
+  --mlm \
+  --all-in-one \
+  --config-name apr18-mmbert-ep16-cnesde-allinone-abl-ce-prob \
+  --model-name jhu-clsp/mmBERT-base \
+  --final-data \
+  --languages cn es de \
+  --epochs 16 \
+  --batch-size 16 \
+  --grad-accum 1 \
+  --lr-scheduler constant \
+  --learning-rate 3e-5 \
+  --weight-decay 0.1 \
+  --warmup-ratio 0.1 \
+  --loss-type ce \
+  --predict prob \
+  --token-form bare \
+  --calibrate \
+  --results-path results/finetuned_llm/apr18-mmbert-ep16-cnesde-allinone-abl-ce-prob.csv \
+  --stdout-file results/finetuned_llm/logs/apr18-mmbert-ep16-cnesde-allinone-abl-ce-prob.log

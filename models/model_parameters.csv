@@ -1,0 +1,5 @@
+"model_name","track","pretrained_model","L1","component_order","batch_size","learning_rate","weight_decay","warmup_ratio","epochs"
+"baseline_open_xx","open","xlm-roberta-base","xx","L1_source_word; L1_context; en_target_clue; en_target_word","32","0.00003","0.1","0.1","5"
+"baseline_closed_cn","closed","xlm-roberta-base","cn","L1_source_word; L1_context; en_target_clue; en_target_word","32","0.00003","0.1","0.1","5"
+"baseline_closed_de","closed","xlm-roberta-base","de","L1_source_word; L1_context; en_target_clue; en_target_word","32","0.00003","0","0.1","5"
+"baseline_closed_es","closed","xlm-roberta-base","es","L1_source_word; L1_context; en_target_clue; en_target_word","32","0.00003","0.1","0.1","5"

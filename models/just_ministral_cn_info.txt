@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py --no-default-features -f --fc ministral-3-14b --final-train just_ministral
+
+Final-predict command:
+python scripts/run_features.py --no-default-features -f --fc ministral-3-14b --final-predict just_ministral --track '<open|closed>'

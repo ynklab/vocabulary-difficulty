@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py --sdiff-l1 --cqp morphtran -D -f --final-train open_max
+
+Final-predict command:
+python scripts/run_features.py --sdiff-l1 --cqp morphtran -D -f --final-predict open_max --track '<open|closed>'

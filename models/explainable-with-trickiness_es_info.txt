@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py -m xgbr --sdiff-l1 --cqp morphtran --final-train explainable --over
+
+Final-predict command:
+python scripts/run_features.py -m xgbr --sdiff-l1 --cqp morphtran --over --final-predict explainable --track '<open|closed>'

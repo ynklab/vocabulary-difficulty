@@ -1,0 +1,20 @@
+# Include models:
+# models/
+logs/
+batch/
+data/downloads/
+dump/
+note.txt
+__pycache__
+
+# Unused files:
+**/zz-*
+
+# API KEYS:
+scripts/config.py
+
+# Project files
+*.bbprojectd
+
+# Codex:
+AGENTS.md

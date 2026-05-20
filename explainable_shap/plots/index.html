@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌸 Sakura at BEA 2026 Shared Task on Vocabulary Difficulty Prediction: SHAP Plot Browser for the explainable model</title>
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #1f2430;
+      --muted: #5c667a;
+      --border: #d8dde8;
+      --accent: #0b57d0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      overflow-anchor: none;
+    }
+    .page {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 16px;
+      min-height: 100vh;
+      padding: 16px;
+    }
+    .left, .right {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+    }
+    .left {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .meta {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .search {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    select {
+      width: 100%;
+      flex: 1;
+      min-height: 320px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 4px;
+      font-size: 14px;
+      background: #fff;
+    }
+    .status {
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+      min-height: 20px;
+    }
+    .plots {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    .plot-controls {
+      position: absolute;
+      top: 6px;
+      right: 10px;
+      z-index: 10;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+    .plot-controls label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .zoom-input {
+      width: 72px;
+      padding: 6px 8px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      text-align: right;
+    }
+    .plot-btn {
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .plot-btn:hover {
+      border-color: var(--accent);
+    }
+    .plot-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .plot-card h2 {
+      margin: 0;
+      font-size: 15px;
+      padding: 8px 10px;
+      background: #eef3ff;
+      border-bottom: 1px solid var(--border);
+    }
+    .plot-wrap {
+      display: grid;
+      place-items: center;
+      min-height: 220px;
+      background: #fff;
+      overflow: auto;
+    }
+    .plot-wrap img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    .empty {
+      color: var(--muted);
+      font-size: 14px;
+      padding: 12px;
+      text-align: center;
+    }
+    @media (max-width: 1000px) {
+      .page {
+        grid-template-columns: 1fr;
+      }
+      select {
+        min-height: 240px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="left">
+      <h1>KVL Test Item Browser</h1>
+      <p class="meta">Search by target word and select an item to view grouped SHAP plots. The SHAP values are for the explainable model by team 🌸 Sakura at BEA 2026 Shared Task on Vocabulary Difficulty Prediction. See <a href="https://arxiv.org/abs/2605.14257">arXiv paper</a> and <a href="https://github.com/adno/vocabulary-difficulty">GitHub repo</a>.</p>
+      <input id="search" class="search" type="text" placeholder="Search..." aria-label="Filter words">
+      <select id="itemList" size="20" aria-label="KVL items"></select>
+      <div id="status" class="status"></div>
+    </section>
+
+    <section class="right">
+      <div class="plots">
+        <div class="plot-controls">
+          <label for="zoomInput">Zoom</label>
+          <input id="zoomInput" class="zoom-input" type="text" value="100%" aria-label="Zoom percentage">
+          <button id="zoomOutBtn" class="plot-btn" type="button" aria-label="Zoom out">-</button>
+          <button id="zoomInBtn" class="plot-btn" type="button" aria-label="Zoom in">+</button>
+          <button id="zoomFitBtn" class="plot-btn" type="button">Fit</button>
+        </div>
+        <article class="plot-card">
+          <h2>L1 Chinese (CN)</h2>
+          <div class="plot-wrap">
+            <img id="img-cn" alt="Chinese grouped SHAP plot">
+            <div id="empty-cn" class="empty" hidden>No plot to display</div>
+          </div>
+        </article>
+        <article class="plot-card">
+          <h2>L1 German (DE)</h2>
+          <div class="plot-wrap">
+            <img id="img-de" alt="German grouped SHAP plot">
+            <div id="empty-de" class="empty" hidden>No plot to display</div>
+          </div>
+        </article>
+        <article class="plot-card">
+          <h2>L1 Spanish (ES)</h2>
+          <div class="plot-wrap">
+            <img id="img-es" alt="Spanish grouped SHAP plot">
+            <div id="empty-es" class="empty" hidden>No plot to display</div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const ITEMS = [{"item_id":"6769","word":"universal","pos":"adjective"},{"item_id":"6770","word":"eventually","pos":"adverb"},{"item_id":"6771","word":"herd","pos":"noun"},{"item_id":"6772","word":"harm","pos":"verb"},{"item_id":"6773","word":"stake","pos":"noun"},{"item_id":"6774","word":"forgivable","pos":"adjective"},{"item_id":"6775","word":"loudly","pos":"adverb"},{"item_id":"6776","word":"soda","pos":"noun"},{"item_id":"6777","word":"breathless","pos":"adjective"},{"item_id":"6778","word":"avenue","pos":"noun"},{"item_id":"6779","word":"asteroid","pos":"noun"},{"item_id":"6780","word":"detailed","pos":"adjective"},{"item_id":"6781","word":"gymnasium","pos":"noun"},{"item_id":"6782","word":"luck","pos":"noun"},{"item_id":"6783","word":"junior","pos":"adjective"},{"item_id":"6784","word":"ending","pos":"noun"},{"item_id":"6785","word":"so","pos":"adverb"},{"item_id":"6786","word":"planet","pos":"noun"},{"item_id":"6787","word":"concluding","pos":"adjective"},{"item_id":"6788","word":"consciousness","pos":"noun"},{"item_id":"6789","word":"huge","pos":"adjective"},{"item_id":"6790","word":"joy","pos":"noun"},{"item_id":"6791","word":"dozen","pos":"number"},{"item_id":"6792","word":"clock","pos":"noun"},{"item_id":"6793","word":"dating","pos":"noun"},{"item_id":"6794","word":"city","pos":"noun"},{"item_id":"6795","word":"praise","pos":"verb"},{"item_id":"6796","word":"farmhouse","pos":"noun"},{"item_id":"6797","word":"forbidden","pos":"adjective"},{"item_id":"6798","word":"isolated","pos":"adjective"},{"item_id":"6799","word":"synonymous","pos":"adjective"},{"item_id":"6800","word":"silence","pos":"noun"},{"item_id":"6801","word":"otherwise","pos":"adverb"},{"item_id":"6802","word":"handbook","pos":"noun"},{"item_id":"6803","word":"climb","pos":"verb"},{"item_id":"6804","word":"supernaturally","pos":"adverb"},{"item_id":"6805","word":"ant","pos":"noun"},{"item_id":"6806","word":"professional","pos":"noun"},{"item_id":"6807","word":"miner","pos":"noun"},{"item_id":"6808","word":"shiny","pos":"adjective"},{"item_id":"6809","word":"today","pos":"adverb"},{"item_id":"6810","word":"blackberry","pos":"noun"},{"item_id":"6811","word":"pound","pos":"noun"},{"item_id":"6812","word":"dog","pos":"noun"},{"item_id":"6813","word":"unchallenged","pos":"adjective"},{"item_id":"6814","word":"fish","pos":"noun"},{"item_id":"6815","word":"french","pos":"adjective"},{"item_id":"6816","word":"option","pos":"noun"},{"item_id":"6817","word":"production","pos":"noun"},{"item_id":"6818","word":"division","pos":"noun"},{"item_id":"6819","word":"back","pos":"noun"},{"item_id":"6820","word":"intellectually","pos":"adverb"},{"item_id":"6821","word":"universe","pos":"noun"},{"item_id":"6822","word":"factor","pos":"noun"},{"item_id":"6823","word":"fast","pos":"adverb"},{"item_id":"6824","word":"character","pos":"noun"},{"item_id":"6825","word":"luxury","pos":"noun"},{"item_id":"6826","word":"geometry","pos":"noun"},{"item_id":"6827","word":"stealing","pos":"noun"},{"item_id":"6828","word":"cook","pos":"noun"},{"item_id":"6829","word":"extra","pos":"adjective"},{"item_id":"6830","word":"innocent","pos":"adjective"},{"item_id":"6831","word":"might","pos":"verb"},{"item_id":"6832","word":"pursue","pos":"verb"},{"item_id":"6833","word":"jail","pos":"verb"},{"item_id":"6834","word":"fully","pos":"adverb"},{"item_id":"6835","word":"relay","pos":"noun"},{"item_id":"6836","word":"compact","pos":"adjective"},{"item_id":"6837","word":"copy","pos":"noun"},{"item_id":"6838","word":"invite","pos":"verb"},{"item_id":"6839","word":"conservative","pos":"noun"},{"item_id":"6840","word":"broken","pos":"adjective"},{"item_id":"6841","word":"minor","pos":"adjective"},{"item_id":"6842","word":"lamp","pos":"noun"},{"item_id":"6843","word":"menu","pos":"noun"},{"item_id":"6844","word":"rise","pos":"verb"},{"item_id":"6845","word":"copyright","pos":"noun"},{"item_id":"6846","word":"gifted","pos":"adjective"},{"item_id":"6847","word":"seemingly","pos":"adverb"},{"item_id":"6848","word":"crucial","pos":"adjective"},{"item_id":"6849","word":"treehouse","pos":"noun"},{"item_id":"6850","word":"tightly","pos":"adverb"},{"item_id":"6851","word":"earthquake","pos":"noun"},{"item_id":"6852","word":"rival","pos":"noun"},{"item_id":"6853","word":"objective","pos":"adjective"},{"item_id":"6854","word":"universally","pos":"adverb"},{"item_id":"6855","word":"annually","pos":"adverb"},{"item_id":"6856","word":"inappropriate","pos":"adjective"},{"item_id":"6857","word":"afford","pos":"verb"},{"item_id":"6858","word":"hospital","pos":"noun"},{"item_id":"6859","word":"unattractive","pos":"adjective"},{"item_id":"6860","word":"glance","pos":"noun"},{"item_id":"6861","word":"memo","pos":"noun"},{"item_id":"6862","word":"backup","pos":"noun"},{"item_id":"6863","word":"covering","pos":"noun"},{"item_id":"6864","word":"likely","pos":"adverb"},{"item_id":"6865","word":"air","pos":"noun"},{"item_id":"6866","word":"neurologist","pos":"noun"},{"item_id":"6867","word":"send","pos":"verb"},{"item_id":"6868","word":"lock","pos":"verb"},{"item_id":"6869","word":"neurology","pos":"noun"},{"item_id":"6870","word":"plug","pos":"verb"},{"item_id":"6871","word":"mechanically","pos":"adverb"},{"item_id":"6872","word":"agricultural","pos":"adjective"},{"item_id":"6873","word":"millionaire","pos":"noun"},{"item_id":"6874","word":"pet","pos":"noun"},{"item_id":"6875","word":"unhappy","pos":"adjective"},{"item_id":"6876","word":"telecommunications","pos":"noun"},{"item_id":"6877","word":"hairdresser","pos":"noun"},{"item_id":"6878","word":"defeat","pos":"verb"},{"item_id":"6879","word":"superhero","pos":"noun"},{"item_id":"6880","word":"genius","pos":"noun"},{"item_id":"6881","word":"spare","pos":"verb"},{"item_id":"6882","word":"pose","pos":"verb"},{"item_id":"6883","word":"sake","pos":"noun"},{"item_id":"6884","word":"atom","pos":"noun"},{"item_id":"6885","word":"portray","pos":"verb"},{"item_id":"6886","word":"theological","pos":"adjective"},{"item_id":"6887","word":"scope","pos":"noun"},{"item_id":"6888","word":"conduct","pos":"verb"},{"item_id":"6889","word":"bit","pos":"noun"},{"item_id":"6890","word":"anger","pos":"verb"},{"item_id":"6891","word":"mutation","pos":"noun"},{"item_id":"6892","word":"product","pos":"noun"},{"item_id":"6893","word":"meteorology","pos":"noun"},{"item_id":"6894","word":"mistake","pos":"noun"},{"item_id":"6895","word":"subculture","pos":"noun"},{"item_id":"6896","word":"magazine","pos":"noun"},{"item_id":"6897","word":"hearing","pos":"noun"},{"item_id":"6898","word":"temporary","pos":"adjective"},{"item_id":"6899","word":"fire","pos":"noun"},{"item_id":"6900","word":"anchor","pos":"verb"},{"item_id":"6901","word":"lottery","pos":"noun"},{"item_id":"6902","word":"aggressively","pos":"adverb"},{"item_id":"6903","word":"ride","pos":"verb"},{"item_id":"6904","word":"mechanism","pos":"noun"},{"item_id":"6905","word":"price","pos":"verb"},{"item_id":"6906","word":"shining","pos":"adjective"},{"item_id":"6907","word":"lot","pos":"adverb"},{"item_id":"6908","word":"ignorance","pos":"noun"},{"item_id":"6909","word":"mass","pos":"noun"},{"item_id":"6910","word":"norm","pos":"noun"},{"item_id":"6911","word":"laugh","pos":"verb"},{"item_id":"6912","word":"collaborator","pos":"noun"},{"item_id":"6913","word":"warm","pos":"verb"},{"item_id":"6914","word":"meditation","pos":"noun"},{"item_id":"6915","word":"indefinitely","pos":"adverb"},{"item_id":"6916","word":"applause","pos":"noun"},{"item_id":"6917","word":"tweet","pos":"verb"},{"item_id":"6918","word":"priceless","pos":"adjective"},{"item_id":"6919","word":"striker","pos":"noun"},{"item_id":"6920","word":"number","pos":"noun"},{"item_id":"6921","word":"remarkably","pos":"adverb"},{"item_id":"6922","word":"interior","pos":"noun"},{"item_id":"6923","word":"handicap","pos":"noun"},{"item_id":"6924","word":"motherhood","pos":"noun"},{"item_id":"6925","word":"endurance","pos":"noun"},{"item_id":"6926","word":"community","pos":"noun"},{"item_id":"6927","word":"holder","pos":"noun"},{"item_id":"6928","word":"conclusive","pos":"adjective"},{"item_id":"6929","word":"speaking","pos":"noun"},{"item_id":"6930","word":"speech","pos":"noun"},{"item_id":"6931","word":"snowball","pos":"noun"},{"item_id":"6932","word":"exploded","pos":"adjective"},{"item_id":"6933","word":"conservative","pos":"adjective"},{"item_id":"6934","word":"variety","pos":"noun"},{"item_id":"6935","word":"morality","pos":"noun"},{"item_id":"6936","word":"award","pos":"verb"},{"item_id":"6937","word":"repair","pos":"verb"},{"item_id":"6938","word":"conclusion","pos":"noun"},{"item_id":"6939","word":"thirst","pos":"noun"},{"item_id":"6940","word":"crowd","pos":"verb"},{"item_id":"6941","word":"diabetic","pos":"adjective"},{"item_id":"6942","word":"score","pos":"verb"},{"item_id":"6943","word":"homeowner","pos":"noun"},{"item_id":"6944","word":"cable","pos":"noun"},{"item_id":"6945","word":"umbrella","pos":"noun"},{"item_id":"6946","word":"confront","pos":"verb"},{"item_id":"6947","word":"proposed","pos":"adjective"},{"item_id":"6948","word":"profound","pos":"adjective"},{"item_id":"6949","word":"forced","pos":"adjective"},{"item_id":"6950","word":"endure","pos":"verb"},{"item_id":"6951","word":"preference","pos":"noun"},{"item_id":"6952","word":"sketch","pos":"noun"},{"item_id":"6953","word":"simple","pos":"adjective"},{"item_id":"6954","word":"require","pos":"verb"},{"item_id":"6955","word":"overtime","pos":"noun"},{"item_id":"6956","word":"nursing","pos":"adjective"},{"item_id":"6957","word":"butterfly","pos":"noun"},{"item_id":"6958","word":"arrow","pos":"noun"},{"item_id":"6959","word":"quality","pos":"noun"},{"item_id":"6960","word":"necessary","pos":"adjective"},{"item_id":"6961","word":"operative","pos":"noun"},{"item_id":"6962","word":"great","pos":"adverb"},{"item_id":"6963","word":"answer","pos":"verb"},{"item_id":"6964","word":"blink","pos":"verb"},{"item_id":"6965","word":"aerobics","pos":"noun"},{"item_id":"6966","word":"basics","pos":"noun"},{"item_id":"6967","word":"zone","pos":"noun"},{"item_id":"6968","word":"touching","pos":"adjective"},{"item_id":"6969","word":"manipulator","pos":"noun"},{"item_id":"6970","word":"bury","pos":"verb"},{"item_id":"6971","word":"acid","pos":"noun"},{"item_id":"6972","word":"show","pos":"noun"},{"item_id":"6973","word":"unemployed","pos":"adjective"},{"item_id":"6974","word":"insider","pos":"noun"},{"item_id":"6975","word":"stumble","pos":"verb"},{"item_id":"6976","word":"above","pos":"preposition"},{"item_id":"6977","word":"nomination","pos":"noun"},{"item_id":"6978","word":"health","pos":"noun"},{"item_id":"6979","word":"rehabilitation","pos":"noun"},{"item_id":"6980","word":"swimsuit","pos":"noun"},{"item_id":"6981","word":"streak","pos":"noun"},{"item_id":"6982","word":"disturbed","pos":"adjective"},{"item_id":"6983","word":"dilemma","pos":"noun"},{"item_id":"6984","word":"knight","pos":"verb"},{"item_id":"6985","word":"cake","pos":"noun"},{"item_id":"6986","word":"powerful","pos":"adjective"},{"item_id":"6987","word":"large","pos":"adjective"},{"item_id":"6988","word":"official","pos":"adjective"},{"item_id":"6989","word":"behind","pos":"adverb"},{"item_id":"6990","word":"swimming","pos":"noun"},{"item_id":"6991","word":"newsletter","pos":"noun"},{"item_id":"6992","word":"appeal","pos":"verb"},{"item_id":"6993","word":"state","pos":"noun"},{"item_id":"6994","word":"shape","pos":"verb"},{"item_id":"6995","word":"mention","pos":"verb"},{"item_id":"6996","word":"plate","pos":"noun"},{"item_id":"6997","word":"firm","pos":"adjective"},{"item_id":"6998","word":"edition","pos":"noun"},{"item_id":"6999","word":"autopilot","pos":"noun"},{"item_id":"7000","word":"biology","pos":"noun"},{"item_id":"7001","word":"cattle","pos":"noun"},{"item_id":"7002","word":"newly","pos":"adverb"},{"item_id":"7003","word":"surgery","pos":"noun"},{"item_id":"7004","word":"communicative","pos":"adjective"},{"item_id":"7005","word":"message","pos":"noun"},{"item_id":"7006","word":"status","pos":"noun"},{"item_id":"7007","word":"defy","pos":"verb"},{"item_id":"7008","word":"circular","pos":"adjective"},{"item_id":"7009","word":"oil","pos":"noun"},{"item_id":"7010","word":"preserve","pos":"verb"},{"item_id":"7011","word":"marked","pos":"adjective"},{"item_id":"7012","word":"bow","pos":"noun"},{"item_id":"7013","word":"weakness","pos":"noun"},{"item_id":"7014","word":"residence","pos":"noun"},{"item_id":"7015","word":"repeated","pos":"adjective"},{"item_id":"7016","word":"rabbit","pos":"noun"},{"item_id":"7017","word":"noun","pos":"noun"},{"item_id":"7018","word":"reportedly","pos":"adverb"},{"item_id":"7019","word":"domestically","pos":"adverb"},{"item_id":"7020","word":"fatal","pos":"adjective"},{"item_id":"7021","word":"heterosexual","pos":"noun"},{"item_id":"7022","word":"permanently","pos":"adverb"},{"item_id":"7023","word":"difficult","pos":"adjective"},{"item_id":"7024","word":"mat","pos":"noun"},{"item_id":"7025","word":"dance","pos":"noun"},{"item_id":"7026","word":"standby","pos":"noun"},{"item_id":"7027","word":"very","pos":"adjective"},{"item_id":"7028","word":"outrage","pos":"noun"},{"item_id":"7029","word":"fear","pos":"verb"},{"item_id":"7030","word":"ideal","pos":"adjective"},{"item_id":"7031","word":"deploy","pos":"verb"},{"item_id":"7032","word":"divert","pos":"verb"},{"item_id":"7033","word":"suddenly","pos":"adverb"},{"item_id":"7034","word":"double","pos":"noun"},{"item_id":"7035","word":"backwards","pos":"adverb"},{"item_id":"7036","word":"detective","pos":"noun"},{"item_id":"7037","word":"steep","pos":"adjective"},{"item_id":"7038","word":"concert","pos":"noun"},{"item_id":"7039","word":"birthplace","pos":"noun"},{"item_id":"7040","word":"crowned","pos":"adjective"},{"item_id":"7041","word":"wave","pos":"verb"},{"item_id":"7042","word":"nowhere","pos":"adverb"},{"item_id":"7043","word":"preliminary","pos":"adjective"},{"item_id":"7044","word":"hurt","pos":"adjective"},{"item_id":"7045","word":"float","pos":"verb"},{"item_id":"7046","word":"exchange","pos":"noun"},{"item_id":"7047","word":"fall","pos":"noun"},{"item_id":"7048","word":"fund","pos":"noun"},{"item_id":"7049","word":"scratch","pos":"verb"},{"item_id":"7050","word":"idealistic","pos":"adjective"},{"item_id":"7051","word":"nationally","pos":"adverb"},{"item_id":"7052","word":"express","pos":"verb"},{"item_id":"7053","word":"synthetic","pos":"adjective"},{"item_id":"7054","word":"government","pos":"noun"},{"item_id":"7055","word":"man","pos":"noun"},{"item_id":"7056","word":"everyone","pos":"misc"},{"item_id":"7057","word":"mentality","pos":"noun"},{"item_id":"7058","word":"movie","pos":"noun"},{"item_id":"7059","word":"cruise","pos":"verb"},{"item_id":"7060","word":"architectural","pos":"adjective"},{"item_id":"7061","word":"online","pos":"adverb"},{"item_id":"7062","word":"old","pos":"adjective"},{"item_id":"7063","word":"related","pos":"adjective"},{"item_id":"7064","word":"obstacle","pos":"noun"},{"item_id":"7065","word":"criminal","pos":"adjective"},{"item_id":"7066","word":"dining","pos":"noun"},{"item_id":"7067","word":"ship","pos":"noun"},{"item_id":"7068","word":"war","pos":"noun"},{"item_id":"7069","word":"territorial","pos":"adjective"},{"item_id":"7070","word":"topless","pos":"adjective"},{"item_id":"7071","word":"retain","pos":"verb"},{"item_id":"7072","word":"frame","pos":"noun"},{"item_id":"7073","word":"pretended","pos":"adjective"},{"item_id":"7074","word":"clarity","pos":"noun"},{"item_id":"7075","word":"execute","pos":"verb"},{"item_id":"7076","word":"unsuccessfully","pos":"adverb"},{"item_id":"7077","word":"surrounding","pos":"adjective"},{"item_id":"7078","word":"demographically","pos":"adverb"},{"item_id":"7079","word":"peaceful","pos":"adjective"},{"item_id":"7080","word":"pledge","pos":"noun"},{"item_id":"7081","word":"hard","pos":"adjective"},{"item_id":"7082","word":"instead","pos":"adverb"},{"item_id":"7083","word":"spotlight","pos":"noun"},{"item_id":"7084","word":"position","pos":"verb"},{"item_id":"7085","word":"covered","pos":"adjective"},{"item_id":"7086","word":"lifeguard","pos":"noun"},{"item_id":"7087","word":"coordinator","pos":"noun"},{"item_id":"7088","word":"propose","pos":"verb"},{"item_id":"7089","word":"package","pos":"noun"},{"item_id":"7090","word":"beginning","pos":"noun"},{"item_id":"7091","word":"inverted","pos":"adjective"},{"item_id":"7092","word":"stay","pos":"noun"},{"item_id":"7093","word":"destroyer","pos":"noun"},{"item_id":"7094","word":"surname","pos":"noun"},{"item_id":"7095","word":"pile","pos":"verb"},{"item_id":"7096","word":"sunglasses","pos":"noun"},{"item_id":"7097","word":"surviving","pos":"adjective"},{"item_id":"7098","word":"construction","pos":"noun"},{"item_id":"7099","word":"pipeline","pos":"noun"},{"item_id":"7100","word":"magnificent","pos":"adjective"},{"item_id":"7101","word":"juice","pos":"noun"},{"item_id":"7102","word":"panorama","pos":"noun"},{"item_id":"7103","word":"connect","pos":"verb"},{"item_id":"7104","word":"content","pos":"noun"},{"item_id":"7105","word":"supervise","pos":"verb"},{"item_id":"7106","word":"financially","pos":"adverb"},{"item_id":"7107","word":"protein","pos":"noun"},{"item_id":"7108","word":"loop","pos":"noun"},{"item_id":"7109","word":"frequently","pos":"adverb"},{"item_id":"7110","word":"intervention","pos":"noun"},{"item_id":"7111","word":"gymnastic","pos":"adjective"},{"item_id":"7112","word":"appearance","pos":"noun"},{"item_id":"7113","word":"safely","pos":"adverb"},{"item_id":"7114","word":"notice","pos":"verb"},{"item_id":"7115","word":"scary","pos":"adjective"},{"item_id":"7116","word":"multiple","pos":"adjective"},{"item_id":"7117","word":"cruel","pos":"adjective"},{"item_id":"7118","word":"keyword","pos":"noun"},{"item_id":"7119","word":"paintball","pos":"noun"},{"item_id":"7120","word":"cruise","pos":"noun"},{"item_id":"7121","word":"imagine","pos":"verb"},{"item_id":"7122","word":"destructive","pos":"adjective"},{"item_id":"7123","word":"chief","pos":"adjective"},{"item_id":"7124","word":"permit","pos":"noun"},{"item_id":"7125","word":"footwear","pos":"noun"},{"item_id":"7126","word":"highlight","pos":"noun"},{"item_id":"7127","word":"resolve","pos":"verb"},{"item_id":"7128","word":"voluntary","pos":"adjective"},{"item_id":"7129","word":"starlight","pos":"noun"},{"item_id":"7130","word":"instantly","pos":"adverb"},{"item_id":"7131","word":"earth","pos":"noun"},{"item_id":"7132","word":"patient","pos":"noun"},{"item_id":"7133","word":"wasting","pos":"adjective"},{"item_id":"7134","word":"disturbing","pos":"adjective"},{"item_id":"7135","word":"breaking","pos":"noun"},{"item_id":"7136","word":"initiation","pos":"noun"},{"item_id":"7137","word":"calm","pos":"adjective"},{"item_id":"7138","word":"excessive","pos":"adjective"},{"item_id":"7139","word":"purchase","pos":"noun"},{"item_id":"7140","word":"spokesman","pos":"noun"},{"item_id":"7141","word":"deserved","pos":"adjective"},{"item_id":"7142","word":"remix","pos":"noun"},{"item_id":"7143","word":"polarization","pos":"noun"},{"item_id":"7144","word":"recommend","pos":"verb"},{"item_id":"7145","word":"faster","pos":"adjective"},{"item_id":"7146","word":"hysterical","pos":"adjective"},{"item_id":"7147","word":"beer","pos":"noun"},{"item_id":"7148","word":"sleepwalking","pos":"adjective"},{"item_id":"7149","word":"requirement","pos":"noun"},{"item_id":"7150","word":"dairy","pos":"noun"},{"item_id":"7151","word":"stereotypical","pos":"adjective"},{"item_id":"7152","word":"crisis","pos":"noun"},{"item_id":"7153","word":"sister","pos":"noun"},{"item_id":"7154","word":"amount","pos":"verb"},{"item_id":"7155","word":"grid","pos":"noun"},{"item_id":"7156","word":"style","pos":"noun"},{"item_id":"7157","word":"prefer","pos":"verb"},{"item_id":"7158","word":"hairstyle","pos":"noun"},{"item_id":"7159","word":"four","pos":"number"},{"item_id":"7160","word":"reward","pos":"noun"},{"item_id":"7161","word":"parody","pos":"verb"},{"item_id":"7162","word":"formally","pos":"adverb"},{"item_id":"7163","word":"soak","pos":"verb"},{"item_id":"7164","word":"discriminating","pos":"adjective"},{"item_id":"7165","word":"spa","pos":"noun"},{"item_id":"7166","word":"guard","pos":"noun"},{"item_id":"7167","word":"hierarchy","pos":"noun"},{"item_id":"7168","word":"company","pos":"noun"},{"item_id":"7169","word":"drum","pos":"noun"},{"item_id":"7170","word":"bold","pos":"adjective"},{"item_id":"7171","word":"peasant","pos":"noun"},{"item_id":"7172","word":"pump","pos":"verb"},{"item_id":"7173","word":"round","pos":"adverb"},{"item_id":"7174","word":"expense","pos":"noun"},{"item_id":"7175","word":"poster","pos":"noun"},{"item_id":"7176","word":"joint","pos":"adjective"},{"item_id":"7177","word":"adjust","pos":"verb"},{"item_id":"7178","word":"unprofessionally","pos":"adverb"},{"item_id":"7179","word":"privacy","pos":"noun"},{"item_id":"7180","word":"aerobic","pos":"adjective"},{"item_id":"7181","word":"considering","pos":"misc"},{"item_id":"7182","word":"rehearsal","pos":"noun"},{"item_id":"7183","word":"genetically","pos":"adverb"},{"item_id":"7184","word":"train","pos":"verb"},{"item_id":"7185","word":"differential","pos":"adjective"},{"item_id":"7186","word":"autograph","pos":"noun"},{"item_id":"7187","word":"national","pos":"adjective"},{"item_id":"7188","word":"pitch","pos":"noun"},{"item_id":"7189","word":"delay","pos":"noun"},{"item_id":"7190","word":"walker","pos":"noun"},{"item_id":"7191","word":"major","pos":"noun"},{"item_id":"7192","word":"eight","pos":"number"},{"item_id":"7193","word":"bravely","pos":"adverb"},{"item_id":"7194","word":"gentleman","pos":"noun"},{"item_id":"7195","word":"reconnection","pos":"noun"},{"item_id":"7196","word":"attacker","pos":"noun"},{"item_id":"7197","word":"productive","pos":"adjective"},{"item_id":"7198","word":"assault","pos":"noun"},{"item_id":"7199","word":"frequency","pos":"noun"},{"item_id":"7200","word":"card","pos":"noun"},{"item_id":"7201","word":"postman","pos":"noun"},{"item_id":"7202","word":"cause","pos":"noun"},{"item_id":"7203","word":"overload","pos":"verb"},{"item_id":"7204","word":"neatly","pos":"adverb"},{"item_id":"7205","word":"irish","pos":"adjective"},{"item_id":"7206","word":"sue","pos":"verb"},{"item_id":"7207","word":"teaspoon","pos":"noun"},{"item_id":"7208","word":"supposedly","pos":"adverb"},{"item_id":"7209","word":"boomerang","pos":"noun"},{"item_id":"7210","word":"smoothly","pos":"adverb"},{"item_id":"7211","word":"futuristic","pos":"adjective"},{"item_id":"7212","word":"grade","pos":"verb"},{"item_id":"7213","word":"dying","pos":"adjective"},{"item_id":"7214","word":"motivational","pos":"adjective"},{"item_id":"7215","word":"standing","pos":"noun"},{"item_id":"7216","word":"forgive","pos":"verb"},{"item_id":"7217","word":"recorder","pos":"noun"},{"item_id":"7218","word":"consulting","pos":"adjective"},{"item_id":"7219","word":"photographer","pos":"noun"},{"item_id":"7220","word":"launch","pos":"verb"},{"item_id":"7221","word":"associate","pos":"verb"},{"item_id":"7222","word":"language","pos":"noun"},{"item_id":"7223","word":"toll","pos":"noun"},{"item_id":"7224","word":"workbook","pos":"noun"},{"item_id":"7225","word":"experienced","pos":"adjective"},{"item_id":"7226","word":"camera","pos":"noun"},{"item_id":"7227","word":"simulate","pos":"verb"},{"item_id":"7228","word":"credibility","pos":"noun"},{"item_id":"7229","word":"deeply","pos":"adverb"},{"item_id":"7230","word":"alike","pos":"adverb"},{"item_id":"7231","word":"slight","pos":"adjective"},{"item_id":"7232","word":"endorsement","pos":"noun"},{"item_id":"7233","word":"desperate","pos":"adjective"},{"item_id":"7234","word":"temptation","pos":"noun"},{"item_id":"7235","word":"performer","pos":"noun"},{"item_id":"7236","word":"relationship","pos":"noun"},{"item_id":"7237","word":"surely","pos":"adverb"},{"item_id":"7238","word":"monthly","pos":"adjective"},{"item_id":"7239","word":"fewer","pos":"determiner"},{"item_id":"7240","word":"pain","pos":"noun"},{"item_id":"7241","word":"unrecorded","pos":"adjective"},{"item_id":"7242","word":"waste","pos":"noun"},{"item_id":"7243","word":"unproductive","pos":"adjective"},{"item_id":"7244","word":"ask","pos":"verb"},{"item_id":"7245","word":"miserably","pos":"adverb"},{"item_id":"7246","word":"wage","pos":"noun"},{"item_id":"7247","word":"inclusive","pos":"adjective"},{"item_id":"7248","word":"servant","pos":"noun"},{"item_id":"7249","word":"heroism","pos":"noun"},{"item_id":"7250","word":"beating","pos":"noun"},{"item_id":"7251","word":"dinosaur","pos":"noun"},{"item_id":"7252","word":"counterpart","pos":"noun"},{"item_id":"7253","word":"fluently","pos":"adverb"},{"item_id":"7254","word":"network","pos":"noun"},{"item_id":"7255","word":"confrontation","pos":"noun"},{"item_id":"7256","word":"initiate","pos":"verb"},{"item_id":"7257","word":"bronze","pos":"noun"},{"item_id":"7258","word":"shooter","pos":"noun"},{"item_id":"7259","word":"gear","pos":"noun"},{"item_id":"7260","word":"advancing","pos":"adjective"},{"item_id":"7261","word":"biologist","pos":"noun"},{"item_id":"7262","word":"cheater","pos":"noun"},{"item_id":"7263","word":"hockey","pos":"noun"},{"item_id":"7264","word":"closet","pos":"noun"},{"item_id":"7265","word":"received","pos":"adjective"},{"item_id":"7266","word":"looking","pos":"adjective"},{"item_id":"7267","word":"critical","pos":"adjective"},{"item_id":"7268","word":"hateful","pos":"adjective"},{"item_id":"7269","word":"heavy","pos":"adjective"},{"item_id":"7270","word":"uninterrupted","pos":"adjective"},{"item_id":"7271","word":"enemy","pos":"noun"},{"item_id":"7272","word":"schoolmate","pos":"noun"},{"item_id":"7273","word":"essential","pos":"adjective"},{"item_id":"7274","word":"human","pos":"adjective"},{"item_id":"7275","word":"desktop","pos":"noun"},{"item_id":"7276","word":"chocolate","pos":"noun"},{"item_id":"7277","word":"house","pos":"verb"},{"item_id":"7278","word":"battleship","pos":"noun"},{"item_id":"7279","word":"lifetime","pos":"noun"},{"item_id":"7280","word":"perfectionist","pos":"noun"},{"item_id":"7281","word":"rip","pos":"verb"},{"item_id":"7282","word":"millennium","pos":"noun"},{"item_id":"7283","word":"wetland","pos":"noun"},{"item_id":"7284","word":"similar","pos":"adjective"},{"item_id":"7285","word":"town","pos":"noun"},{"item_id":"7286","word":"adventure","pos":"noun"},{"item_id":"7287","word":"checkpoint","pos":"noun"},{"item_id":"7288","word":"sustain","pos":"verb"},{"item_id":"7289","word":"thoughtful","pos":"adjective"},{"item_id":"7290","word":"build","pos":"verb"},{"item_id":"7291","word":"blank","pos":"adjective"},{"item_id":"7292","word":"accident","pos":"noun"},{"item_id":"7293","word":"peacefully","pos":"adverb"},{"item_id":"7294","word":"uncontrollable","pos":"adjective"},{"item_id":"7295","word":"expire","pos":"verb"},{"item_id":"7296","word":"herb","pos":"noun"},{"item_id":"7297","word":"also","pos":"adverb"},{"item_id":"7298","word":"spring","pos":"verb"},{"item_id":"7299","word":"lean","pos":"adjective"},{"item_id":"7300","word":"kingdom","pos":"noun"},{"item_id":"7301","word":"odds","pos":"noun"},{"item_id":"7302","word":"list","pos":"noun"},{"item_id":"7303","word":"clear","pos":"adverb"},{"item_id":"7304","word":"glove","pos":"noun"},{"item_id":"7305","word":"confuse","pos":"verb"},{"item_id":"7306","word":"footstep","pos":"noun"},{"item_id":"7307","word":"unexpected","pos":"adjective"},{"item_id":"7308","word":"combat","pos":"verb"},{"item_id":"7309","word":"vitality","pos":"noun"},{"item_id":"7310","word":"return","pos":"verb"},{"item_id":"7311","word":"horribly","pos":"adverb"},{"item_id":"7312","word":"tale","pos":"noun"},{"item_id":"7313","word":"journey","pos":"noun"},{"item_id":"7314","word":"dim","pos":"adjective"},{"item_id":"7315","word":"lower","pos":"verb"},{"item_id":"7316","word":"firm","pos":"noun"},{"item_id":"7317","word":"noble","pos":"adjective"},{"item_id":"7318","word":"sarcastic","pos":"adjective"},{"item_id":"7319","word":"failure","pos":"noun"},{"item_id":"7320","word":"tolerant","pos":"adjective"},{"item_id":"7321","word":"supplier","pos":"noun"},{"item_id":"7322","word":"prize","pos":"noun"},{"item_id":"7323","word":"question","pos":"noun"},{"item_id":"7324","word":"experience","pos":"verb"},{"item_id":"7325","word":"pointless","pos":"adjective"},{"item_id":"7326","word":"disposal","pos":"noun"},{"item_id":"7327","word":"soil","pos":"noun"},{"item_id":"7328","word":"spray","pos":"noun"},{"item_id":"7329","word":"biochemically","pos":"adverb"},{"item_id":"7330","word":"reach","pos":"verb"},{"item_id":"7331","word":"witness","pos":"verb"},{"item_id":"7332","word":"film","pos":"verb"},{"item_id":"7333","word":"amount","pos":"noun"},{"item_id":"7334","word":"bulldog","pos":"noun"},{"item_id":"7335","word":"appointment","pos":"noun"},{"item_id":"7336","word":"recall","pos":"verb"},{"item_id":"7337","word":"swear","pos":"verb"},{"item_id":"7338","word":"whole","pos":"adjective"},{"item_id":"7339","word":"undecided","pos":"adjective"},{"item_id":"7340","word":"open","pos":"verb"},{"item_id":"7341","word":"remark","pos":"noun"},{"item_id":"7342","word":"scatter","pos":"verb"},{"item_id":"7343","word":"wash","pos":"verb"},{"item_id":"7344","word":"activity","pos":"noun"},{"item_id":"7345","word":"multifunctional","pos":"adjective"},{"item_id":"7346","word":"taxi","pos":"noun"},{"item_id":"7347","word":"next","pos":"preposition"},{"item_id":"7348","word":"hydrated","pos":"adjective"},{"item_id":"7349","word":"use","pos":"verb"},{"item_id":"7350","word":"music","pos":"noun"},{"item_id":"7351","word":"quest","pos":"noun"},{"item_id":"7352","word":"rank","pos":"verb"},{"item_id":"7353","word":"arise","pos":"verb"},{"item_id":"7354","word":"neck","pos":"noun"},{"item_id":"7355","word":"sanitary","pos":"adjective"},{"item_id":"7356","word":"evacuation","pos":"noun"},{"item_id":"7357","word":"accidentally","pos":"adverb"},{"item_id":"7358","word":"listen","pos":"verb"},{"item_id":"7359","word":"discover","pos":"verb"},{"item_id":"7360","word":"lately","pos":"adverb"},{"item_id":"7361","word":"undetected","pos":"adjective"},{"item_id":"7362","word":"permit","pos":"verb"},{"item_id":"7363","word":"fracture","pos":"noun"},{"item_id":"7364","word":"familiarity","pos":"noun"},{"item_id":"7365","word":"remake","pos":"verb"},{"item_id":"7366","word":"convertible","pos":"adjective"},{"item_id":"7367","word":"stop","pos":"verb"},{"item_id":"7368","word":"poetry","pos":"noun"},{"item_id":"7369","word":"primary","pos":"noun"},{"item_id":"7370","word":"illustrator","pos":"noun"},{"item_id":"7371","word":"criticism","pos":"noun"},{"item_id":"7372","word":"gentle","pos":"adjective"},{"item_id":"7373","word":"chairman","pos":"noun"},{"item_id":"7374","word":"garbage","pos":"noun"},{"item_id":"7375","word":"impatient","pos":"adjective"},{"item_id":"7376","word":"public","pos":"adjective"},{"item_id":"7377","word":"zip","pos":"verb"},{"item_id":"7378","word":"alternative","pos":"adjective"},{"item_id":"7379","word":"elevator","pos":"noun"},{"item_id":"7380","word":"force","pos":"noun"},{"item_id":"7381","word":"compensate","pos":"verb"},{"item_id":"7382","word":"admire","pos":"verb"},{"item_id":"7383","word":"shave","pos":"verb"},{"item_id":"7384","word":"widespread","pos":"adjective"},{"item_id":"7385","word":"rating","pos":"noun"},{"item_id":"7386","word":"mill","pos":"noun"},{"item_id":"7387","word":"everybody","pos":"misc"},{"item_id":"7388","word":"beam","pos":"noun"},{"item_id":"7389","word":"alongside","pos":"preposition"},{"item_id":"7390","word":"roadside","pos":"noun"},{"item_id":"7391","word":"month","pos":"noun"},{"item_id":"7392","word":"imperfect","pos":"adjective"},{"item_id":"7393","word":"amazing","pos":"adjective"},{"item_id":"7394","word":"destination","pos":"noun"},{"item_id":"7395","word":"producer","pos":"noun"},{"item_id":"7396","word":"demo","pos":"noun"},{"item_id":"7397","word":"deformed","pos":"adjective"},{"item_id":"7398","word":"round","pos":"adjective"},{"item_id":"7399","word":"talented","pos":"adjective"},{"item_id":"7400","word":"bravo","pos":"noun"},{"item_id":"7401","word":"terrified","pos":"adjective"},{"item_id":"7402","word":"payroll","pos":"noun"},{"item_id":"7403","word":"controllable","pos":"adjective"},{"item_id":"7404","word":"bay","pos":"noun"},{"item_id":"7405","word":"pleased","pos":"adjective"},{"item_id":"7406","word":"everything","pos":"misc"},{"item_id":"7407","word":"teenage","pos":"adjective"},{"item_id":"7408","word":"threat","pos":"noun"},{"item_id":"7409","word":"thereby","pos":"adverb"},{"item_id":"7410","word":"crocodile","pos":"noun"},{"item_id":"7411","word":"holding","pos":"noun"},{"item_id":"7412","word":"correct","pos":"adjective"},{"item_id":"7413","word":"judicial","pos":"adjective"},{"item_id":"7414","word":"discourage","pos":"verb"},{"item_id":"7415","word":"traditional","pos":"adjective"},{"item_id":"7416","word":"academically","pos":"adverb"},{"item_id":"7417","word":"emerge","pos":"verb"},{"item_id":"7418","word":"objective","pos":"noun"},{"item_id":"7419","word":"cost","pos":"verb"},{"item_id":"7420","word":"document","pos":"noun"},{"item_id":"7421","word":"flexible","pos":"adjective"},{"item_id":"7422","word":"move","pos":"verb"},{"item_id":"7423","word":"prison","pos":"noun"},{"item_id":"7424","word":"determination","pos":"noun"},{"item_id":"7425","word":"black","pos":"adjective"},{"item_id":"7426","word":"enhance","pos":"verb"},{"item_id":"7427","word":"ever","pos":"adverb"},{"item_id":"7428","word":"expanding","pos":"adjective"},{"item_id":"7429","word":"school","pos":"noun"},{"item_id":"7430","word":"goldfish","pos":"noun"},{"item_id":"7431","word":"picture","pos":"verb"},{"item_id":"7432","word":"vulnerable","pos":"adjective"},{"item_id":"7433","word":"whenever","pos":"adverb"},{"item_id":"7434","word":"increasingly","pos":"adverb"},{"item_id":"7435","word":"enthusiastic","pos":"adjective"},{"item_id":"7436","word":"liberty","pos":"noun"},{"item_id":"7437","word":"nothing","pos":"misc"},{"item_id":"7438","word":"solar","pos":"adjective"},{"item_id":"7439","word":"nail","pos":"noun"},{"item_id":"7440","word":"eating","pos":"noun"},{"item_id":"7441","word":"unwanted","pos":"adjective"},{"item_id":"7442","word":"classic","pos":"adjective"},{"item_id":"7443","word":"sometime","pos":"adverb"},{"item_id":"7444","word":"runner","pos":"noun"},{"item_id":"7445","word":"repetitive","pos":"adjective"},{"item_id":"7446","word":"christian","pos":"noun"},{"item_id":"7447","word":"brutal","pos":"adjective"},{"item_id":"7448","word":"education","pos":"noun"},{"item_id":"7449","word":"parent","pos":"noun"},{"item_id":"7450","word":"selfish","pos":"adjective"},{"item_id":"7451","word":"constantly","pos":"adverb"},{"item_id":"7452","word":"boring","pos":"adjective"},{"item_id":"7453","word":"summer","pos":"noun"},{"item_id":"7454","word":"implication","pos":"noun"},{"item_id":"7455","word":"dimension","pos":"noun"},{"item_id":"7456","word":"run","pos":"noun"},{"item_id":"7457","word":"fool","pos":"noun"},{"item_id":"7458","word":"obsession","pos":"noun"},{"item_id":"7459","word":"imaginable","pos":"adjective"},{"item_id":"7460","word":"salesman","pos":"noun"},{"item_id":"7461","word":"left","pos":"adjective"},{"item_id":"7462","word":"committee","pos":"noun"},{"item_id":"7463","word":"orange","pos":"adjective"},{"item_id":"7464","word":"smash","pos":"verb"},{"item_id":"7465","word":"still","pos":"adjective"},{"item_id":"7466","word":"blame","pos":"verb"},{"item_id":"7467","word":"gasp","pos":"verb"},{"item_id":"7468","word":"instrument","pos":"noun"},{"item_id":"7469","word":"breathing","pos":"noun"},{"item_id":"7470","word":"narrative","pos":"adjective"},{"item_id":"7471","word":"tourist","pos":"noun"},{"item_id":"7472","word":"availability","pos":"noun"},{"item_id":"7473","word":"flame","pos":"noun"},{"item_id":"7474","word":"theoretical","pos":"adjective"},{"item_id":"7475","word":"frontier","pos":"noun"},{"item_id":"7476","word":"wolf","pos":"noun"},{"item_id":"7477","word":"instance","pos":"noun"},{"item_id":"7478","word":"correlate","pos":"verb"},{"item_id":"7479","word":"exercise","pos":"verb"},{"item_id":"7480","word":"reduction","pos":"noun"},{"item_id":"7481","word":"workshop","pos":"noun"},{"item_id":"7482","word":"shaped","pos":"adjective"},{"item_id":"7483","word":"manifest","pos":"verb"},{"item_id":"7484","word":"baking","pos":"noun"},{"item_id":"7485","word":"under","pos":"preposition"},{"item_id":"7486","word":"powered","pos":"adjective"},{"item_id":"7487","word":"horn","pos":"noun"},{"item_id":"7488","word":"environmental","pos":"adjective"},{"item_id":"7489","word":"unnatural","pos":"adjective"},{"item_id":"7490","word":"prove","pos":"verb"},{"item_id":"7491","word":"elderly","pos":"adjective"},{"item_id":"7492","word":"barn","pos":"noun"},{"item_id":"7493","word":"fat","pos":"adjective"},{"item_id":"7494","word":"disappoint","pos":"verb"},{"item_id":"7495","word":"korean","pos":"adjective"},{"item_id":"7496","word":"colonial","pos":"adjective"},{"item_id":"7497","word":"allege","pos":"verb"},{"item_id":"7498","word":"inconvenience","pos":"noun"},{"item_id":"7499","word":"physiological","pos":"adjective"},{"item_id":"7500","word":"surgeon","pos":"noun"},{"item_id":"7501","word":"holiday","pos":"noun"},{"item_id":"7502","word":"assist","pos":"verb"},{"item_id":"7503","word":"prepared","pos":"adjective"},{"item_id":"7504","word":"sugar","pos":"noun"},{"item_id":"7505","word":"reform","pos":"verb"},{"item_id":"7506","word":"demand","pos":"verb"},{"item_id":"7507","word":"bureau","pos":"noun"},{"item_id":"7508","word":"mandate","pos":"noun"},{"item_id":"7509","word":"bitter","pos":"adjective"},{"item_id":"7510","word":"ringing","pos":"noun"},{"item_id":"7511","word":"album","pos":"noun"},{"item_id":"7512","word":"overcome","pos":"verb"},{"item_id":"7513","word":"channel","pos":"noun"},{"item_id":"7514","word":"craft","pos":"noun"},{"item_id":"7515","word":"ruler","pos":"noun"},{"item_id":"7516","word":"brightly","pos":"adverb"}];
+
+    const searchInput = document.getElementById('search');
+    const itemList = document.getElementById('itemList');
+    const status = document.getElementById('status');
+    const zoomInput = document.getElementById('zoomInput');
+    const zoomOutBtn = document.getElementById('zoomOutBtn');
+    const zoomInBtn = document.getElementById('zoomInBtn');
+    const zoomFitBtn = document.getElementById('zoomFitBtn');
+    const plotsContainer = document.querySelector('.plots');
+
+    const imageEls = {
+      cn: document.getElementById('img-cn'),
+      de: document.getElementById('img-de'),
+      es: document.getElementById('img-es')
+    };
+
+    const emptyEls = {
+      cn: document.getElementById('empty-cn'),
+      de: document.getElementById('empty-de'),
+      es: document.getElementById('empty-es')
+    };
+
+    let filteredItems = ITEMS.slice();
+    let selectedId = filteredItems.length ? filteredItems[0].item_id : null;
+    let zoomPercent = 100;
+
+    function applyZoom() {
+      ['cn', 'de', 'es'].forEach((lang) => {
+        imageEls[lang].style.zoom = String(zoomPercent / 100);
+      });
+      zoomInput.value = `${zoomPercent}%`;
+    }
+
+    function setZoom(nextZoom) {
+      const clamped = Math.max(10, Math.min(400, Math.round(nextZoom)));
+      zoomPercent = clamped;
+      applyZoom();
+    }
+
+    function fitZoomToViewport() {
+      const rightSection = document.querySelector('.right');
+      const current = filteredItems.find((item) => item.item_id === selectedId);
+      if (!current) {
+        return;
+      }
+
+      const previousZoom = zoomPercent;
+      setZoom(100);
+
+      // Measure real layout space so the overlaid controls do not affect fit.
+      const cards = Array.from(plotsContainer.querySelectorAll('.plot-card'));
+      const images = [imageEls.cn, imageEls.de, imageEls.es];
+      const plotsRect = plotsContainer.getBoundingClientRect();
+      const rightRect = rightSection.getBoundingClientRect();
+      const viewportBottom = Math.min(window.innerHeight, rightRect.bottom);
+      const availableForPlots = Math.max(80, viewportBottom - plotsRect.top - 8);
+
+      const rowGap = parseFloat(getComputedStyle(plotsContainer).rowGap) || 0;
+      const cardsTotal = cards.reduce((sum, card) => sum + card.offsetHeight, 0);
+      const flowTotalAt100 = cardsTotal + rowGap * Math.max(0, cards.length - 1);
+      const imageTotalAt100 = images.reduce((sum, img) => sum + img.offsetHeight, 0);
+      const fixedHeight = Math.max(0, flowTotalAt100 - imageTotalAt100);
+      const availableForImages = Math.max(80, availableForPlots - fixedHeight);
+      const scale = availableForImages / Math.max(1, imageTotalAt100);
+      const targetZoom = Math.floor(scale * 100);
+
+      if (!Number.isFinite(targetZoom) || targetZoom <= 0) {
+        setZoom(previousZoom);
+        return;
+      }
+      setZoom(targetZoom);
+    }
+
+    function setEmptyPlots(isEmpty) {
+      ['cn', 'de', 'es'].forEach((lang) => {
+        imageEls[lang].hidden = isEmpty;
+        emptyEls[lang].hidden = !isEmpty;
+        if (isEmpty) {
+          imageEls[lang].removeAttribute('src');
+        }
+      });
+    }
+
+    function renderList() {
+      itemList.innerHTML = '';
+
+      filteredItems.forEach((item) => {
+        const option = document.createElement('option');
+        option.value = item.item_id;
+        option.textContent = `${item.word} (${item.pos})`;
+        itemList.appendChild(option);
+      });
+
+      if (!filteredItems.length) {
+        status.textContent = 'No matches found.';
+        selectedId = null;
+        setEmptyPlots(true);
+        return;
+      }
+
+      const selectedStillPresent = filteredItems.some((item) => item.item_id === selectedId);
+      if (!selectedStillPresent) {
+        selectedId = filteredItems[0].item_id;
+      }
+
+      itemList.value = selectedId;
+      status.textContent = `${filteredItems.length} item(s)`;
+      updatePlots();
+    }
+
+    function updatePlots() {
+      const current = filteredItems.find((item) => item.item_id === selectedId);
+      if (!current) {
+        setEmptyPlots(true);
+        return;
+      }
+
+      setEmptyPlots(false);
+      ['cn', 'de', 'es'].forEach((lang) => {
+        imageEls[lang].src = `items_grouped/shap_grouped_${current.item_id}_${lang}.png`;
+      });
+      status.textContent = `${filteredItems.length} item(s) | Selected: ${current.word} (${current.pos})`;
+    }
+
+    function applyFilter() {
+      const needle = searchInput.value.trim().toLowerCase();
+      filteredItems = ITEMS.filter((item) => item.word.toLowerCase().startsWith(needle));
+      renderList();
+    }
+
+    itemList.addEventListener('pointerdown', () => {
+      // Prevent browser from nudging page scroll when list takes focus.
+      itemList.focus({ preventScroll: true });
+    });
+
+    itemList.addEventListener('change', () => {
+      selectedId = itemList.value;
+      updatePlots();
+      itemList.focus({ preventScroll: true });
+    });
+
+    searchInput.addEventListener('input', applyFilter);
+    zoomInBtn.addEventListener('click', () => setZoom(zoomPercent + 10));
+    zoomOutBtn.addEventListener('click', () => setZoom(zoomPercent - 10));
+    zoomFitBtn.addEventListener('click', fitZoomToViewport);
+    zoomInput.addEventListener('change', () => {
+      const numeric = parseFloat(zoomInput.value.replace('%', '').trim());
+      if (Number.isFinite(numeric)) {
+        setZoom(numeric);
+      } else {
+        zoomInput.value = `${zoomPercent}%`;
+      }
+    });
+    window.addEventListener('resize', () => {
+      zoomInput.value = `${zoomPercent}%`;
+    });
+
+    applyZoom();
+    renderList();
+  </script>
+</body>
+</html>

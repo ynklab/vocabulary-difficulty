@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py -m lr --sdiff-l1 --cqp morphtran --trickiness no --temperatures all=1 --final-train explainable_temp1_lr
+
+Final-predict command:
+python scripts/run_features.py -m lr --sdiff-l1 --cqp morphtran --trickiness no --temperatures all=1 --final-predict explainable_temp1_lr --track '<open|closed>'

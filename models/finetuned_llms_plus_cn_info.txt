@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py --sdiff-l1 --cqp morphtran -f --final-train finetuned_llms_plus
+
+Final-predict command:
+python scripts/run_features.py --sdiff-l1 --cqp morphtran -f --final-predict finetuned_llms_plus --track '<open|closed>'

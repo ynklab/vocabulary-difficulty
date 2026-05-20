@@ -1,0 +1,749 @@
+item_id,L1,en_target_word,en_target_pos,en_target_clue,L1_source_word,L1_context,GLMM_score
+6769,es,universal,adjective,u________,global,La escalada tecnológica es un fenómeno global.,-0.171750762
+6770,es,eventually,adverb,e_________,finalmente,Tuvimos que esperar pero finalmente llegó el autobús.,-0.858965889
+6771,es,herd,noun,h___,manada,Una manada de lobos cazaban por el monte.,-1.410387128
+6772,es,harm,verb,h___,dañar,La sequía de este año va a dañar el bosque y la vegetación en general.,-0.80818274
+6773,es,stake,noun,s____,estaca,El cazador clavó la estaca en el pecho del  vampiro. ,-2.048919456
+6774,es,forgivable,adjective,f_________,perdonable,Sé que cometió un error pero creo que es perdonable.,-0.661503043
+6775,es,loudly,adverb,l_____,fuertemente,La música sonaba fuertemente en toda la habitación y por eso podía escuchar lo que le decían,0.652149112
+6776,es,soda,noun,s___,bebida con gas,A mi padre le gustaba tomar whisky con bebida con gas.,0.767063467
+6777,es,breathless,adjective,b_________,jadeante,Fue corriendo y llegó jadeante al colegio.,-1.066680282
+6778,es,avenue,noun,a_____,avenida,Hay una avenida con árboles muy bonita en mi pueblo.,2.812009851
+6779,es,asteroid,noun,a_______,asteroide,El asteroide pasó por el cielo despues de la media noche,2.71143341
+6780,es,detailed,adjective,d_______,pormenorizado,El informe es todo lo pormenorizado que te habías imaginado.,-0.186121674
+6781,es,gymnasium,noun,g________,gimnasio,El gimnasio de mi hijo es un colegio de italianos que vinieron a la ciudad hace mas de 100 años,-0.611980295
+6782,es,luck,noun,l___,suerte,Te deseo suerte con tu nuevo trabajo.,2.529891492
+6783,es,junior,adjective,j_____,menor,Es un socio menor de uno de los bufetes más prestigiosos de Barcelona.,0.702752932
+6784,es,ending,noun,e_____,final,La película tuvo final feliz.,1.664240155
+6785,es,so,adverb,s_,tan,¡Estamos tan contentos de verte!,3.35856188
+6786,es,planet,noun,p_____,astro,Varias investigaciones indican que puede haber vida fuera de nuestro astro.,1.6947172
+6787,es,concluding,adjective,c_________,final,Su comentario final fue bastante polémico.,-3.285696196
+6788,es,consciousness,noun,c____________,conocimiento,Perdió el conocimiento y se cayó al suelo.,-1.378799222
+6789,es,huge,adjective,h___,enorme,Había una muchedumbre enorme en la plaza esperando a los novios.,1.111226213
+6790,es,joy,noun,j__,alegría,Sentí una gran alegría cuando vi a mi hija después de tanto tiempo.,2.459103372
+6791,es,dozen,number,d____,doce,Quiero doce huevos por favor.,0.3590033
+6792,es,clock,noun,c____,reloj de pared,Mi madre me ha regalado un precioso reloj de pared que he colgado en el salón.,2.793974542
+6793,es,dating,noun,d_____,de citas,Se conocieron a través de una agencia de citas online.,0.449192695
+6794,es,city,noun,c___,ciudad,Londres es una ciudad grandísima que ofrece de todo al visitante.,4.853169689
+6795,es,praise,verb,p_____,elogiar,Se pusieron a elogiar la creatividad del chef dándole un aplauso cuando salió.,-1.399762687
+6796,es,farmhouse,noun,f________,alquería,Viven en la alquería así que están muy cerca de su trabajo.,-2.142140449
+6797,es,forbidden,adjective,f________,prohibido,Hacer fotos está prohibido en el museo.,0.446095412
+6798,es,isolated,adjective,i_______,aislado,Federico está aislado de los demás presos.,1.078722761
+6799,es,synonymous,adjective,s_________,sinónimo,Las palabras sinónimas sirven para evitar la repetición en un texto,-2.619560519
+6800,es,silence,noun,s______,quietud,Mi padre rompió la quietud del momento con un saludo al invitado.,-0.291144271
+6801,es,otherwise,adverb,o________,de otra manera,Mis padres me prestaron el dinero.  De otra manera jamás lo habría podido pagar.,1.192282563
+6802,es,handbook,noun,h_______,manual,Hay un manual sobre cómo montar estos muebles.,-1.482104298
+6803,es,climb,verb,c____,escalar,"Estamos pensando en escalar el Monte Machota, pero habrá que planificarlo.",2.181937235
+6804,es,supernaturally,adverb,s_____________,mágicamente,Dicen que a veces actúa mágicamente y que tiene poderes especiales.,-3.895219884
+6805,es,ant,noun,a__,hormiga,La hormiga es un insecto que se encuentra por todas partes.,2.524510046
+6806,es,professional,noun,p___________,experto,Necesita la ayuda de un experto.,-0.26743208
+6807,es,miner,noun,m____,minero,Antes había pocas oportunidades en este pueblo.  Sólo se podía trabajar como minero.,1.985521327
+6808,es,shiny,adjective,s____,reluciente,Tiene un precioso pelo negro reluciente y los ojos azules.,-0.605862439
+6809,es,today,adverb,t____,hoy,Hoy va a ser un gran día.,3.840218495
+6810,es,blackberry,noun,b_________,mora,Me encanta la mermelada de mora.,-0.065672682
+6811,es,pound,noun,p____,libra,La libra es la moneda oficial del Reino Unido.,2.611116835
+6812,es,dog,noun,d__,perro,Mi perro es muy pequeño y ladra mucho.,3.428539034
+6813,es,unchallenged,adjective,u___________,indiscutible,Es el campeón indiscutible de todos los tiempos.,-5.833515049
+6814,es,fish,noun,f___,pez,"Mi hijo quiere un pez como mascota, por su cumpleaños.",3.004882039
+6815,es,french,adjective,f_____,francés,Este queso francés esta delicioso.,2.650960702
+6816,es,option,noun,o_____,alternativa,Los alumnos pueden elegir la alternativa de ir a estudiar al extranjero durante un año.,1.145221552
+6817,es,production,noun,p_________,fabricación,La compañía es responsable de la fabricación de automóviles,0.417220843
+6818,es,division,noun,d_______,separación,El gerente se ocupa de la separación de las tareas.,-1.178016403
+6819,es,back,noun,b___,espalda,Me duele mucho la espalda.,3.013042068
+6820,es,intellectually,adverb,i_____________,mentalmente,Es una persona mentalmente inquieta y se interesa por todo.,-2.333243553
+6821,es,universe,noun,u_______,cosmos,Hay muchas teorías sobre cómo se inició la existencia del cosmos.,1.565967618
+6822,es,factor,noun,f_____,componente,La confianza es un componente esencial en una relación.,-1.198783387
+6823,es,fast,adverb,f___,de prisa,Escribe a máquina muy de prisa. ¡Es increíble verlo!,2.519785271
+6824,es,character,noun,c________,personaje,El presonaje principal del libro murió al final del último capítulo,1.08566619
+6825,es,luxury,noun,l_____,lujo,El está acostumbrado a los lujos y a fama,1.755655252
+6826,es,geometry,noun,g_______,geometría,Mi hijo ha empezado a estudiar geometría y le fascina.,2.466430876
+6827,es,stealing,noun,s_______,robo,El robo en esta zona está aumentando.,-0.966344936
+6828,es,cook,noun,c___,cocinera (no: chef),Mi tía trabajó de cocinera en un restaurante muy conocido.,1.920466155
+6829,es,extra,adjective,e____,adicional,Llevaremos un bocadillo adicional por si viene Pablo.,0.417408809
+6830,es,innocent,adjective,i_______,ingenuo,"Mi hermano, que es un poco ingenuo, se creyó toda la historia.",-1.957771905
+6831,es,might,verb,m____,podía,Podía haber sido él pero yo no lo creo.,0.177828208
+6832,es,pursue,verb,p_____,seguir,Bene quiere seguir su carrera de medicina en Australia.,-1.652222981
+6833,es,jail,verb,j___,encarcelar,Le van a encarcelar por corrupción.,2.569057021
+6834,es,fully,adverb,f____,totalmente,El apartamento está totalmente amueblado.,1.162471104
+6835,es,relay,noun,r____,carrera de equipo,La carrera de equipo suele ser muy emocionante sobre todo cuando uno pasa la porra al siguiente.,-3.645249038
+6836,es,compact,adjective,c______,compacto,Su tamaño compacto resulta fácil y práctico para transportar,2.991110785
+6837,es,copy,noun,c___,réplica,Este cuadro es una réplica exacta de uno que hay en Italia.,1.451530955
+6838,es,invite,verb,i_____,convocar,Os voy a convocar a una reunión del curso del año ochenta y cinco.,-0.609585978
+6839,es,conservative,noun,c___________,conservador,Mi padre es un gran conservador. Valora mucho las costumbres de la región,-0.080080331
+6840,es,broken,adjective,b_____,roto,Mi coche está roto así que tendré que coger el autobús.,2.385398037
+6841,es,minor,adjective,m____,pequeño,Las mujeres hacen un papel pequeño en esta organización.,-0.188715446
+6842,es,lamp,noun,l___,faro,Se encendió un foco de forma automática.,-2.171975368
+6843,es,menu,noun,m___,carta,El camarero tomó nota de nuestro pedido y se fue con la carta.,1.026981666
+6844,es,rise,verb,r___,subir,El nivel del agua va a subir después de las lluvias.,0.443613163
+6845,es,copyright,noun,c________,derechos de autor,Hay que tener cuidado con los derechos de autor reconociendo las citas al final del artículo.,0.944507093
+6846,es,gifted,adjective,g_____,talentoso,Tiene una inteligencia privilegiada y además es un músico muy talentoso.,-1.070165303
+6847,es,seemingly,adverb,s________,aparentemente,El hombre levantó la roca aparentemente sin esfuerzo,-1.764160074
+6848,es,crucial,adjective,c______,decisivo,Este es un momento desicivo para el país. Hay que actuar ya,-1.713012421
+6849,es,treehouse,noun,t________,casita en un árbol,Mi hermano hizo una casita en un árbol y pasaba casi todo el verano ahí arriba.,1.302440633
+6850,es,tightly,adverb,t______,firmemente,Cerré el envase firmemente y lo metí en el frigorífico.,-1.005141072
+6851,es,earthquake,noun,e_________,terremoto,Hubo un terremoto bastante fuerte en Méjico ayer.,1.048853605
+6852,es,rival,noun,r____,contrincante,"Debido a la incomparecencia de su contrincante, la tenista ganó el partido.",0.8285524
+6853,es,objective,adjective,o________,imparcial,Es muy importante que el juez sea imparcial.,-1.256929079
+6854,es,universally,adverb,u__________,globalmente,Este tipo de tratamiento no es globalmente accesible.,-0.760731413
+6855,es,annually,adverb,a_______,anualmente,El reporte financiero se debe presentar anualmente,1.105943407
+6856,es,inappropriate,adjective,i____________,inadecuado,El vino es un regalo inadecuado para un chico de su edad.,-2.067666623
+6857,es,afford,verb,a_____,permitirse,No pueden permitirse semejante lujo.,-0.700353029
+6858,es,hospital,noun,h_______,clínica,Tuvo que ir a la clínica una vez al día para tratarse.,2.217454218
+6859,es,unattractive,adjective,u___________,poco agraciada,Lamentablemente es una niña muy poco agraciada.,-2.999151764
+6860,es,glance,noun,g_____,vistazo,Aitor le hecho un vistazo a la carne antes de comprarla y se dio cuenta de que estaba vieja.,-0.993069499
+6861,es,memo,noun,m___,nota,Hoy me llegó una nota del director sobre la reunión del otro día.,-1.764613548
+6862,es,backup,noun,b_____,apoyo,La policía pidió el apoyo del ejército.,-2.115233705
+6863,es,covering,noun,c_______,revestimiento,El bizcocho llevaba un revestimiento de azúcar en polvo.,-1.744357117
+6864,es,likely,adverb,l_____,probablemente,Probablemente vaya a verla después de la operación.,-0.557004291
+6865,es,air,noun,a__,aire,El aire de la ciudad esta lleno de polución,4.022809846
+6866,es,neurologist,noun,n__________,neurólogo,Remitieron al niño con el neurólogo para revisar su estado,0.752653032
+6867,es,send,verb,s___,enviar,Le iba a enviar un regalo por su cumpleaños pero se me olvidó.,3.322316739
+6868,es,lock,verb,l___,cerrar con llave,Hay que cerrar la puerta con llave antes de salir.,2.043357183
+6869,es,neurology,noun,n________,neurología,Ha habido grandes avances en el campo de la neurología durante los últimos años.,2.213577733
+6870,es,plug,verb,p___,taponar,Usaron una arcilla especial para taponar la fuga.,-2.106214017
+6871,es,mechanically,adverb,m___________,automáticamente,"No hay que hacer las cosas automáticamente, hay que pensarlas.",-1.303299232
+6872,es,agricultural,adjective,a___________,agrícola,La región necesita una reforma agrícola de forma urgente.,-0.178177133
+6873,es,millionaire,noun,m__________,millonario,Se ganó el premio mayor ahora es considerado millonario,0.424862994
+6874,es,pet,noun,p__,mascota,"Tiene una mascota, es un perrito blanco que va con ella a todas partes.",3.09108601
+6875,es,unhappy,adjective,u______,infeliz,"Desde que dejó España, es muy infeliz.",2.886366274
+6876,es,telecommunications,noun,t_________________,telecomunicaciones,Trabaja en una empresa de telecomunicaciones.,-0.890057866
+6877,es,hairdresser,noun,h__________,peluquera,Tengo que pedir hora con mi peluquera para cortarme el pelo.,1.016460092
+6878,es,defeat,verb,d_____,derrotar,"Tras un partido reñido, de repente el equipo local pudo derrotar a su oponente por un gol.",0.125745914
+6879,es,superhero,noun,s________,superhéroe,Al final de la película les rescató el superhéroe y salvaron el planeta.,2.759350338
+6880,es,genius,noun,g_____,genio,"Mozart fue un genio de la música, sus composiciones lo demuestran el día de hoy.",1.913431908
+6881,es,spare,verb,s____,permitirse,Le gustaría irse de vacaciones pero por el momento no puede permitirse el tiempo.,-3.36164602
+6882,es,pose,verb,p___,plantear,Los recientes descubrimientos van a plantear nuevas preguntas.,-1.978253087
+6883,es,sake,noun,s___,bien,Los padres hicieron un esfuerzo por el bien de los niños.,-1.175199661
+6884,es,atom,noun,a___,átomo,"El átomo está formado por protones, neutrones y electrones.",4.055528078
+6885,es,portray,verb,p______,retratar,Le gustaba mucho al poeta retratar la vida de las trincheras en su poesía.,-2.362274079
+6886,es,theological,adjective,t__________,teológico,La Universidad Pontificia ofrece un curso de estudio teológico magnífico.,-0.190476181
+6887,es,scope,noun,s____,alcance,El legislador explicó bien el alcance de la nueva ley.,-1.916573969
+6888,es,conduct,verb,c______,realizar,El departamente financiero tiene que realizar una auditoría todos los años.,-2.449854493
+6889,es,bit,noun,b__,pizca,se le agrega una pizca de sal a la comida para mejorar el sabor,1.892356885
+6890,es,anger,verb,a____,enfadar,Procura no enfadar a tu profesora esta vez.,-1.948646432
+6891,es,mutation,noun,m_______,mutación,Los resultados nos dicen que las células han sufrido una mutación diferente a lo normal .,2.540396902
+6892,es,product,noun,p______,artículo,Vamos a lanzar un nuevo artículo de lujo al mercado.,0.113343358
+6893,es,meteorology,noun,m__________,climatología,La climatología es una ciencia que va avanzando casi diariamente.,-0.49860333
+6894,es,mistake,noun,m______,error,Cometí un grave error cuando firmé este acuerdo.,2.909909498
+6895,es,subculture,noun,s_________,subcultura,La música siempre es una parte importante de la subcultura punk,2.285287965
+6896,es,magazine,noun,m_______,revista,Trabaja como periodista en una revista de moda.,2.168156453
+6897,es,hearing,noun,h______,audición,He notado que mi abuelo ha perdido bastante audición últimamente.,0.739410898
+6898,es,temporary,adjective,t________,provisional,El centro de acogida solo ofrece alojamiento provisional.,-0.121299754
+6899,es,fire,noun,f___,fuego,El fuego puede propagarse muy de prisa por un bosque seco.,3.781995674
+6900,es,anchor,verb,a_____,anclar,Hay que anclar el barco lo más cerca posible de la costa.,-0.095842369
+6901,es,lottery,noun,l______,sorteo,El sorteo nacional de navidad es muy popular en España.,0.339115138
+6902,es,aggressively,adverb,a___________,agresivamente,Es un líder peligroso que reacciona agresivamente en cualquier situación.,-0.909122968
+6903,es,ride,verb,r___,montar,Aprendí a montar a caballo de pequeña.,2.475888786
+6904,es,mechanism,noun,m________,mecanismo,Hay un mecanismo para mantener el horno cerrado por si hay niños pequeños cerca.,0.950140628
+6905,es,price,verb,p____,valorar,Viene el técnico para valorar la casa.,-1.588883297
+6906,es,shining,adjective,s______,brillante,Había una luz brillante en el cielo.,-0.876712245
+6907,es,lot,adverb,l__,mucho,Me siento mucho mejor hoy.,1.138204613
+6908,es,ignorance,noun,i________,ignorancia,La ignorancia se batalla con estudio y dedicación,1.485510345
+6909,es,mass,noun,m___,montón,Había un montón de gente en la plaza para celebrar el año nuevo.,-2.561279901
+6910,es,norm,noun,n___,regla,"Tener un hijo o como mucho dos, suele ser la regla hoy día",-0.303767015
+6911,es,laugh,verb,l____,reírse,La película era divertidísima y no pudo dejar de reírse.,2.508349381
+6912,es,collaborator,noun,c___________,colaborador,El señor Rodrigo se ofreció como colaborador en el proceso de colección de datos,-0.262698753
+6913,es,warm,verb,w___,calentar,Se sentó al lado de la chimenea para calentar las manos.,1.046820411
+6914,es,meditation,noun,m_________,meditación,La meditaciónes una manera estupenda de combatir el estrés.,2.432052182
+6915,es,indefinitely,adverb,i___________,eternamente,"Fabricamos los productos para que duren, pero no eternamente.",-2.772474806
+6916,es,applause,noun,a_______,aplauso,La última canción fue seguida de un aplauso.,0.605088175
+6917,es,tweet,verb,t____,gorjear,Me gusta mucho escuchar gorjear a los pájaros por la mañana.,-1.523245387
+6918,es,priceless,adjective,p________,incalculable,Esa foto antigua de mi familia para mi es de valor incalculable.,-0.769676769
+6919,es,striker,noun,s______,huelguista,El huelguista dió una entrevista sobre el conflicto en la radio.,-0.170441469
+6920,es,number,noun,n_____,número,Hay un gran número de águilas en esta zona.,3.383678758
+6921,es,remarkably,adverb,r_________,extraordinariamente,Parece extraordinariamente joven.  No sabía que tenía ochenta años.,-2.709823148
+6922,es,interior,noun,i_______,parte interna,Llevo el dinero en la parte interna del pantalón cuando me voy de viaje.,-1.621803081
+6923,es,handicap,noun,h_______,discapacidad,Tiene una ligera discapacidad que no le permite conducir este coche.,-0.296071013
+6924,es,motherhood,noun,m_________,maternidad,La maternidad te cambia la vida por completo.,-1.170076981
+6925,es,endurance,noun,e________,resistencia,Tengo que mejorar mi resistencia así que voy a salir a correr todos los días.,-1.534597606
+6926,es,community,noun,c________,comunidad,Somos una comunidad compuesta por varias personas con un mismo interés,1.950681095
+6927,es,holder,noun,h_____,titular,Sólo el titular del pasaporte lo puede recoger.,-1.143140814
+6928,es,conclusive,adjective,c_________,concluyente,La prueba concluyente fue el testimonio de un vecino que había visto todo.,-1.508502139
+6929,es,speaking,noun,s_______,hablar,Hablar en público puede ser un poco abrumador.,0.863074822
+6930,es,speech,noun,s_____,discurso,El discurso de inauguración del presidente fue aplaudido durante cinco minutos.,0.415395133
+6931,es,snowball,noun,s_______,bola de nieve,Los niños me tiraron una bola de nieve.,1.799535844
+6932,es,exploded,adjective,e_______,estallada,La bomba ha sido estallada así que ya no hay peligro.,-0.41054266
+6933,es,conservative,adjective,c___________,tradicional (no: conventional),Angela es una persona bastante tradicional.,-1.753585907
+6934,es,variety,noun,v______,gama,El menú del restaurante ofrece una amplia gama de vinos importados.,1.106006073
+6935,es,morality,noun,m_______,ética,La ética es muy importante en el mundo de los negocios.,-1.051468473
+6936,es,award,verb,a____,premiar,A la universidad le gusta premiar a sus alumnos con un diploma en una ceremonia.,0.096112966
+6937,es,repair,verb,r_____,arreglar,"Vamos a llevar a arreglar el coche de juguete de mi hijo, que se ha roto.",0.903141179
+6938,es,conclusion,noun,c_________,término,Esperemos que las reuniones hayan valido para llevar el asunto a buen término.,-1.125301027
+6939,es,thirst,noun,t_____,sed,Tomar mucha sal produce sed.,0.171749061
+6940,es,crowd,verb,c____,abarrotar,Cientos de personas empezaron a abarrotar la plaza.,-0.183807865
+6941,es,diabetic,adjective,d_______,diabético,"Mi abuelo era diabético, teníamos que estar pendientes de todo lo que comía",2.145693676
+6942,es,score,verb,s____,marcar,Gutiérrez volvió a marcar en la segunda mitad del partido.,1.005812614
+6943,es,homeowner,noun,h________,propietario,"Por fin es propietario de una casita, así que se podrá casar.",-1.286219238
+6944,es,cable,noun,c____,cable,Fue necesario cortar el cable de la electricidad para evitar una catastrofe,2.339491012
+6945,es,umbrella,noun,u_______,paraguas,Como estaba lloviendo se llevó el paraguas.,2.926546277
+6946,es,confront,verb,c_______,hacer frente,Es un abusón.  Le voy a hacer frente un día de estos.,-0.757157171
+6947,es,proposed,adjective,p_______,sugerido,El cambio sugerido no va a ser nada popular.,-0.271639629
+6948,es,profound,adjective,p_______,exhaustivo,Un análisis exhaustivo de la situación reveló hechos interesantes.,-2.289065645
+6949,es,forced,adjective,f_____,forzado,El avión hizo un aterrizaje forzado.,1.556951221
+6950,es,endure,verb,e_____,soportar,Algunas personas tienen que soportar temperaturas muy bajas.,-1.26729438
+6951,es,preference,noun,p_________,predilección,Muchas personas expresaron una predilección clara por el plan anterior.,-0.915038131
+6952,es,sketch,noun,s_____,esbozo,La pintora hizo el esbozo de su futuro cuadro.,-1.376171709
+6953,es,simple,adjective,s_____,sencillo,"Es muy sencillo de entender, ya no me quiere.",1.752828395
+6954,es,require,verb,r______,exigir,Aprobar ese examen tan difícil te va a exigir tiempo y esfuerzo.,-0.614027336
+6955,es,overtime,noun,o_______,horas extraordinarias,Esta semana he trabajado muchas horas extraordinarias.,-1.390954062
+6956,es,nursing,adjective,n______,de enfermería,El personal de enfermería siempre son muy buenos en ese hospital.,-2.471528347
+6957,es,butterfly,noun,b________,mariposa,Hay una mariposa roja y negra encima de la flor.,2.688701566
+6958,es,arrow,noun,a____,flecha,La flecha pintada en el suelo indica la dirección.,1.687688951
+6959,es,quality,noun,q______,calidad,La reducción de fondos afectará de forma adversa la calidad de la educación de nuestros colegios.,2.569359097
+6960,es,necessary,adjective,n________,preciso,Es preciso encontrar una solución al problema cuanto antes.,0.329960281
+6961,es,operative,noun,o________,operario,Me acerqué al operario encargado de la estación para saber si había visto algo sospechoso,-2.91819649
+6962,es,great,adverb,g____,muy bien,¡Fenomenal! Hicisteis muy bien.,1.043494077
+6963,es,answer,verb,a_____,responder,Hay que responder a todas las preguntas.,2.269129566
+6964,es,blink,verb,b____,parpadear,Contestó a las preguntas prácticamente sin parpadear.,0.326616674
+6965,es,aerobics,noun,a_______,Aeróbicos,Los aeróbicos son divertidos y saludables.,2.388777112
+6966,es,basics,noun,b_____,Conocimientos básicos,Todos debemos tener conocimientos básicos en matemáticas para vivir,0.190871931
+6967,es,zone,noun,z___,región,Es una región volcánica y no tiene acceso público.,2.951502924
+6968,es,touching,adjective,t_______,conmovedora,Es una historia conmovedora pero no me la creo.,-1.530215207
+6969,es,manipulator,noun,m__________,manipulador,Don José es un experto manipulador del barro,0.039542653
+6970,es,bury,verb,b___,enterrar,Mi abuelo quiere enterrar a su mujer en el cementerio de su pueblo.,0.587019354
+6971,es,acid,noun,a___,ácido,El ácido sulfúrico es el compuesto quimico mas común,4.179901138
+6972,es,show,noun,s___,espectáculo,El mago empezó su espectáculo con un truco de cartas.,2.041503219
+6973,es,unemployed,adjective,u_________,desempleado,Está desempleado desde hace dos años y está muy deprimido.,1.022291319
+6974,es,insider,noun,i______,infiltrado,La situación fue calificada de 'caos total' por un infiltrado amigo nuestro.,-3.104373748
+6975,es,stumble,verb,s______,tropezar,Hay que tener cuidado de no tropezar con las piedras.,-2.157775681
+6976,es,above,preposition,a____,por encima,Colocaron la lámpara por encima de la mesa del comedor.,1.401758232
+6977,es,nomination,noun,n_________,designación,La designación del entrenador tardará unos días más.,-0.727124477
+6978,es,health,noun,h_____,salud,La salud es lo más importante en la vida.,2.120220587
+6979,es,rehabilitation,noun,r_____________,reinserción,Trabaja en un centro de reinserción para jóvenes que han estado metidos en el mundo de las drogas.,-2.284203905
+6980,es,swimsuit,noun,s_______,traje de baño,No te olvides de meter el traje de baño en la maleta.,-0.455831176
+6981,es,streak,noun,s_____,mechón,Mi primo tiene un mechón rubio delante pero el resto de su pelo es castaño.,-4.978227207
+6982,es,disturbed,adjective,d________,trastornado,Está muy trastornado por la guerra.,-2.734384137
+6983,es,dilemma,noun,d______,disyuntiva,La disyuntiva entre casarse o estar soltero la encontramos todos en algun momento de la vida,-2.346111536
+6984,es,knight,verb,k_____,caballero,Don Quijote era un caballero que iba buscando aventuras por España.,0.602205025
+6985,es,cake,noun,c___,pastel,¿Quieres un pastel de crema?  Los ha hecho Enrique y están buenísimos.,3.59566443
+6986,es,powerful,adjective,p_______,poderoso,El hipopótamo tienen una mandóbula mmuy poderosa,1.743599558
+6987,es,large,adjective,l____,grande,Se han comprado una casa grande en Ibiza.,1.257363597
+6988,es,official,adjective,o_______,oficial,La noticia de nuestro matrimonio no es oficial aún,1.787500109
+6989,es,behind,adverb,b_____,atrás,Me quedé atrás para vigilar a los niños más lentos.,0.543149743
+6990,es,swimming,noun,s_______,natación,Mi deporte preferido es la natación.,2.690634172
+6991,es,newsletter,noun,n_________,boletín,El colegio publica un boletín semanal para los padres de los alumnos.,-1.29870498
+6992,es,appeal,verb,a_____,solicitar,El gobierno tendrá que solicitar ayuda humanitaria para la población.,-3.382589926
+6993,es,state,noun,s____,condición,La condición de la economía será tema de debate en el parlamento hoy.,-0.486523406
+6994,es,shape,verb,s____,determinar,La decisión que hemos tomado hoy puede determinar nuestro futuro.,-3.387197823
+6995,es,mention,verb,m______,nombrar,"Se me olvidó nombrar a mi profesor, que ha sido una persona muy importante en mi vida profesional.",0.686368095
+6996,es,plate,noun,p____,fuente,Había una fuente muy grande de fruta en el centro de la mesa.,-0.654089247
+6997,es,firm,adjective,f___,consistente,El partido adoptó una posición fuerte y consistente sobre el asunto.,-1.054200743
+6998,es,edition,noun,e______,edición,Quiero comprar la primera edición del Quijote pero es un texto muy difícil de consguir,3.658503173
+6999,es,autopilot,noun,a________,piloto automático,Loa aviones tienen la funcion de piloto automático y se debe usar en situaciones de emergencia,-1.610298954
+7000,es,biology,noun,b______,biología,Biología es una materia fundamental para convertirse en veterinario,3.332527833
+7001,es,cattle,noun,c_____,ganado,Antes había mucho ganado en la finca pero ahora se dedican a la aceituna.,-1.233343146
+7002,es,newly,adverb,n____,recién,El médico recién cualificado no tiene suficiente experiencia.,-0.835788208
+7003,es,surgery,noun,s______,cirugía,Le tuvieron que someter a una cirugía bastante complicada.,0.906658035
+7004,es,communicative,adjective,c____________,comunicativo,Es muy difícil hablar con ella. No es una persona muy comunicativa,0.940269506
+7005,es,message,noun,m______,recado,Me envió un recado a través de su hermana.,0.867144942
+7006,es,status,noun,s_____,estado,La universidad informará a los estudiantes sobre el estado de su solicitud.,-1.141485169
+7007,es,defy,verb,d___,desafiar,No me hubiera nunca atrevido a desafiar a mis profesores.,-0.964126512
+7008,es,circular,adjective,c_______,redonda,La bandeja de café es redonda y de plata muy bonita.,0.527086981
+7009,es,oil,noun,o__,aceite,Prefiero cocinar con aceite de oliva en lugar de mantequilla.,3.645538771
+7010,es,preserve,verb,p_______,conservar,Los frigoríficos se usan para conservar la comida.,0.840208711
+7011,es,marked,adjective,m_____,notable,Hay una notable diferencia entre las ventas del año pasado y las de ahora.,-1.8919207
+7012,es,bow,noun,b__,reverencia,La duquesa saludó a la reina con una pequeña reverencia.,-0.210705544
+7013,es,weakness,noun,w_______,debilidad,Creo que la debilidad puede convertirse en fortaleza.,0.694152181
+7014,es,residence,noun,r________,domicilio,Envié el paquete al domicilio del embajador.,-0.235615046
+7015,es,repeated,adjective,r_______,reiterada,Su ausencia reiterada del trabajo ha contribuído a la pérdida del puesto.,-1.485719403
+7016,es,rabbit,noun,r_____,conejo,Mi hija pequeña ha pedido un conejo blanco por su cumpleaños.,2.485230635
+7017,es,noun,noun,n___,sustantivo,"En español, el adjetivo se suele colocar detrás del sustantivo.",1.357413581
+7018,es,reportedly,adverb,r_________,según se informa,Según se informa la tormenta no ha ocasionado ningún daño.,-2.021313539
+7019,es,domestically,adverb,d___________,localmente,Estos caramelos están hechos localmente y están deliciosos.,-3.103147224
+7020,es,fatal,adjective,f____,mortal,Tuvieron un accidente mortal en el que murieron todos.,1.288895935
+7021,es,heterosexual,noun,h___________,heterosexual,La iglesia católica acepta únicamente el matrimonio heterosexual,1.676758947
+7022,es,permanently,adverb,p__________,definitivamente,Se ha decidido establecerse definitivamente en Francia.,-0.570786334
+7023,es,difficult,adjective,d________,complicado,Este problema es muy complicado para mí.  No tengo ni idea.,1.190506525
+7024,es,mat,noun,m__,colchoneta,Hacemos judo en una colchoneta especial.,0.047217927
+7025,es,dance,noun,d____,baile,"En clase de baile, cambiamos de pareja todas las semanas.",3.798537222
+7026,es,standby,noun,s______,suplente,Guardamos un viejo cochecito de niño en espera como suplente.,-5.120836874
+7027,es,very,adjective,v___,misma,La comunicación está en la naturaleza misma del lenguaje.,-2.007603551
+7028,es,outrage,noun,o______,indignación,La gente expresó su indignación tras revelarse el escándalo.,-2.158081932
+7029,es,fear,verb,f___,temer,"No hay que temer a los monstruos, no existen.",1.406016392
+7030,es,ideal,adjective,i____,perfecto,La pareja encontró un lugar perfecto para vivir.,1.685345706
+7031,es,deploy,verb,d_____,desplegar,El gobierno va a desplegar unas quince mil tropas a la zona.,-1.654133729
+7032,es,divert,verb,d_____,desviar,Tuvieron que desviar el tráfico durante el resto de día.,-1.709865536
+7033,es,suddenly,adverb,s_______,de repente,De repente me dijo que se iba a vivir a Francia.,1.241353036
+7034,es,double,noun,d_____,doble,El doble del actor actor principal no puede venir hoy asi que tendremos que detener la filmación,1.792892115
+7035,es,backwards,adverb,b________,hacia atrás,Echó una mirada hacia atrás y vió a Laura.,-0.260964647
+7036,es,detective,noun,d________,investigador,El investigador cerró el caso cuando lo resolvió.,0.683312788
+7037,es,steep,adjective,s____,empinada,Una escalera empinada conduce hacia el ático.,-1.427924238
+7038,es,concert,noun,c______,recital,La pianista china dió un recital maravilloso el día de Navidad.,0.904984777
+7039,es,birthplace,noun,b_________,lugar de nacimiento,Visitamos el lugar de nacimiento de Cervantes.,0.592697698
+7040,es,crowned,adjective,c______,coronado,"A partir del año que viene, será el jefe de estado coronado.",0.571941893
+7041,es,wave,verb,w___,saludar con la mano,Los niños se pusieron a saludar con la mano a todo el mundo.,0.598886269
+7042,es,nowhere,adverb,n______,en ningún sitio,Este animal se encuentra en Australia y en ningún otro sitio.,1.89503729
+7043,es,preliminary,adjective,p__________,inicial,El resultado inicial de la investigación indica que no es culpable.,-1.515369163
+7044,es,hurt,adjective,h___,herido,Ha habido un pequeño accidente y José está herido.,1.296534821
+7045,es,float,verb,f____,flotar,Los cisnes parecen flotar en el agua pero en realidad están moviendo las patas muy deprisa debajo del agua.,0.058724793
+7046,es,exchange,noun,e_______,intercambio,Hubo un gran intercambio de ideas en la reunión.,1.864233075
+7047,es,fall,noun,f___,caída,El escalador sobre vivió a la caída.,1.903570036
+7048,es,fund,noun,f___,capital,Hay un capital de pensiones reservado para los empleados de la empresa.,-1.274833463
+7049,es,scratch,verb,s______,rascar,El gato se pone a rascar la puerta todos los días así que ahora la tengo que pintar.,-0.025424974
+7050,es,idealistic,adjective,i_________,idealista,Pedro es un joven es un idealista en cuanto a la política se refiere.,0.148913502
+7051,es,nationally,adverb,n_________,a nivel nacional (la respuesta no termina en: '-wide'),"Este escándalo político se ha hecho sentir a nivel nacional, no sólo en el municipio.",-0.501706323
+7052,es,express,verb,e______,manifestar,Vamos a manifestar nuestro más absoluto desacuerdo en una carta a la prensa.,-1.050757864
+7053,es,synthetic,adjective,s________,artificial,Este tinte es artificial y a veces produce alergias.,-2.665706049
+7054,es,government,noun,g_________,gobierno,El gobierno conservador dejó el país en muy mal estado.,0.595779341
+7055,es,man,noun,m__,hombre,Había un hombre esperando en la esquina.,3.142806171
+7056,es,everyone,misc,e_______,todo el mundo,Todo el mundo tiene muy buena opinión de Ramón.,0.956811185
+7057,es,mentality,noun,m________,criterio,Ella es una persona con un criterio positivo hacia la vida,-3.043302331
+7058,es,movie,noun,m____,película,Vimos una película muy bonita sobre la vida de Mozart.,2.461780217
+7059,es,cruise,verb,c_____,navegar,La primera semana vamos a navegar por el Báltico.,-0.88384116
+7060,es,architectural,adjective,a____________,arquitectónico,El arte gótico fue también un arte arquitectónico importante en la historia,-2.29048188
+7061,es,online,adverb,o_____,por internet,Muchas empresas pequeñas hacen sus operaciones bancarias por internet.,2.526959174
+7062,es,old,adjective,o__,viejo,Ese señor viejo que vive en la casa de la esquina tiene noventa y cinco años.,3.088805529
+7063,es,related,adjective,r______,vinculado,A partir de ahora su salario estará vinculado con el rendimiento.,-0.094597981
+7064,es,obstacle,noun,o_______,impedimento,La falta de estudios es el mayor impedimento para encontrar un empleo bueno.,-0.166920504
+7065,es,criminal,adjective,c_______,delictivo,Este comportamiento delictivo tiene que terminar cuanto antes.,-0.195436952
+7066,es,dining,noun,d_____,cenar,"Después de cenar, tomamos una copa.",-4.668804857
+7067,es,ship,noun,s___,barco,Es dueño de un barco de mercancías.,1.096600562
+7068,es,war,noun,w__,guerra,La guerra duró muchos años y destrozó el país.,3.549626864
+7069,es,territorial,adjective,t__________,jurisdiccional,Ambos países creen que tienen derecho jurisdiccional a las islas.,-1.830533362
+7070,es,topless,adjective,t______,topless,A mi amiga le encanta tomar el sol en topless,2.672350307
+7071,es,retain,verb,r_____,conservar,Debemos atraer y conservar trabajadores cualificados.,-1.01724787
+7072,es,frame,noun,f____,marco,Regalé un marco de plata a mis abuelos por su aniversario.,0.562543341
+7073,es,pretended,adjective,p________,fingida,Olivia abrió los ojos con sorpresa fingida.,-1.118870422
+7074,es,clarity,noun,c______,transparencia,"Este informe es difícil de entender.  Vuelve a redactarlo, esta vez con más transparencia.",-0.955024695
+7075,es,execute,verb,e______,realizar,Hay que realizar el proyecto exactamente como les dije.,-0.873718346
+7076,es,unsuccessfully,adverb,u_____________,sin éxito,"Intentó impresionarle favorablemente, sin éxito.",-0.659733809
+7077,es,surrounding,adjective,s__________,circundante,Conozco muy bien la ciudad y la región circundante.,-0.954851328
+7078,es,demographically,adverb,d______________,demográficamente,"El planeta ha crecido en los últimos 50 años, demográficamente hablando",-0.514396041
+7079,es,peaceful,adjective,p_______,pacífico,Hubo una manifestación muy grande pero pacífica en contra de la política social del gobierno.,-0.635732921
+7080,es,pledge,noun,p_____,compromiso,El gobierno cumplió con su compromiso de no subir los impuestos.,-3.101038766
+7081,es,hard,adjective,h___,duro,Utilizamos el contenedor de plástico porque era muy duro y resistente.,2.894240196
+7082,es,instead,adverb,i______,en cambio,"Cuando llegamos a la fiesta todos tomaron vino, yo en cambio sólo tome agua",0.323280606
+7083,es,spotlight,noun,s________,foco,El foco siguió al actor por el escenario.,-2.014906422
+7084,es,position,verb,p_______,colocar,La compañía se quiere colocar de tal forma que puedan acceder al mercado internacional.,-0.339968451
+7085,es,covered,adjective,c______,cubierto,"El libro estaba cubierto de polvo pero aún así, se veía que era valioso.",1.106831619
+7086,es,lifeguard,noun,l________,socorrista,No pudieron abrir la piscina porque no habían contratado un socorrista.,-0.496053646
+7087,es,coordinator,noun,c__________,coordinador,Cuando el evento terminó el coordinador tuvo que encargarse de la limpieza,1.306538108
+7088,es,propose,verb,p______,plantear,El gobierno está a punto de plantear un cambio significativo en el sistema de votación.,-1.470009463
+7089,es,package,noun,p______,paquete,Podemos entregar cualquier paquete dentro de cinco días hábiles.,0.246540058
+7090,es,beginning,noun,b________,principio,Me gustó mucho el principio de la película.,0.486494849
+7091,es,inverted,adjective,i_______,al revés,Nuestros papeles han quedado al revés: ahora tú eres el amante y yo la amada.,-1.452081364
+7092,es,stay,noun,s___,estancia,Esperamos que disfrute de su estancia en el hotel.,1.798012957
+7093,es,destroyer,noun,d________,destructor,"El considera que la mentira es destructora de cualquier relación, creo que es verdad",-0.753950891
+7094,es,surname,noun,s______,apellido,Tenemos el mismo apellido pero no somos familia.,2.803856594
+7095,es,pile,verb,p___,amontonar,"Vamos a amontonar la leña aquí, después lo organizo todo.",-0.153717987
+7096,es,sunglasses,noun,s_________,gafas de sol,Necesitarás unas buenas gafas de sol para el viaje.,3.33711751
+7097,es,surviving,adjective,s________,superviviente,Su sobrino es su único familiar superviviente.,-2.319879111
+7098,es,construction,noun,c___________,edificación,La edificación de la casa duró cinco meses.,1.795299
+7099,es,pipeline,noun,p_______,conducto,El gas natural se transporta por un conducto.,-1.605630923
+7100,es,magnificent,adjective,m__________,grandioso,Este grandioso proyecto requiere un nivel alto de cooperación e inversión.,-1.007019678
+7101,es,juice,noun,j____,zumo,Me gusta mucho el zumo natural de naranja.,3.031880748
+7102,es,panorama,noun,p_______,panorámica,La torre eiffel tiene una panorámica de toda la ciudad,-1.464215882
+7103,es,connect,verb,c______,unir,Hay que unir los dos cables con mucho cuidado.,-0.487179942
+7104,es,content,noun,c______,contenido,"el contenido del paquete es un secreto, de momento.",1.246952171
+7105,es,supervise,verb,s________,vigilar,Tiene que vigilar a los niños en la piscina.,-1.850037004
+7106,es,financially,adverb,f__________,económicamente,Ahora mismo estoy económicamente estable.,-0.078956386
+7107,es,protein,noun,p______,proteína,"Es importante mantener una dieta equilibrada: con proteína, minerales y vitaminas.",2.784825148
+7108,es,loop,noun,l___,vuelta,Ha hecho una vuelta alrededor de la casa,-1.588632767
+7109,es,frequently,adverb,f_________,a menudo,"Vamos a ese restaurante a menudo, una vez al mes, por lo menos.",-0.138082
+7110,es,intervention,noun,i___________,actuación (no: interference),La actuación de la profesora resolvió el problema entre los alumnos.,-0.970832963
+7111,es,gymnastic,adjective,g________,gimnástico,Me ha mandado el fisioterapeuta hacer un ejercicio gimnástico muy duro todos los días.,-0.344080871
+7112,es,appearance,noun,a_________,aspecto,Tiene un aspecto muy saludable.,-1.030038626
+7113,es,safely,adverb,s_____,de forma segura,Hay que conducir de forma segura cuando las condiciones meterológicas son tan adversas.,-1.117694095
+7114,es,notice,verb,n_____,fijarse,No tardó en fijarse en mi nuevo peinado.,0.866550457
+7115,es,scary,adjective,s____,aterrador,La historia que nos contó el abuelo anoche fue aterrador.,-0.258464012
+7116,es,multiple,adjective,m_______,varios,Mi hermana ha ganado varios premios por su libro.,-1.312880645
+7117,es,cruel,adjective,c____,desalmada,Es una persona desalmada que es muy malicioso hasta con su familia.,-0.99347686
+7118,es,keyword,noun,k______,palabra clave,La palabra clave cuando estás aprendiendo un idioma nuevo es paciencia.,1.929716607
+7119,es,paintball,noun,p________,paintball,Para su despedida de soltero fuimos a jugar paintball.,2.772915629
+7120,es,cruise,noun,c_____,crucero,Mis padres se fueron de crucero por el Mediterráneo el verano pasado.,1.208222413
+7121,es,imagine,verb,i______,imaginar,"No le cuesta nada imaginar, es muy creativo.",2.103405864
+7122,es,destructive,adjective,d__________,demoledor (no: devastating),El terremoto no fue tan demoledor como se dijo.,-2.701396004
+7123,es,chief,adjective,c____,principal,La causa principal del problema es la falta de comunicación.,-2.816532965
+7124,es,permit,noun,p_____,pase,Necesitas un pase para poder acceder a esta parte  del edificio.,-2.737029744
+7125,es,footwear,noun,f_______,calzado,El calzado italiano es muy elegante y también bien hecho.,-1.026354675
+7126,es,highlight,noun,h________,hito,"El hito del viaje fue la visita al Taj Mahal, me encantó.",-2.512695958
+7127,es,resolve,verb,r______,solucionar,Tenemos que solucionar este problema pronto.,1.500900646
+7128,es,voluntary,adjective,v________,opcional,La asistencia a este curso es completamente opcional.,-0.219708157
+7129,es,starlight,noun,s________,luz de las estrellas,Salieron de noche con sólo la luz de las estrellas como guía.,1.113765965
+7130,es,instantly,adverb,i________,inmediatamente,El conductor falleció inmediatamente.,-1.68542762
+7131,es,earth,noun,e____,Tierra,La Tierra da vueltas al Sol.,3.187376553
+7132,es,patient,noun,p______,enfermo,El hospital esta lleno de enfermos esperando a ser atendidos por los médicos que no dan a basto,0.622487751
+7133,es,wasting,adjective,w______,desgaste,Tiene desgaste muscular debido a una enfermedad que tiene.,-1.880400005
+7134,es,disturbing,adjective,d_________,inquietante,Esa película es bastante violenta y muy inquietante.,-1.540122382
+7135,es,breaking,noun,b_______,romper,Romper las reglas siempre ha sido típico de él.,0.256377219
+7136,es,initiation,noun,i_________,estreno,Su estreno en el mundo del marketing fue tener que encargarse de la campaña de navidad.,-3.166221768
+7137,es,calm,adjective,c___,tranquilo,Estuvo muy tranquilo durante el juicio.,1.843901622
+7138,es,excessive,adjective,e________,desmedida,La velocidad desmedida es la causa de muchos accidentes.,-1.456586365
+7139,es,purchase,noun,p_______,compra,El cliente tenía muchas preguntas sobre su compra.,0.707027836
+7140,es,spokesman,noun,s________,portavoz,Me eligieron portavoz del grupo de trabajadores.,-1.869505989
+7141,es,deserved,adjective,d_______,merecida,"Tiene fama, y muy merecida por cierto, de honesta y honrada.",0.27541733
+7142,es,remix,noun,r____,remezcla,Van a hacer una remezcla de las canciones de Elton John.,1.337606644
+7143,es,polarization,noun,p___________,divergencia,Usted acaba de decir que hay divergencia de opiniones.,-4.010968392
+7144,es,recommend,verb,r________,aconsejar,El sumiller va a aconsejar un buen vino para tomar con este plato.,0.166094276
+7145,es,faster,adjective,f_____,más rápido,Soy más rápido que tú nadando.,2.652406139
+7146,es,hysterical,adjective,h_________,graciosísimo (no: hilarious ) ,Cuando vi a la mujer con la peluca al revés me pareció graciosísimo.,-3.908174824
+7147,es,beer,noun,b___,cerveza,La cerveza es una bebida muy popular en el norte de Europa.,2.971074617
+7148,es,sleepwalking,adjective,s___________,sonambulismo,El sonambulismo es mucho más frecuente de lo que parece.,-2.629048773
+7149,es,requirement,noun,r__________,requisito,Mi hermana cumplía el requisito más importante para recibir una beca.,0.244597991
+7150,es,dairy,noun,d____,lácteos,No tomo lácteos porque me producen alergia.,-0.634472804
+7151,es,stereotypical,adjective,s____________,típico,La idea tipical de la mujer como ama de casa ya está mandada a recoger,-2.414124948
+7152,es,crisis,noun,c_____,crisis,El país está atravesando por una grave crisis financiera,1.921513687
+7153,es,sister,noun,s_____,hermana,Mi hermana viene a pasar el fin de semana con nosotros.,3.610234754
+7154,es,amount,verb,a_____,sumar,Dice el campeón que los 'Grand Slam' tienen la ventaja de sumar mucho en su carrera.,-4.039417874
+7155,es,grid,noun,g___,red,Por suerte la tormenta no dañó la red eléctrica.,-1.939673813
+7156,es,style,noun,s____,gusto,Me amigo tiene un gusto único y su ropa es muy original.,-1.824120701
+7157,es,prefer,verb,p_____,inclinarse,"El equipo va a inclinarse por usar este despacho, mejor que el otro, creo.",-1.769519646
+7158,es,hairstyle,noun,h________,peinado,Me gusta mucho tu nuevo peinado.,-0.313163874
+7159,es,four,number,f___,cuatro,Tiene cuatro hijos: un niño y tres niñas.,3.412200025
+7160,es,reward,noun,r_____,recompensa,El empleado del mes obtendrá una recompensa por su buen trabajo.,0.816580694
+7161,es,parody,verb,p_____,caricaturizar,Ese político tiene una personalidad fácil de caricaturizar.,-3.703502411
+7162,es,formally,adverb,f_______,oficialmente,Las cuentas fueron oficialmente aprobadas por el comité.,-1.458087773
+7163,es,soak,verb,s___,remojar,Hay que remojar los garbanzos toda la noche.,-1.110798032
+7164,es,discriminating,adjective,d_____________,refinado,Es muy refinado en cuanto al vino y sabe mucho del proceso de elaboración del mismo.,-4.308297433
+7165,es,spa,noun,s__,balneario,El nuevo balneario tiene una sauna y un circuito termal.,0.539231376
+7166,es,guard,noun,g____,vigilante,Habrá que emplear un vigilante de seguridad que cuide la finca por la noche.,1.309378323
+7167,es,hierarchy,noun,h________,jerarquía,Juan cree firmemente en la jerarquía en instituciones como la policía.,-0.345742007
+7168,es,company,noun,c______,empresa,Fidel trabaja en una empresa de petróleo.,1.639058195
+7169,es,drum,noun,d___,tambor,Se quejaron los vecinos por el ruido del tambor que tocaba Jesús.,1.091062167
+7170,es,bold,adjective,b___,audaz,El presidente siguió adelante con su audaz programa.,-1.441690094
+7171,es,peasant,noun,p______,campesino,Nuestra intención es convertir al campesino en pequeño productor.,-0.997388073
+7172,es,pump,verb,p___,bombear,El corazón es el órgano encargado de bombear la sangre por nuestro cuerpo.,-0.090429893
+7173,es,round,adverb,r____,alrededor,Cada vez más personas se juntaban alrededor del artista urbano.,2.558660841
+7174,es,expense,noun,e______,gasto,La empresa paga el gasto del viaje y del alojamiento.,0.078271006
+7175,es,poster,noun,p_____,cartel,Había un cartel muy grande en la entrada anunciando el concierto.,0.656675625
+7176,es,joint,adjective,j____,conjunta,Abrieron una cuenta bancaria conjunta.,0.912994565
+7177,es,adjust,verb,a_____,modificar,Hay que modificar la ley para corregir el proceso,-2.725443489
+7178,es,unprofessionally,adverb,u_______________,de forma poco profesional,Has actuado de forma poco profesional.,-1.667961694
+7179,es,privacy,noun,p______,intimidad,Estaba deseando tener un poco de intimidad y paz.,0.062991576
+7180,es,aerobic,adjective,a______,Aeróbico,La patinadora tenia una capacidad aeróbica excepcional,3.457704303
+7181,es,considering,misc,c__________,teniendo en cuenta,Teniendo en cuenta su corta edad siempre actúa de manera muy madura.,-0.531496651
+7182,es,rehearsal,noun,r________,ensayo,Tenemos un ensayo el sábado para el estreno de la obra el domingo.,-0.759850046
+7183,es,genetically,adverb,g__________,genéticamente,La hemofilia es una enfermedad que se transmite genéticamente,1.281866394
+7184,es,train,verb,t____,formar,El gerente va a formar a los nuevos empleados.,-0.479467583
+7185,es,differential,adjective,d___________,diferencial,El profesor de Cálculo diferencial programó un examen para el proximo lunes,-0.034534438
+7186,es,autograph,noun,a________,firma,Tengo la firma de David Bowie entre mi colección de firmas de famosos.,0.079223479
+7187,es,national,adjective,n_______,nacional,El himno nacional debe sonar al comienzo de todas las ceremonias en donde se encuentre el presidente,3.734614594
+7188,es,pitch,noun,p____,campo,Los jugadores ya han salido al campo.,-0.777728414
+7189,es,delay,noun,d____,retraso,El tren llega con una hora de retraso.,2.105086523
+7190,es,walker,noun,w_____,caminante,David es un caminante muy entusiasta y pertenece a un club de senderismo.,2.297084068
+7191,es,major,noun,m____,especialidad,Elegí la especialidad de literatura porque me encanta leer.,-2.323565336
+7192,es,eight,number,e____,ocho,Tengo ocho asignaturas este año.,2.720107083
+7193,es,bravely,adverb,b______,valientemente,Luchó muy valientemente en la batalla.,1.199505122
+7194,es,gentleman,noun,g________,caballero,"Hilario es un verdadero caballero, tan educado y amable.",1.022499362
+7195,es,reconnection,noun,r___________,reconexión,La empresa hizo un cobro por reconexión del servicio de telefonía,-0.259108165
+7196,es,attacker,noun,a_______,asaltante,El asaltante le amenazó con una pistola.,-3.466955678
+7197,es,productive,adjective,p_________,provechosa,Esta tierra es altamente provechosa y por lo tanto va a ser muy rentable plantar viñas ahí.,-2.554816066
+7198,es,assault,noun,a______,ataque (no: attack),Sufrió un ataque por la calle cuando se dirigía a su casa por la noche.,-1.142320595
+7199,es,frequency,noun,f________,periodicidad,La periodicidad de los congresos tiene que cambiar. ¿Qué te parece cada dos años?,-1.259468424
+7200,es,card,noun,c___,cartón,El cartón es un material reciclable,-0.664552647
+7201,es,postman,noun,p______,cartero,Trabaja de cartero durante las vacaciones de navidad.,1.977747508
+7202,es,cause,noun,c____,causa,El desempleo es la causa de la pobreza.,3.41797176
+7203,es,overload,verb,o_______,sobrecargar,"Cuidado con sobrecargar el coche, tenemos un viaje muy largo por delante.",-0.32340772
+7204,es,neatly,adverb,n_____,ordenadamente,Coloqué todas mis cosas ordenadamente en el armario.,-0.984691828
+7205,es,irish,adjective,i____,irlamdés,La musica irlandesa se caracteriza por su conexión con la musica celta,1.682140838
+7206,es,sue,verb,s__,demandar,El Gobierno va a demandar a los responsables del fraude.,-0.587814195
+7207,es,teaspoon,noun,t_______,cucharita,Dame una cucharita para que me pueda echar azúcar al café.,0.642211401
+7208,es,supposedly,adverb,s_________,supuestamente,La novela está basada supuestamente en una historia verdadera.,-0.898214423
+7209,es,boomerang,noun,b________,búmeran,Cuando viaje a Australia comparé un búmeran como recuerdo,0.819489028
+7210,es,smoothly,adverb,s_______,sin problemas,"A pesar de las preocupaciones, la boda se llevó a cabo sin problemas.",-2.64622413
+7211,es,futuristic,adjective,f_________,vanguardista,El diseño vanguardista del puente no fue nada popular en su momento.,-2.806505752
+7212,es,grade,verb,g____,clasificar,Tenemos que clasificar los libros por nivel.,-1.642399093
+7213,es,dying,adjective,d____,moribundo,Atendió al perro moribundo con mucho cariño.,-0.482716861
+7214,es,motivational,adjective,m___________,estimulante,Dió un discurso que resultó ser muy estimulante para todos sobre cómo enfocar tu vida.,-2.257450558
+7215,es,standing,noun,s_______,posición,El político goza de una buena posición en la comunidad.,-3.307909382
+7216,es,forgive,verb,f______,perdonar,Sé que te ha ofendido pero le tienes que perdonar.,1.608521913
+7217,es,recorder,noun,r_______,flauta dulce,Aprendí a tocar la flauta dulce en el colegio.,-2.156903028
+7218,es,consulting,adjective,c_________,asesora,Llamamos a una empresa asesora antes de decidir para que nos ayudara.,-3.5299748
+7219,es,photographer,noun,p___________,fotógrafo,En la esquina de la casa hay un fotógrafo que se ha encargado de tomar las fotos de la comunidad por mas de veinte años,1.487221619
+7220,es,launch,verb,l_____,lanzar,La agencia publicitaria va a lanzar la nueva campaña el mes que viene.,0.738486735
+7221,es,associate,verb,a________,relacionar,"No hay que relacionar la ciencia sólo con los hombres, ¡hay también mujeres científicas!",-1.737093272
+7222,es,language,noun,l_______,idioma,Hablar más de un idioma es una habilidad muy útil.,1.046642591
+7223,es,toll,noun,t___,peaje,Tenemos que pagar un peaje para usar ciertas carreteras.,-0.174815389
+7224,es,workbook,noun,w_______,libro de ejercicios,Hay que comprar el libro de ejercicios también.,2.047130593
+7225,es,experienced,adjective,e__________,experimentado,Es un profesor experimentado que sabe mucho de la asignatura.,-0.200583256
+7226,es,camera,noun,c_____,cámara fotográfica,De cumpleaños mi familia me compró una cámara fotográfica,2.858347507
+7227,es,simulate,verb,s_______,imitar,Crearon un programa para imitar las condiciones de batalla que iban a encontrar ahí.,-0.13489753
+7228,es,credibility,noun,c__________,fiabilidad,Dice que es científico pero no estoy segura de la fiabilidad de lo que dice.,-2.567236097
+7229,es,deeply,adverb,d_____,profundamente,Está profundamente enamorado de Andrea.,1.405851813
+7230,es,alike,adverb,a____,del mismo modo,Visten y piensan del mismo modo.,-0.347264574
+7231,es,slight,adjective,s_____,leve,El caballo tenía una leve cojera después de la carrera.,-0.390871382
+7232,es,endorsement,noun,e__________,aprobación,El plan cuenta con la aprobación total del presidente.,-2.654410299
+7233,es,desperate,adjective,d________,desesperado,La madre estaba desesperada por encontrar a su hijo en medio de la multitud,0.738711361
+7234,es,temptation,noun,t_________,atracción,No podía resistir la atracción de abrir la carta,-0.465948027
+7235,es,performer,noun,p________,intérprete,Ara Malikian es quizás el intérprete musical más brillante de nuestro tiempo.,-0.758261053
+7236,es,relationship,noun,r___________,trato,El trato entre la policía y la comunidad local ha mejorado mucho.,-0.463392779
+7237,es,surely,adverb,s_____,seguramente,Seguramente mi profesora sabe la respuesta.,1.383240748
+7238,es,monthly,adjective,m______,mensual,Vas a recibir un salario mensual de dos mil euros.,1.274036944
+7239,es,fewer,determiner,f____,menos,Hay menos monjas católicas ahora que hace cincuenta años.,0.961072076
+7240,es,pain,noun,p___,dolor,Sintió un dolor fuerte en la rodilla.,2.326158284
+7241,es,unrecorded,adjective,u_________,no grabada,"Su declaración a la policía no fue grabada, nadie sabe por qué.",0.268804878
+7242,es,waste,noun,w____,residuos,Los vecinos costean la eliminación de los residuos urbanos.,1.167363593
+7243,es,unproductive,adjective,u___________,infructuosa,La reunión fue bastante infructuosa francamente.,-4.058875735
+7244,es,ask,verb,a__,preguntar,Hay que preguntar qué día van a venir.,3.159359361
+7245,es,miserably,adverb,m________,infelizmente,Lo siento - dijo infelizmente.  No volverá a ocurrir.,-2.383455645
+7246,es,wage,noun,w___,sueldo,Gana un buen sueldo trabajando en la administración pública.,-0.358285879
+7247,es,inclusive,adjective,i________,integrador,El enfoque integrador del colegio respeta todos los credos.,-2.32643463
+7248,es,servant,noun,s______,criado,Los duques tienen un criado que lleva treinta años con ellos.,-0.208140936
+7249,es,heroism,noun,h______,heroísmo,Mostró un gran heroísmo al salvar a sus amigos de la avalancha,1.819467929
+7250,es,beating,noun,b______,paliza,Los hinchas le dieron una paliza tremenda a mi hermano a la salida del partido.,-1.443165762
+7251,es,dinosaur,noun,d_______,dinosaurio,El juguete favorito de mi hija es un dinosaurio azul y lo carga para todas partes,1.381305139
+7252,es,counterpart,noun,c__________,equivalente,El ministro de defensa está reunido con su equivalente chino desde hace unas horas.,-2.156443265
+7253,es,fluently,adverb,f_______,con fluidez,Habla el chino con fluidez.,0.32707335
+7254,es,network,noun,n______,red,Configuré una red inalámbrica en mi casa.,0.936198638
+7255,es,confrontation,noun,c____________,careo,A la salida de la discoteca hubo un careo entre los dos bandas.,-1.811509828
+7256,es,initiate,verb,i_______,comenzar,"¿Quieres comenzar la rueda de prensa, Angela?",-1.160448646
+7257,es,bronze,noun,b_____,latón,Hay un busto de Beethoven de latón en la entrada.,-2.455185025
+7258,es,shooter,noun,s______,tirador,Mató a cinco personas y después el tirador se suicidó.,0.110237197
+7259,es,gear,noun,g___,marcha,"Ten cuidado con la marcha atrás, es un poco difícil.",-0.568522095
+7260,es,advancing,adjective,a________,avanzado,Al cientifico nadie le creía porque sus ideas eran muy avanzadas para su época,-3.699229625
+7261,es,biologist,noun,b________,biólogo,Charles Darwin fue un biólogo muy famoso por su teoría evolutiva,2.026722725
+7262,es,cheater,noun,c______,tramposo,¡No seas tramposo!  Te he visto intentar ver mis cartas.,-0.196904829
+7263,es,hockey,noun,h_____,hockey,El hockey se juega  más en países fríos como Canadá y Estados Unidos,2.64906518
+7264,es,closet,noun,c_____,armario,He guardado toda mi ropa en el armario de mi habitación.,0.550260492
+7265,es,received,adjective,r_______,general,La práctica general sugiere que deberíamos hacerlo de esta manera. ,-5.895818069
+7266,es,looking,adjective,l______,de aspecto,Ese chico es de aspecto muy saludable.,-0.457997665
+7267,es,critical,adjective,c_______,crucial,Este es el punto crucial de todo este proceso. Es necesario ser precavido,-2.67234232
+7268,es,hateful,adjective,h______,odiosa,La idea de pelear con chicos de mi propia familia es odiosa.,-0.581600534
+7269,es,heavy,adjective,h____,pesada,No podía con la maleta tan pesada que tenía.,1.513750296
+7270,es,uninterrupted,adjective,u____________,ininterrumpido,Por fin tuve ocho años de sueño ininterrumpido.,0.080099163
+7271,es,enemy,noun,e____,adversario,"Me llevo muy bien con todo el mundo por lo que no tengo ningún adversario, por lo menos, eso creo.",1.502590151
+7272,es,schoolmate,noun,s_________,compañero de clase,Javier fue compañero de clase de mi hijo durante casi diez años.,-0.250087999
+7273,es,essential,adjective,e________,fundamental,El ejercicio es fundamental para estar en buena forma.,-1.100156631
+7274,es,human,adjective,h____,humano,El cuerpo humano es un organismo muy complicado.,4.425146131
+7275,es,desktop,noun,d______,escritorio,El es de los que guarda los archivos en el escritorio de su computador,0.118705539
+7276,es,chocolate,noun,c________,chocolate,Me encantan los churros con chocolate,2.621773456
+7277,es,house,verb,h____,albergar,Este complejo va a albergar agencias gubernamentales.,-2.079953058
+7278,es,battleship,noun,b_________,acorazado,El acorazado zarpó a la zona de guerra.,-1.887860748
+7279,es,lifetime,noun,l_______,toda una vida,No podrías entender al ser humano aunque los estudiaras durante toda una vida.,-1.110368221
+7280,es,perfectionist,noun,p____________,perfeccionista,Mi padre siempre ha sido una persona perfeccionista.,0.219594541
+7281,es,rip,verb,r__,romper,Tenía tanta prisa por leer la carta que se puso a romper el sobre para abrirlo.,-1.390903693
+7282,es,millennium,noun,m_________,periódo de mil años,En el periódo de mil años antes de la era cristiana había tres imperios.,-1.373986191
+7283,es,wetland,noun,w______,humedal,El humedal más grande del mundo está en Brasil.,-1.539959492
+7284,es,similar,adjective,s______,parecida,Esta niña es muy parecida a su hermana mayor.,1.761727201
+7285,es,town,noun,t___,ciudad,Los estatutos dieron a los habitantes de la ciudad su libertad.,2.525489825
+7286,es,adventure,noun,a________,aventura,El paseo fue una gran aventura. tras otra.,2.994836465
+7287,es,checkpoint,noun,c_________,puesto de control,Había un puesto de control en la frontera donde unos militares miraron nuestra documentación.,-1.708711229
+7288,es,sustain,verb,s______,mantener,Nadie puede mantener un etilo de vida tan caro como el de ella,-2.055010507
+7289,es,thoughtful,adjective,t_________,atento,Mi padre es muy atento y cuida bien a todos sus hijos.,-2.289970845
+7290,es,build,verb,b____,construir,Van a construir treinta viviendas nuevas al lado del colegio.,1.458083371
+7291,es,blank,adjective,b____,vacío,El CD no sonaba porque estaba vacío.,-1.236403076
+7292,es,accident,noun,a_______,incidente,El incidente ocurrió en la carretera de Toledo.,2.336357885
+7293,es,peacefully,adverb,p_________,pacíficamente,Menos mal que el asedio ha terminado pacíficamente.,0.04667222
+7294,es,uncontrollable,adjective,u_____________,incontenible,Tuve el impulso incontenible de reírme.,-2.577349067
+7295,es,expire,verb,e_____,caducar,La oferta va a caducar el viernes que viene.,0.07137625
+7296,es,herb,noun,h___,especia,Hay que añadir una cucharada de las especias de la abuela sólo al final de la cocción.,-1.182402265
+7297,es,also,adverb,a___,también,Yo también voy a la fiesta.,1.39341281
+7298,es,spring,verb,s_____,saltar,"El conejo va a saltar de la caja a los brazos de la niña, ya verás.",-3.109522889
+7299,es,lean,adjective,l___,magro,La dieta que está haciendo lo obliga a comer carne magra.,-1.363640959
+7300,es,kingdom,noun,k______,reino,Las leyes del reino nos obligan a educar a nuestros hijos.,1.800534997
+7301,es,odds,noun,o___,probabilidades,"Las probabilidades están a favor de nosotros, creo que ganaremos.",-0.641083809
+7302,es,list,noun,l___,relación,Lleva una relación de todos los juguetes que va a pedirle a Papá Noel.,1.399805423
+7303,es,clear,adverb,c____,alejado de,La cabaña queda un poco alejada del bosque,-4.137644008
+7304,es,glove,noun,g____,guante,Se me perdió un guante en el camino.,1.434376767
+7305,es,confuse,verb,c______,desconcertar,Esta nueva versión de los hechos va a desconcertar a el jurado por completo.,-1.203922007
+7306,es,footstep,noun,f_______,paso,Oyó un paso justo detrás de la puerta y sabía que había alguien ahí.,-0.24688539
+7307,es,unexpected,adjective,u_________,inesperado,Recibió un regalo inesperado de sus tíos.,0.552522754
+7308,es,combat,verb,c_____,combatir,Tenemos que combatir narcodependencia primero con información y después con la acción.,1.072514731
+7309,es,vitality,noun,v_______,energía,Está lleno de energía y buenas ideas.,-1.206565948
+7310,es,return,verb,r_____,volver,Me gustaría volver a Asturias algún día.,1.348203136
+7311,es,horribly,adverb,h_______,terriblemente,El procedimiento fue terriblemente doloroso.,-0.246794333
+7312,es,tale,noun,t___,cuento,Le conté un cuento de hadas a mi nieta y le encantó.,0.644638839
+7313,es,journey,noun,j______,viaje,Vamos a hacer un viaje por toda España.,1.57434343
+7314,es,dim,adjective,d__,tenue,La luz era tan tenue que no vimos nada.,-0.994231262
+7315,es,lower,verb,l____,bajar,Vamos a bajar los precios para vender más.,0.699418274
+7316,es,firm,noun,f___,empresa,Hay una empresa de coches de segunda mano en la ciudad.,-0.626105202
+7317,es,noble,adjective,n____,honorable,Hacer obras de caridad es algo verdaderamente honorable.,-0.285948535
+7318,es,sarcastic,adjective,s________,irónico,Tiene un sentido del humor demasiado irónico para mi gusto.,-0.157571641
+7319,es,failure,noun,f______,fracaso,No rendirse después de un fracaso te hará fuerte.,0.419800396
+7320,es,tolerant,adjective,t_______,respetuosa,Tiene una actitud muy respetuosa hacia otras religiones.,-0.800702547
+7321,es,supplier,noun,s_______,proveedor,Soy el único proveedor de esta marca en Italia.,-0.667657169
+7322,es,prize,noun,p____,galardón,Recibió un galardón especial por sus servicios a la comunidad.,0.238460755
+7323,es,question,noun,q_______,pregunta,Hizo una pregunta muy difícil de contestar.,2.99036158
+7324,es,experience,verb,e_________,experimentar,Mi madre quiere experimentar vivir en Italia para después escribir una novela.,-1.655329503
+7325,es,pointless,adjective,p________,inútil,"Es inútil que intentes convencerme de lo contrario, estoy decidido.",-1.336675397
+7326,es,disposal,noun,d_______,desecho,El hospital es responsable del desecho de material biológico.,-2.025366975
+7327,es,soil,noun,s___,suelo,Las verduras crecen mejor en un suelo fértil.,0.195507014
+7328,es,spray,noun,s____,aerosol,Los ambientadores se suelen vender como aerosol.,0.804389443
+7329,es,biochemically,adverb,b____________,bioquímicamente,Todo está bioquímicamente perfecto y el experimento ha salido fenomenal.,-0.592115664
+7330,es,reach,verb,r____,alcanzar,Este nuevo tren va alcanzar una velocidad muy elevada.,1.079957857
+7331,es,witness,verb,w______,presenciar,Las personas de la calle no tuvieron más remedio que presenciar la escena.,0.022828248
+7332,es,film,verb,f___,rodar,Empezamos a rodar la película en el mes de mayo.,1.770976435
+7333,es,amount,noun,a_____,cantidad,Ese empresario tiene una enorme cantidad de dinero.,1.221543488
+7334,es,bulldog,noun,b______,buldog,El buldog de mi vecina ladra a todas las mañanas a la misma hora,1.696286205
+7335,es,appointment,noun,a__________,cita,Tengo cita con el médico a las diez de la mañana.,0.717635785
+7336,es,recall,verb,r_____,acordarse,A veces es difícil acordarse de cosas que pasaron hace mucho tiempo.,-2.26934131
+7337,es,swear,verb,s____,decir palabrotas,"No se pueden decir palabrotas en este colegio, ya lo sabes.",-0.640079763
+7338,es,whole,adjective,w____,entera,Me comí la pizza entera porque tenía hambre.,1.814407328
+7339,es,undecided,adjective,u________,indeciso,Estoy todavía indeciso sobre esta cuestión.,-1.603270968
+7340,es,open,verb,o___,abrir,"¿No vas a abrir el paquete? ¡Vamos, date prisa!",3.179012893
+7341,es,remark,noun,r_____,comentario,Hizo un comentario sobre su mujer que no me gustó en absoluto.,-1.6048507
+7342,es,scatter,verb,s______,dispersar,El ruido de la escopeta hizo dispersar a los pájaros.,-2.450134617
+7343,es,wash,verb,w___,lavar,Me tengo que lavar el pelo hoy.,2.694528775
+7344,es,activity,noun,a_______,labor,Mi labor profesional consiste en corregir estos documentos.,-2.003710994
+7345,es,multifunctional,adjective,m______________,de muchas funciones,Este aula de muchas funciones hay que reservarlo con mucha antelación.,-1.031691608
+7346,es,taxi,noun,t___,taxi,Tomamos un taxi en la puerta de la estación.,3.291698302
+7347,es,next,preposition,n___,después,Primero tengo clase de inglés y después de biología.,0.832591622
+7348,es,hydrated,adjective,h_______,hidratado,Bebe agua durante de la carrera para mantenerte hidratado,-0.609906568
+7349,es,use,verb,u__,utilizar,Puedes utilizar mi teléfono si quieres.,3.470236197
+7350,es,music,noun,m____,melodía,Se oía un piano tocar una melodía triste pero dulce a lo lejos.,-0.632728419
+7351,es,quest,noun,q____,búsqueda,El autor escribió sobre su búsqueda de la felicidad.,-0.527999081
+7352,es,rank,verb,r___,clasificar,Hay que clasificar a los estudiantes según sus resultados.,-2.199514683
+7353,es,arise,verb,a____,surgir,La polémica sobre las corridas de toros ha vuelto a surgir.,-0.709833802
+7354,es,neck,noun,n___,cuello,Llevaba un pañuelo muy bonito en el cuello.,2.542846112
+7355,es,sanitary,adjective,s_______,higiénicas,Las malas condiciones higiénicas del campamento fueron la causa de la epidemia.,-0.282808723
+7356,es,evacuation,noun,e_________,desalojo,Hoy hubo un desalojo de emergencia en mi empresa por una amenaza de bomba.,-1.401327425
+7357,es,accidentally,adverb,a___________,involuntariamente,La policía dijo que el incendio se inició accidentalmente,1.553876521
+7358,es,listen,verb,l_____,escuchar,Me vas a escuchar lo que tengo que decirte.,2.465255002
+7359,es,discover,verb,d_______,encontrar,Cuando llegó a su casa encontró a su empleada durmiendo en su habitación,-0.263301915
+7360,es,lately,adverb,l_____,últimamente,Me encuentro un poco triste últimamente y no sé por qué.,0.825252996
+7361,es,undetected,adjective,u_________,desapercibido,Pasó al palacio desapercibido a pesar de toda la seguridad.,-3.9773897
+7362,es,permit,verb,p_____,autorizar,No le voy a autorizar el uso de mi música para sus mítines.,0.66660827
+7363,es,fracture,noun,f_______,rotura,Mi abuela se cayó y se hizo una rotura en la pelvis.,0.150257189
+7364,es,familiarity,noun,f__________,conocimiento,Su conocimiento de la lengua nos ayudó a escapar.,-2.525618234
+7365,es,remake,verb,r_____,rehacer,Me han dicho que van a rehacer la película antigua 'Calle Mayor'.,0.925816358
+7366,es,convertible,adjective,c__________,descapotable,El carro que se compró es un descapotable último modelo.,-1.165671377
+7367,es,stop,verb,s___,parar,Él es capaz de correr durante horas sin parar.,2.971944926
+7368,es,poetry,noun,p_____,versos,Hay un pequeño festival de versos en el ayuntamiento el sábado.,-0.245409354
+7369,es,primary,noun,p______,primaria,Mi hija comezo la primaria el día de ayer,3.22338248
+7370,es,illustrator,noun,i__________,dibujante,Trabaja en Estados Unidos de dibujante de cómics.,-0.717031518
+7371,es,criticism,noun,c________,crítica,Aguantó toda la crítica que le hizo su profesora y prometió mejorar.,-0.650518872
+7372,es,gentle,adjective,g_____,tierno,"Enrique es bondadoso, generoso y tierno con sus alumnos más pequeños.",-1.081374552
+7373,es,chairman,noun,c_______,presidente,Tenemos que votar al presidente del comité antes del fin de semana.,-1.302469263
+7374,es,garbage,noun,g______,basura,Hay que llevar la basura al contenedor todas las noches.,1.009279101
+7375,es,impatient,adjective,i________,inquieto,Tuve que esperar tres horas y me empecé a poner inquieto.,-1.936710394
+7376,es,public,adjective,p_____,popular,La campaña ha incrementado el conocimiento popular de los problemas.,-2.664949339
+7377,es,zip,verb,z__,cerrar la cremallera,¿Me ayudas a cerrar la cremallera por favor?,1.658498742
+7378,es,alternative,adjective,a__________,alternativa,La música alternativa estuvo de moda por unos cuantos años,2.866743495
+7379,es,elevator,noun,e_______,ascensor,¿Subimos en el ascensor o tomamos la escalera?,2.630669666
+7380,es,force,noun,f____,fuerza,Criticaron a la policía por usar demasiada fuerza durante la detención.,1.810168652
+7381,es,compensate,verb,c_________,contrarrestar,Intentaremos contrarrestar los efectos de haber perdido tanto dinero.,-3.526986176
+7382,es,admire,verb,a_____,admirar,Ella admira su talento como actor,1.771107887
+7383,es,shave,verb,s____,afeitarse,Se detuvo en la barbería para afeitarse.,1.689715596
+7384,es,widespread,adjective,w_________,extendido,El uso de las redes sociales está bastante extendido.,-0.875302464
+7385,es,rating,noun,r_____,calificación,El restaurante recibió una buena calificación del crítico gastronómico.,-1.79808516
+7386,es,mill,noun,m___,molino,Convierten el trigo en harina en el molino.,-0.526439406
+7387,es,everybody,misc,e________,todo el mundo,Ha contado la noticia a todo el mundo.,1.229309644
+7388,es,beam,noun,b___,viga,Hay una viga enorme que va de un lado a otro del edificio.,-1.776824493
+7389,es,alongside,preposition,a________,a lo largo,Hay un sendero a lo largo del lago.,-1.35446578
+7390,es,roadside,noun,r_______,borde de la carretera,Se pararon en el borde de la carretera para comprobar los neumáticos.,-1.029433704
+7391,es,month,noun,m____,mes,Mayo es el mes de las flores.,2.870799401
+7392,es,imperfect,adjective,i________,deficiente,Vivimos en un mundo deficiente en todos los sentidos.,-3.066838877
+7393,es,amazing,adjective,a______,asombroso,Su talento para la música es asombroso.,0.123414464
+7394,es,destination,noun,d__________,meta,Tuvimos que andar durante días hasta que llegamos a la meta.,-1.260922264
+7395,es,producer,noun,p_______,fabricante,Es fabricante de plásticos y trabaja en Soria.,0.05438778
+7396,es,demo,noun,d___,maqueta,Os vamos a dejar una maqueta para que veáis si os gusta o no.,-2.128029493
+7397,es,deformed,adjective,d_______,desfigurada,Nació con una mano desfigurada.,-1.849966809
+7398,es,round,adjective,r____,redondo,El plato redondo es del siglo dieciocho.,1.986456859
+7399,es,talented,adjective,t_______,dotado,Es un pianista joven muy dotado.,0.484312799
+7400,es,bravo,noun,b____,bravo,"Cuando el artista terminó, el publico gritó en coro ¡bravo!",0.161511979
+7401,es,terrified,adjective,t________,aterrorizado,Estaba aterrorizado por la velocidad a la que iba el tren.,0.089908262
+7402,es,payroll,noun,p______,nómina,La empresa tiene nueve empleados en su nómina.,-2.28570808
+7403,es,controllable,adjective,c___________,manejable,El dispositivo es manejable. Cualquiera lo puede controlar.,-1.607816341
+7404,es,bay,noun,b__,bahía,La bahía de Cadiz es preciosa.,1.886167244
+7405,es,pleased,adjective,p______,contenta,Se puso muy contenta cuando recibió sus resultados.,-1.737071878
+7406,es,everything,misc,e_________,todo,Todo lo que dice es muy interesante.,1.990792901
+7407,es,teenage,adjective,t______,adolescente,La edad adolescente es una étapa necesaria para el ser humano,1.676791969
+7408,es,threat,noun,t_____,amenaza,Ayer hubo una amenaza de bomba en el centro comercial.,0.29236293
+7409,es,thereby,adverb,t______,de esta forma,"El ejercicio fortalece el corazón, de esta forma reduciendo el riesgo de infarto.",-3.623026011
+7410,es,crocodile,noun,c________,cocodrilo,El pantano que hay detrás del bosque está habitado por un cocodrilo,-0.215678001
+7411,es,holding,noun,h______,propiedades,Tiene un cuarenta por ciento de las propiedades de la familia,-3.372173741
+7412,es,correct,adjective,c______,adecuada,Hay que decir la respuesta adecuada inmediatamente.,0.835837091
+7413,es,judicial,adjective,j_______,legal,Greenpeace ha solicitado una investigación legal sobre la decisión del tribunal.,-1.489010139
+7414,es,discourage,verb,d_________,desalentar,Los fanaticos que fueron a verlos desalentaron al jugador con su actitud,-1.688114592
+7415,es,traditional,adjective,t__________,de costumbre,Es de costumbre en Estados Unidos comer pavo en el día de acción de gracias.,-0.203906521
+7416,es,academically,adverb,a___________,académicamente,Todo va bien académicamente pero a Jaime no le gusta el deporte.,0.364013976
+7417,es,emerge,verb,e_____,surgir,Resolveremos cualquier problema que pueda surgir.,-0.299164074
+7418,es,objective,noun,o________,finalidad,La finalidad de esta reunión ha sido daros más información sobre el proyecto.,0.224492946
+7419,es,cost,verb,c___,valer,La compra de la casa va a valer más que la compra del apartamento,2.584890262
+7420,es,document,noun,d_______,escrito,Nos entregó un escrito firmado por el comité.,-0.049344804
+7421,es,flexible,adjective,f_______,adaptable,Lo bueno del mecanismo es que es adaptable y funciona con varias capcidades electronicas,-1.863803144
+7422,es,move,verb,m___,mover,¿Me puedes ayudar a mover este sofá de aquí al rincón?,3.349976447
+7423,es,prison,noun,p_____,cárcel,Metieron a su nieto en la cárcel por vender droga.,0.992935054
+7424,es,determination,noun,d____________,empeño,Mi empeño en terminar la carrera fue muy grande.,-0.334939127
+7425,es,black,adjective,b____,negro,Ese traje negro es elegantísimo.,4.178307411
+7426,es,enhance,verb,e______,mejorar (no: elevate),Tenemos que mejorar nuestro rendimiento.,-2.085349002
+7427,es,ever,adverb,e___,nunca,Creo que no olvidaré nunca el lugar dónde nos conocimos.,2.634251812
+7428,es,expanding,adjective,e________,en aumento,"El mercado está en aumento, cosa buena para nosotros.",-3.207318453
+7429,es,school,noun,s_____,colegio,Ese niño va al colegio que hay cerca de mi casa.,3.853498452
+7430,es,goldfish,noun,g_______,pez dorado,Mi hijo pequeño tiene un pez dorado y lo cuida con mucho esmero,1.216761822
+7431,es,picture,verb,p______,imaginar,La verdad es que no le puedo imaginar como una persona mayor.,-1.961385211
+7432,es,vulnerable,adjective,v_________,expuesta,La gente mayor está especialmente expuesta a las enfermedades infecciosas.,-1.117309166
+7433,es,whenever,adverb,w_______,cuando quiera,Puede venir a vernos cuando quiera.,1.087869719
+7434,es,increasingly,adverb,i___________,cada vez más,Las redes sociales son cada vez más populares.,-0.723122795
+7435,es,enthusiastic,adjective,e___________,apasionada,Es una persona muy apasionada y se emociona por todo.,-2.178172466
+7436,es,liberty,noun,l______,atrevimiento,Me tomé el atrevimiento de invitar a una reunión extraordinaria para manejar esta difícil situación,-1.798693558
+7437,es,nothing,misc,n______,nada,No sé absolutamente nada de este asunto.,3.540422038
+7438,es,solar,adjective,s____,del sol,La energía del sol va a ser muy importante para el futuro de nuestro planeta.,-0.64843857
+7439,es,nail,noun,n___,clavo,Tendrás que poner un clavo en la pared para colgar la foto.,0.276601545
+7440,es,eating,noun,e_____,alimentación,La alimentación sana es muy importante para la salud.,-1.178496971
+7441,es,unwanted,adjective,u_______,no deseado,Un micrófono muy sensible ha captado un sonido no deseado.,-0.721655598
+7442,es,classic,adjective,c______,típico,La modelo estaba usando un vestido típico de la época,-2.279431573
+7443,es,sometime,adverb,s_______,alguna vez,"Nos vamos a volver a ver alguna vez, ya verás.",2.354536372
+7444,es,runner,noun,r_____,corredor,El corredor terminó en cuarto lugar.,2.718116981
+7445,es,repetitive,adjective,r_________,reiterativo,Este trabajo es monótono porque es muy reiterativo.,-1.1258848
+7446,es,christian,noun,c________,Cristiano,Los cristianos tienen como propósito proclamar el mensaje de salvación de la cruz,0.405772456
+7447,es,brutal,adjective,b_____,salvaje,Hubo un ataque salvaje de la policía a los manifestantes.,-0.757274926
+7448,es,education,noun,e________,estudios,Realizó sus estudios en España y después en Colombia.,-1.404820496
+7449,es,parent,noun,p_____,progenitor,"Tener progenitor durante la infancia, ya sea padre o madre, es muy importante para el desarrollo de un niño.",0.78980931
+7450,es,selfish,adjective,s______,egoísta,Es una persona bastante egoísta que siempre hace lo que quiere.,1.376843977
+7451,es,constantly,adverb,c_________,contínuamente,El mar se mueve contínuamente.,-1.413396087
+7452,es,boring,adjective,b_____,aburrida,Esta novela es muy aburrida y no la puedo terminar.,2.143562941
+7453,es,summer,noun,s_____,verano,No vamos a la playa en verano.,3.158632195
+7454,es,implication,noun,i__________,consecuencia,La mayor consecuencia de tu decisión han sido los muchos cambios en la vida de tus hijos.,-2.577209926
+7455,es,dimension,noun,d________,medida,Sacamos la medida de la ventana que querían instalar en su casa nueva.,-0.488029962
+7456,es,run,noun,r__,carrera,Mi carrera matutina me mantiene en forma.,2.201646146
+7457,es,fool,noun,f___,tonto,Es un tonto que nunca piensa lo que dice y ofende a todo el mundo.,0.672876771
+7458,es,obsession,noun,o________,fijación,Lucas tiene una fijación con las películas del oeste y no ve otra cosa.,0.031031315
+7459,es,imaginable,adjective,i_________,concebible,La casa tiene la vista más maravillosa concebible.,-0.927814449
+7460,es,salesman,noun,s_______,vendedor,Es un vendedor estupendo y cuida mucho de los clientes.,-0.299492249
+7461,es,left,adjective,l___,izquierdo,Le han operado del brazo izquierdo y no puede jugar.,3.61911764
+7462,es,committee,noun,c________,comisión,La comisión se reúne una vez al mes.,-3.215504903
+7463,es,orange,adjective,o_____,anaranjada,"Mi nueva americana es anaranjada, el color del momento.",2.500387941
+7464,es,smash,verb,s____,destrozar,Destrozaron el vidrio de las ventanas de las casas cercanas.,-1.953968304
+7465,es,still,adjective,s____,quieto,"El mar se mueve constantemente, nunca está quieto.",-0.901248513
+7466,es,blame,verb,b____,culpar,No hay que culpar a David por el accidente.,1.048012606
+7467,es,gasp,verb,g___,jadear,"En cuanto subió a la superficie del agua, empezó a jadear, intentando respirar.",-1.094603998
+7468,es,instrument,noun,i_________,dispositivo,Con este dispositivo podrá obtener unas medidas muy exactas.,-1.065168875
+7469,es,breathing,noun,b________,respiración,Escuchó la respiración regular de su hija y se quedó tranquilo.,0.704924838
+7470,es,narrative,adjective,n________,narrativo,La estructura narrativa de una obra determina el tipo de género al que corresponde,2.193866139
+7471,es,tourist,noun,t______,visitante,El visitante fue por todo el país para ver todos los lugares interesantes que podía.,0.48640915
+7472,es,availability,noun,a___________,disponibilidad,Queremos volar a Londres mañana pero no sabemos qué disponibilidad hay.,-0.264962922
+7473,es,flame,noun,f____,llama,Desde fuera se veía la pequeña llama amarilla de una cerilla.,1.001219558
+7474,es,theoretical,adjective,t__________,teórico,En este curso tenemos un enfoque teórico pero el año que viene será más práctico.,-0.595184535
+7475,es,frontier,noun,f_______,frontera,Viven en un caserío en la frontera entre Guipúzcoa y Álava.,0.679072662
+7476,es,wolf,noun,w___,lobo,El lobo mostró su sumisión al macho alfa.,3.112613478
+7477,es,instance,noun,i_______,caso,Este es un caso típico de abuso de poder por parte del empleador,-3.145312881
+7478,es,correlate,verb,c________,relacionar,El doctor pudo relacionar el dolor de cabeza con la falta de apetito,-2.034958543
+7479,es,exercise,verb,e_______,ejercitar,Hay que ejercitar la memoria para evitar el alzhaimer,0.8164611
+7480,es,reduction,noun,r________,descenso,Ha habido un descenso marcado en la tasa de nacimientos durante estos años.,-1.866840192
+7481,es,workshop,noun,w_______,taller,Mañana van a asistir a un taller de manualidades para niños.,0.448056316
+7482,es,shaped,adjective,s_____,con forma de,Había un globo con forma de una vaca gigante.,-0.203260299
+7483,es,manifest,verb,m_______,exteriorizar,Los manifestantes no han vacilado en exteriorizar las tensiones sociales estos días.,-1.158063954
+7484,es,baking,noun,b_____,"pan, pasteles y tartas","Mi madre siempre hacía pan, pasteles y tartas los domingos.",-3.787416656
+7485,es,under,preposition,u____,bajo,Una promesa hecha bajo coerción no tiene ningún valor.,2.49260778
+7486,es,powered,adjective,p______,propulsado,Esta silla de ruedas es propulsada por energía solar.,-3.033583815
+7487,es,horn,noun,h___,cuerno,Los rinocerontes normalmente tienen un cuerno.,1.165426537
+7488,es,environmental,adjective,e____________,ambiental,El asunto ambiental del cambio climático es also que nos debe preocupar a todos.,-0.125873958
+7489,es,unnatural,adjective,u________,poco natural,Parece poco natural que un niño pase tanto tiempo solo.,2.176325734
+7490,es,prove,verb,p____,demostrar,Tendrá que demostrar que no estaba en el lugar del crimen.,0.261641273
+7491,es,elderly,adjective,e______,mayor,Ayudé a una señora mayor a cruzar la calle.,-0.07697347
+7492,es,barn,noun,b___,granero,Guardamos el trigo en el granero.,-0.514742708
+7493,es,fat,adjective,f__,gordo,Mi tío está gordo porque come demasiado.,2.929566566
+7494,es,disappoint,verb,d_________,decepcionar,No quiero decepcionar a mi madre con esta decisión.,-1.419682689
+7495,es,korean,adjective,k_____,Coreano,El asado coreano es una buena excusa para compratir con amigos,3.055885284
+7496,es,colonial,adjective,c_______,colonial,El centro de la ciudad se caracteriza por la arquitectura colonial de sus casas,2.620560658
+7497,es,allege,verb,a_____,alegar,El abogado alegó un episodio depresivo para que su cliente quedara libre.,-2.242943782
+7498,es,inconvenience,noun,i____________,molestia,Siento la molestia que haya podido ocasionar mi error.,-0.849480993
+7499,es,physiological,adjective,p____________,fisiológico,Los jóvenes presntan varios cambios fisiológicos entre los 14 y los 18 años de edad,-0.85766683
+7500,es,surgeon,noun,s______,cirujano,Mi tío es cirujano en el hospital de Madrid.,0.567180962
+7501,es,holiday,noun,h______,vacaciones,Nos vamos de vacaciones mañana y volvemos en dos semanas.,1.626432542
+7502,es,assist,verb,a_____,ayudar,Necesitamos una persona para ayudar a mi abuela en casa.,-0.473864278
+7503,es,prepared,adjective,p_______,dispuesto,Todo está dispuesto para la fiesta de cumpleaños de Patricia.,0.44321679
+7504,es,sugar,noun,s____,azúcar,Dicen que el azúcar es malo para la salud.,3.05319638
+7505,es,reform,verb,r_____,enmendar,Este gobierno ha prometido enmendar las leyes para el sistema de educación nacional.,-2.928830674
+7506,es,demand,verb,d_____,exigir,La gente nos va a exigir una explicación y tenemos que estar preparados.,0.4394131
+7507,es,bureau,noun,b_____,oficina,Hay una oficina de ayuda al ciudadano en todas las ciudades grandes.,-0.289525548
+7508,es,mandate,noun,m______,orden,El demandado cumplió con la orden del tribunal.,-0.865377935
+7509,es,bitter,adjective,b_____,amargo,Este vino tiene un sabor muy amargo.,0.808305524
+7510,es,ringing,noun,r______,zumbido,Tengo un zumbido en los oídos que no me deja pensar.,-2.959274915
+7511,es,album,noun,a____,disco,¡Me encanta el último disco de este grupo!,0.176193833
+7512,es,overcome,verb,o_______,superar,Los partidos consiguieron superar sus diferencias y firmar el acuerdo.,-0.629875818
+7513,es,channel,noun,c______,canal de televisión,¿Te acuerdas de cuando sólo había un canal de televisión?,2.354830788
+7514,es,craft,noun,c____,artesanía,Hay una feria de artesanía este fin de semana.,-0.067988893
+7515,es,ruler,noun,r____,gobernante,El rey fue un gobernante estricto pero justo.,-0.54979663
+7516,es,brightly,adverb,b_______,intensamente,El sol brillaba intensamente.,-0.329943849

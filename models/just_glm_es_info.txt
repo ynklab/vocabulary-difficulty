@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py --no-default-features -f --fc glm-4-32b --final-train just_glm
+
+Final-predict command:
+python scripts/run_features.py --no-default-features -f --fc glm-4-32b --final-predict just_glm --track '<open|closed>'

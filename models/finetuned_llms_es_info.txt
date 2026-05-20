@@ -1,0 +1,5 @@
+Final-train command:
+python scripts/run_features.py --no-default-features -f --final-train finetuned_llms
+
+Final-predict command:
+python scripts/run_features.py --no-default-features -f --final-predict finetuned_llms --track '<open|closed>'

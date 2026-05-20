@@ -1,0 +1,749 @@
+item_id,L1,en_target_word,en_target_pos,en_target_clue,L1_source_word,L1_context,GLMM_score
+6769,de,universal,adjective,u________,allgemein,Bei diesem Thema herrschte allgemeine Übereinstimmung.,-1.927653849
+6770,de,eventually,adverb,e_________,schließlich,Nach vielen Untersuchungen wurde er schließlich mit Krebs diagnostiziert.,-1.234404869
+6771,de,herd,noun,h___,Herde,Die Viehherde graste auf der Weide.,-0.141975292
+6772,de,harm,verb,h___,"jdn verletzen, jdm schaden","Ich bin davon überzeugt, dass zu viel Gewalt in Filmen Kindern schadet.",-2.195967497
+6773,de,stake,noun,s____,Anteil [nicht: share],Mein Vater hat damals einen kleinen Anteil dieser Firma gekauft.,-3.871386995
+6774,de,forgivable,adjective,f_________,verzeihlich,"Mach dir keine Sorgen, der Fehler ist verzeihlich.",-0.776258904
+6775,de,loudly,adverb,l_____,laut,Sie spricht sehr laut.,0.877720717
+6776,de,soda,noun,s___,Limonade,Ich habe einen Hamburger und Limonade bestellt.,-0.175391912
+6777,de,breathless,adjective,b_________,"atemlos, außer Atem",Nach dem Sprint war sie völlig atemlos.,1.635776179
+6778,de,avenue,noun,a_____,Allee,Der Wagen hatte auf der Mitte der Allee eine Panne. ,-2.189312135
+6779,de,asteroid,noun,a_______,Asteroid,Für das Aussterben der Dinosaurier war ein großer Asteroid verantwortlich.,1.073722089
+6780,de,detailed,adjective,d_______,ausführlich,Sie schrieb einen ausführlichen Bericht und ließ keine Einzelheit aus.,-0.315626644
+6781,de,gymnasium,noun,g________,Turnhalle,Wir spielen Vollyball in der Turnhalle.,-0.296903046
+6782,de,luck,noun,l___,Glück,Dem Kind ist nichts passiert. Es hatte großes Glück.,2.952279652
+6783,de,junior,adjective,j_____,"untergeordnet, Nachwuchs-",Nächste Woche findet ein Seminar für Nachwuchsführungskräfte statt.,0.275530975
+6784,de,ending,noun,e_____,Ende,Die Geschichte hatte ein anderes Ende als erwartet.,1.821626694
+6785,de,so,adverb,s_,dermaßen,"Ich war dermaßen müde, dass ich mich sofort schlafen legte.",2.696309989
+6786,de,planet,noun,p_____,Planet,"Unsere Erde ist ein großer Planet, der um die Sonne kreist.",3.319454801
+6787,de,concluding,adjective,c_________,anschließend,Die abschließenden Worte seiner Rede waren sehr berührend.,-2.183704168
+6788,de,consciousness,noun,c____________,Bewusstsein,Es geht ihm nicht gut. Er verliert das Bewusstsein.,-1.525299335
+6789,de,huge,adjective,h___,riesig (nicht: enormous),Sie packte zwei riesige Rucksäcke voll.,0.91905851
+6790,de,joy,noun,j__,Freude,Sie war total begeistert. Ihr kamen sogar die Tränen vor Freude.,2.087948792
+6791,de,dozen,number,d____,Dutzend,Er kauft ein Dutzend rote Rosen.,0.721489724
+6792,de,clock,noun,c____,"Uhr, Wecker (nicht: watch)",Er erbte eine alte Pendeluhr von seiner Oma.,2.464093975
+6793,de,dating,noun,d_____,"Verabredung, romantisches Treffen",Ich habe morgen Abend eine Verabredung mit Anna.,-1.345326992
+6794,de,city,noun,c___,Stadt,Ich lebe in einer großen Stadt.,3.081827084
+6795,de,praise,verb,p_____,loben,Eltern sollten ihre Kinder regelmäßig loben.,-0.63520491
+6796,de,farmhouse,noun,f________,Bauernhaus,Die Familie wohnt in einem alten Bauernhaus.,0.944856882
+6797,de,forbidden,adjective,f________,verboten,"Es ist verboten, hier zu rauchen. ",1.700253193
+6798,de,isolated,adjective,i_______,abgelegen (nicht: remote),Sie wohnt gerne in einem abgelegenen Dorf.,-1.740002588
+6799,de,synonymous,adjective,s_________,gleichbedeutend,Sein Schweigen war gleichbedeutend mit Ablehnung.,-2.735188863
+6800,de,silence,noun,s______,Schweigen,Das Schweigen des Schülers wurde als Schuldbekenntnis gedeutet.,0.22495321
+6801,de,otherwise,adverb,o________,"sonst, ansonsten","Ich hoffe, dass morgen die Sonne scheint. Ansonsten müssen wir uns eine andere Aktivität überlegen.",1.496028865
+6802,de,handbook,noun,h_______,Handbuch,"Das Handbuch erklärt Schritt für Schritt, wie das Gerät zu verwenden ist. ",0.951921341
+6803,de,climb,verb,c____,"hinaufklettern, klettern",Er kletterte aufs Dach.,2.020932601
+6804,de,supernaturally,adverb,s_____________,"übernatürlich, außergwöhnlich",Dieser Mann ist außergewöhnlich groß und stark.,-2.830621327
+6805,de,ant,noun,a__,Ameise,Zucker zieht Ameisen an.,1.39147639
+6806,de,professional,noun,p___________,"Profi, Fachmann/Fachfrau",Sie sollten für diese Angelegenheit einen Profi um Hilfe bitten.,-0.034291329
+6807,de,miner,noun,m____,Bergarbeiter,Der Bergarbeiter hat über zehn Jahre in der Mine gearbeitet.,0.339991236
+6808,de,shiny,adjective,s____,glänzend,Elstern sind Vögel mit einer Vorliebe für glänzende Objekte.,-0.954460296
+6809,de,today,adverb,t____,heute,Hat jemand heute schon den Briefkasten geleert?,2.782249603
+6810,de,blackberry,noun,b_________,Brombeere,Ich liebe Mamas hausgemachte Brombeermarmelade.,-1.152925224
+6811,de,pound,noun,p____,Pfund,Der Pfund hat seit Ankündigung des Brexit immer mehr an Wert verloren.,2.42456165
+6812,de,dog,noun,d__,Hund,Wir haben einen Hund als Haustier.,3.29621052
+6813,de,unchallenged,adjective,u___________,unangefochten,Diese Lehrmeinung blieb viele Jahre lang unangefochten.,-3.123871591
+6814,de,fish,noun,f___,Fisch,Ich esse gerne Fisch.,3.53667554
+6815,de,french,adjective,f_____,französisch,Das französische Gericht schmeckt sehr gut.,1.677014045
+6816,de,option,noun,o_____,"Wahl, Möglichkeit","Du hast zwei Möglichkeiten, entweder gehst du weiter in die Schule oder du suchst dir einen Job.",0.252488998
+6817,de,production,noun,p_________,"Herstellung, das Erzeugen","Wir müssen unsere Herstellung noch effizienter machen, damit wir die Ware billiger verkaufen können.",1.908000033
+6818,de,division,noun,d_______,Teilung,Der endlose Krieg führte zu einer Teilung des Landes.,-0.81048843
+6819,de,back,noun,b___,Rücken,Mein Rücken schmerzt. Ich kann mich kaum bewegen.,2.90231773
+6820,de,intellectually,adverb,i_____________,geistig,Das ist eine geistig anspruchsvolle Aufgabe.,-1.747047527
+6821,de,universe,noun,u_______,Weltall,Sind wir wirklich die einzige intelligente Lebensform im Weltall?,1.237349257
+6822,de,factor,noun,f_____,"Faktor, Umstand","Die Eltern berücksichtigten alle Faktoren, bevor sie eine Entscheidung trafen.",1.63193353
+6823,de,fast,adverb,f___,schnell,Wir gingen so schnell wie wir konnten in die Schule.,2.702873834
+6824,de,character,noun,c________,"Eigenschaften eines Menschen, Persönlichkeit, Wesen, Wesensart","Er hört mir überhaupt nicht zu. Das ist ein Teil seiner Persönlichkeit, mit der ich überhaupt nicht zurecht komme. ",-0.367980196
+6825,de,luxury,noun,l_____,Luxus,"Der Jugendliche verabscheut es, im Luxus zu leben. ",0.507383508
+6826,de,geometry,noun,g_______,Geometrie,"Die Schülerin ist sehr gut in Mathematik, besonders in Geometrie.",0.741868047
+6827,de,stealing,noun,s_______,Diebstahl,Am Ende der Verhandlung wurde er wegen Diebstahl verurteilt.,-1.835198545
+6828,de,cook,noun,c___,Koch  (nicht: chef),Er ist ein hervorragender Koch!,0.348009108
+6829,de,extra,adjective,e____,zusätzlich,Es gibt kein zusätzliches Geld für dieses Projekt.,0.543835931
+6830,de,innocent,adjective,i_______,unschuldig,Sie ist unschuldig. Trotzdem hat sie den Prozess verloren.,0.06564239
+6831,de,might,verb,m____,könnte,"Ich habe ihm ein Brot gekauft, weil ich dachte, er könnte hungrig sein.",0.837859851
+6832,de,pursue,verb,p_____,verfolgen,Er verfolgt stets mit viel Fleiß seine künstlerischen Ziele.,-2.311821019
+6833,de,jail,verb,j___,"jdn einsperren, inhaftieren",Er wurde wegen Drogenkonsums inhaftiert.,1.05075346
+6834,de,fully,adverb,f____,"völlig, komplett, vollständig",Er war komplett angezogen.,1.782369727
+6835,de,relay,noun,r____,Staffel(lauf),Bei der 400 Meter Staffel konnte das Team aus den USA bei dieser WM überzeugen.,-2.735697655
+6836,de,compact,adjective,c______,"klein, handlich","Ich möchte mir eine kleine, handliche Kamera kaufen.",-2.540847683
+6837,de,copy,noun,c___,Kopie,Der Lehrer teilt eine Kopie aus.,2.070587286
+6838,de,invite,verb,i_____,jdn einladen,Ich möchte dich zu meiner Geburtstagsfeier einladen.,2.005809538
+6839,de,conservative,noun,c___________,Konservativer,Er ist ein überzeugter Konservativer.,0.935360475
+6840,de,broken,adjective,b_____,gebrochen,Seine Rippe ist gebrochen.,2.351197676
+6841,de,minor,adjective,m____,geringfügig,Es wurde eine geringfügige Änderung der Rede vorgenommen.,-0.365522012
+6842,de,lamp,noun,l___,Lampe,"Wenn du lesen möchtest, schalte die Lampe auf dem Tisch ein.",3.67233647
+6843,de,menu,noun,m___,Speisekarte,Der Kellner brachte uns die Speisekarten.,1.513466845
+6844,de,rise,verb,r___,steigen,Nach den schweren Regenfällen steigt der Wasserpegel stündlich.,0.729812384
+6845,de,copyright,noun,c________,Urheberrecht,Das Unternehmen wurde wegen Verletzung des Urheberrechts angeklagt.,-0.31091227
+6846,de,gifted,adjective,g_____,"talentiert, begnadeter",Sie ist eine begnadete Tänzerin.,-1.362808086
+6847,de,seemingly,adverb,s________,scheinbar,Nach einer scheinbar endlosen Anfahrt kamen wir am Hotel an.,-1.216154285
+6848,de,crucial,adjective,c______,"äußerst wichtig, richtungsweisend (nicht: vital)",Die Entscheidung ist richtungsweisend.,-2.572334406
+6849,de,treehouse,noun,t________,Baumhaus,Das Baumhaus hatte ihre Mutter mit ihnen gebaut.,1.578155439
+6850,de,tightly,adverb,t______,"fest, eng",Sie hielt seinen Arm ganz fest.,-1.240278172
+6851,de,earthquake,noun,e_________,Erdbeben,Es gab ein starkes Erdbeben in dieser Region und viele Häuser wurden dabei zerstört.,0.92640058
+6852,de,rival,noun,r____,Konkurrent / Konkurrentin,"Obwohl wir in derselben Branche arbeiten, sehe ich sie nicht wirklich als Konkurrentin.",-0.315694907
+6853,de,objective,adjective,o________,sachlich,Ein Außenstehender kann die Dinge sachlich beurteilen.,0.067276799
+6854,de,universally,adverb,u__________,allgemein,Diese Rechte sollten allgemein anerkannt sein.,-1.763637637
+6855,de,annually,adverb,a_______,jährlich,Die Veranstaltung findet jährlich statt.,0.029160458
+6856,de,inappropriate,adjective,i____________,"ungeeignet, unpassend","Die Art, mit mir zu sprechen, ist äußerst unpassend. ",-1.92363039
+6857,de,afford,verb,a_____,sich etw leisten,Ich kann mir momentan kein Auto leisten.,0.382746133
+6858,de,hospital,noun,h_______,Krankenhaus,Sie wurde im Krankenhaus operiert.,2.80870504
+6859,de,unattractive,adjective,u___________,reizlos,Die Hose hatte eine reizlose braune Farbe.,-2.289774083
+6860,de,glance,noun,g_____,Blick,Ich habe sie auf den ersten Blick erkannt.,-0.916399849
+6861,de,memo,noun,m___,Memo,Der Mitarbeiter sendet ein Memo an seine Kollegen.,2.223524956
+6862,de,backup,noun,b_____,"Unterstützung, Hilfe, Verstärkung",Da drin ist ein Typ mit einer Knarre. Ich brauche Verstärkung!,-1.881933547
+6863,de,covering,noun,c_______,"Bedeckung, Schicht",Der Boden war unter einer dünnen Schneeschicht versteckt.,-2.840472222
+6864,de,likely,adverb,l_____,höchstwahrscheinlich,Du musst höchstwahrscheinlich Eintritt für die Ausstellung zahlen.,-0.99159929
+6865,de,air,noun,a__,Luft,Die vielen Autos auf den Straßen verschmutzen die Luft.,2.438241643
+6866,de,neurologist,noun,n__________,Nervenarzt,Sie ist eine renommierte Nervenärztin.,-0.2702172
+6867,de,send,verb,s___,schicken,Könnten Sie mir diese Information in einer E-Mail schicken?,2.381363527
+6868,de,lock,verb,l___,etw abschließen,"Vergiss nicht, die Tür abzuschließen.",1.370431664
+6869,de,neurology,noun,n________,Neurologie,Im Bereich der Neurologie wurden große Fortschritt gemacht.,1.090263791
+6870,de,plug,verb,p___,Stecker,Ich ziehe den Stecker nach Benutzung des Wasserkochers immer aus der Steckdose.,-0.076236062
+6871,de,mechanically,adverb,m___________,mechanisch,Diese Maschine wird mechanisch betrieben.,0.074101874
+6872,de,agricultural,adjective,a___________,landwirtschaftlich,Mit Hilfe des neuen Produkts können landwirtschaftliche Erträge gesteigert werden.,-0.423231964
+6873,de,millionaire,noun,m__________,Millionär,Die Millionärin macht Urlaub in Hawaii.,0.061875795
+6874,de,pet,noun,p__,Haustier,Wir haben einen Hund als Haustier.,2.564635277
+6875,de,unhappy,adjective,u______,unglücklich,Du siehst heute irgendwie unglücklich aus.,0.445387131
+6876,de,telecommunications,noun,t_________________,Fernmeldewesen,Diese Erfindung stellte einen großen Fortschritt im Fernmeldewesen dar.,-3.00456914
+6877,de,hairdresser,noun,h__________,Friseur,"Ich muss wieder einmal zum Friseur, um mir die Haare schneiden zu lassen.",0.019471379
+6878,de,defeat,verb,d_____,"jdn/etw besiegen, schlagen (nicht: beat)",Der ältere Boxer hat den jüngeren besiegt.,-0.570392434
+6879,de,superhero,noun,s________,Superheld / Superheldin,Die Schwarze Witwe ist eine bekannte Superheldin der Marvel Comics.,0.660026547
+6880,de,genius,noun,g_____,Genie,Einstein war ein mathematisches Genie.,0.806818254
+6881,de,spare,verb,s____,entbehren,Kannst du ein paar Dollar entbehren?,-1.239547469
+6882,de,pose,verb,p___,(eine Gefahr) darstellen,Bereits in wenigen Stunden wird der Sturm keine ernsthafte Gefahr für die Bevölkerung darstellen.,-2.308589981
+6883,de,sake,noun,s___,willen,Um des Hausfriedens willen hilft er ab und zu bei der Hausarbeit.,-1.115247783
+6884,de,atom,noun,a___,Atom,Das einfachste Atom ist das des Wasserstoffs.,3.304533903
+6885,de,portray,verb,p______,"darstellen, abbilden","Die Künstlerin wollte ihn als starken, unabhängigen Mann darstellen.",-3.360833552
+6886,de,theological,adjective,t__________,theologisch,Das ist wohl eher eine theologische Frage.,0.804364401
+6887,de,scope,noun,s____,"Bereich, Rahmen","Dieses Problem liegt außerhalb des Rahmens, der in diesem Buch abgehandelt werden kann.",-3.174854129
+6888,de,conduct,verb,c______,etw durchführen,Die Forscher führen verschiedene Experimente durch.,-1.824490223
+6889,de,bit,noun,b__,Stück (nicht: piece),Es gibt noch Kuchen. Möchtest du noch ein Stück?,0.848688348
+6890,de,anger,verb,a____,"jdn ärgern, jdn wütend machen",Seine Anspielungen machen mich sehr wütend.,-3.391055879
+6891,de,mutation,noun,m_______,Mutation,Eine Mutation ist eine Veränderung der Gensequenz.,2.009914611
+6892,de,product,noun,p______,"Erzeugnis, Ware, Ergebnis","Dass in dieser Region nun Frieden herrscht, ist das Ergebnis von vielen Verhandlungen und diplomatischen Treffen.",-0.431750557
+6893,de,meteorology,noun,m__________,Meteorologie,Die Meteorologie beschäftigt sich mit Wetterphänomenen.,-1.048415046
+6894,de,mistake,noun,m______,Fehler,Ich habe einen Fehler gemacht.,2.868909987
+6895,de,subculture,noun,s_________,Subkultur,Jede neue Art von Musik bringt auch eine neue Subkultur mit sich.,2.091800049
+6896,de,magazine,noun,m_______,Zeitschrift,Die Frau abonniert eine Gartenzeitschrift.,1.357640588
+6897,de,hearing,noun,h______,Gehör,Sie hat ein sehr gutes Gehör.,1.819826152
+6898,de,temporary,adjective,t________,vorübergehend,"Es ist nur eine vorübergehende Maßnahme, aber immerhin.",-0.842257331
+6899,de,fire,noun,f___,Feuer,Das Feuer zerstörte den Bauernhof.,3.045054979
+6900,de,anchor,verb,a_____,ein Boot verankern,"Er versicherte sich, dass das Boot gut verankert war.",-1.126751539
+6901,de,lottery,noun,l______,Lotterie,Sie hat viel Geld in der Lotterie gewonnen.,1.184791737
+6902,de,aggressively,adverb,a___________,"angriffslustig, streitsüchtig",Der Plan wurde auf angriffslustige Art und Weise verfolgt und durchgesetzt.,-1.792003228
+6903,de,ride,verb,r___,"reiten, fahren",Er fährt nach der Schule immer gern etwas mit seinem Fahrrad.,2.42664394
+6904,de,mechanism,noun,m________,Mechanismus,Der Schließmechanismus dieser Box ist kaputt.,0.776365538
+6905,de,price,verb,p____,einen Preis für etwas festlegen,Er konnte erst nach langem Überlegen den Preis für seine Wohnung festlegen.,-0.666978398
+6906,de,shining,adjective,s______,glänzende,Sie ist ein glänzendes Beispiel für eine erfolgreiche Fotografin.,-0.660810606
+6907,de,lot,adverb,l__,viel,"Wir besitzen nicht viel, aber die Freude an der Musik kann uns niemand nehmen.",1.389071888
+6908,de,ignorance,noun,i________,Unwissenheit,Die Meinung basiert auf Unwissenheit und Vorurteilen.,-1.553393122
+6909,de,mass,noun,m___,Masse,Eine Masse an Leuten hat an der Veranstaltung teilgenommen.,1.754086038
+6910,de,norm,noun,n___,Norm,Die Produkte der Firma entsprechen internationalen Normen.,2.382732971
+6911,de,laugh,verb,l____,lachen,Mit meiner Freundin Maria lache ich sehr viel.,1.79800093
+6912,de,collaborator,noun,c___________,Mitarbeiter,Wir haben einen neuen Mitarbeiter für unser Projekt gefunden.,-2.442484189
+6913,de,warm,verb,w___,wärmen,Möchtest du dich an unserem Feuer wärmen?,2.307426549
+6914,de,meditation,noun,m_________,Meditation,"Meditation hilf mir, mich zu entspannen.",1.256920779
+6915,de,indefinitely,adverb,i___________,auf unbestimmte Zeit,Das Treffen wurde auf unbestimmte Zeit verschoben.,-2.760337664
+6916,de,applause,noun,a_______,Beifall,Der Künstler wurde mit großem Beifall empfangen.,0.935347165
+6917,de,tweet,verb,t____,twittern,Diesen Link werde ich heute noch twittern.,-0.66510898
+6918,de,priceless,adjective,p________,unbezahlbar,Die Treue von Mitarbeitern und Mitarbeiterinnen ist unbezahlbar und kann durch nichts ersetzt werden.,-1.761605962
+6919,de,striker,noun,s______,Stürmer / Stürmerin,"Das Team hat einen neuen Stürmer, der jetzt schon mehrere Tore erzielen konnte.",-2.598253179
+6920,de,number,noun,n_____,"Zahl, Ziffer",Welche Zahl steht auf der Tafel?,2.627173631
+6921,de,remarkably,adverb,r_________,"bemerkenswert, erstaunlich",Lukas spricht erstaunlich gut englisch.,-3.573523717
+6922,de,interior,noun,i_______,"Innere, Innenbereich",Der Innenbereich des Hauses muss vollständig saniert werden.,-1.207955646
+6923,de,handicap,noun,h_______,Behinderung,An dieser Sportveranstaltung können auch Menschen mit einer körperlichen Behinderung teilnehmen.,-0.573051726
+6924,de,motherhood,noun,m_________,Mutterschaft,"Für die moderne Frau ist es manchmal nicht leicht, die Mutterschaft und die eigene Karriere unter einen Hut zu bringen.",0.281896305
+6925,de,endurance,noun,e________,"Ausdauer, Durchhaltevermögen","Die Wanderer brauchten viel Ausdauer, um den Berg zu erklimmen. ",-1.864928362
+6926,de,community,noun,c________,"Gemeinde, Gemeinschaft",Ich möchte mich in der hiesigen Gemeinde einbringen. ,0.635109448
+6927,de,holder,noun,h_____,Besitzer,Ticketbesitzer benutzen bitte den Eingang A. ,-0.456304847
+6928,de,conclusive,adjective,c_________,"überzeugend, eindeutig",Das Verfahren wurde aufgrund eindeutiger Beweise eingestellt.,-4.707160456
+6929,de,speaking,noun,s_______,Sprechen,Das Sprechen vor einem Publikum hat ihm nie viel ausgemacht.,0.979142832
+6930,de,speech,noun,s_____,Rede,Zu Beginn des Seminars hielt der Direktor eine kurze Rede zur Begrüßung der Teilnehmerinnen aus aller Welt.,-0.283516717
+6931,de,snowball,noun,s_______,Schneeball,"Gerade als ich mich umdrehen wollte, wurde ich von einem Schneeball am Kopf getroffen.",2.246709866
+6932,de,exploded,adjective,e_______,"explodiert, Explosions-",Er fertigte eine Explosionszeichnung des Motors an.,-2.223271899
+6933,de,conservative,adjective,c___________,konservativ,Kleine Gemeinden mit einem hohen Anteil an Bauern sind sehr oft konservativ.,1.480554475
+6934,de,variety,noun,v______,Vielfalt,Eine Vielfalt an Gründen war für ihre Entscheidung bestimmend.,-0.21380038
+6935,de,morality,noun,m_______,Moral,Die alte Frau ist für ihre Moral und Ehrlichkeit bekannt.,-0.299520639
+6936,de,award,verb,a____,jdm etw verleihen,Sie verleihen ihm einen Preis.,-0.622450344
+6937,de,repair,verb,r_____,reparieren,Meine Nichte konnte glücklicherweise das Netzwerk ohne Probleme reparieren.,1.463334773
+6938,de,conclusion,noun,c_________,Schlussfolgerung,"Sie kam zu der Schlussfolgerung, dass man dem alten Mann nicht mehr helfen konnte.",0.65836492
+6939,de,thirst,noun,t_____,Durst,Dieser Durst ließ sich nicht so leicht stillen.,-0.30155717
+6940,de,crowd,verb,c____,"sich in etw hineindrängen, hineinquetschen",Alle Gäste drängten sich in das kleine Wohnzimmer und überraschten das Geburtstagskind.,-2.137672682
+6941,de,diabetic,adjective,d_______,zuckerkrank,Die zuckerkranke Frau muss sehr auf ihre Ernährung achten.,-0.31419008
+6942,de,score,verb,s____,punkten,Das Team punktet schließlich den Ausgleich.,-0.013579192
+6943,de,homeowner,noun,h________,Hausbesitzer,Die Hausbesitzerin vermietet ihre Wohnung.,-1.890836132
+6944,de,cable,noun,c____,Kabel,"Achtung, stolpere nicht über das Kabel am Boden.",0.865528416
+6945,de,umbrella,noun,u_______,Schirm,Sie spannte den Schirm auf.,3.246157417
+6946,de,confront,verb,c_______,jdm entgegentreten,Der Türsteher trat dem wütenden Discobesucher entgegen.,-1.578578859
+6947,de,proposed,adjective,p_______,"beantragt, vorgeschlagen",Wie wird sich das beantragte Verbot von Spritzmitteln auf die Landwirte auswirken?,-2.298638783
+6948,de,profound,adjective,p_______,"tiefgreifend, fundiert, umfangreich",Die Wissenschaftlerinnen und Wissenschaftler des Teams waren sich über die tiefgreifenden Auswirkungen des Klimawandels einig.,-1.681015978
+6949,de,forced,adjective,f_____,"erzwungen, gekünstelt",Sie hat immer ein so gekünsteltes Lächeln. Ich kann ihr nicht vertrauen.,-2.676537613
+6950,de,endure,verb,e_____,"etw ertragen, aushalten",Ich kann den Schmerz nicht mehr ertragen.,-1.508174895
+6951,de,preference,noun,p_________,"Vorliebe, Bevorzugung",Viele ältere Personen haben eine Vorliebe für kleinere Hunderassen.,-0.847929022
+6952,de,sketch,noun,s_____,Skizze,Vor jedem großen Gemälde fertigte sie immer einige Skizzen an.,-1.608582361
+6953,de,simple,adjective,s_____,einfach,Die letzte Aufgabe war wirklich sehr einfach im Vergleich zu den restlichen Aufgaben.,1.03531025
+6954,de,require,verb,r______,erfordern,Dieses Rezept erfordert viel Geschick und Geduld.,-0.837116599
+6955,de,overtime,noun,o_______,Überstunden,Er hat diesen Monat viele Überstunden gemacht.,-0.678157711
+6956,de,nursing,adjective,n______,"Krankenpflege-, Pflege-",Die Pflegestation ist voll belegt.,-2.154198824
+6957,de,butterfly,noun,b________,Schmetterling,Dort fliegen zwei wunderschöne Schmetterlinge.,1.618751797
+6958,de,arrow,noun,a____,Pfeil,Die Kinder spielen mit Pfeil und Bogen.,0.79262967
+6959,de,quality,noun,q______,Güte,Die Güte unserer Produkte spricht für sich.,1.427657531
+6960,de,necessary,adjective,n________,notwendig,"Es ist nicht notwendig, dass du extra bei mir vorbeifährst.",0.192339448
+6961,de,operative,noun,o________,"Facharbeiter, Funktionär",Der Facharbeiter teilt die Kollegen für die nächste Schicht in der Fabrik ein.,-4.432051879
+6962,de,great,adverb,g____,"toll, super",Das hast du toll gemacht!,0.737749541
+6963,de,answer,verb,a_____,beantworten,"Ich warte immer noch darauf, dass du meine Frage beantwortest.",2.562245494
+6964,de,blink,verb,b____,blinzeln,Ich habe keine Sonnenbrille und muss deshalb blinzeln.,0.684622736
+6965,de,aerobics,noun,a_______,Aerobic,Aerobic verstärkt den Umsatz von Sauerstoff im Körper.,-0.599531409
+6966,de,basics,noun,b_____,Grundlagen,In der heutigen Unterrichtseinheit starten wir mit den Grundlagen.,1.602975953
+6967,de,zone,noun,z___,"Gebiet, Bereich",Das ist ein Gebiet mit großen Temperaturunterschieden.,1.593889804
+6968,de,touching,adjective,t_______,berührend,Es war wirklich ein sehr berührender Film.,0.274669123
+6969,de,manipulator,noun,m__________,Manipulator,"Sie ist eine grandiose Manipulatorin. Nimm dich in Acht, dass du nicht auch ein Opfer ihrer Intrigen wirst.",0.031795722
+6970,de,bury,verb,b___,"jdn begraben, etw vergraben",Der tote Mann wurde begraben.,0.195388631
+6971,de,acid,noun,a___,Säure,Dieser biologische Wein enthält kaum Säure.,1.241512925
+6972,de,show,noun,s___,Aufführung,Sie wollte unbedingt die neue Aufführung des Stücks in London sehen.,-0.667311432
+6973,de,unemployed,adjective,u_________,arbeitslos,Wie lange sind Sie schon arbeitslos?,0.12198032
+6974,de,insider,noun,i______,Insider,Ein Insider hat die Gerüchte bestätigt.,1.720260698
+6975,de,stumble,verb,s______,stolpern,"Wenn man im Zug nicht aufpasst, stolpert man leicht über die Füße von anderen Passagieren.",-1.242138887
+6976,de,above,preposition,a____,über,Die Vögel flogen hoch über den Dächern der Häuser.,0.754219133
+6977,de,nomination,noun,n_________,Ernennung,Ihre Ernennung wurde von allen akzeptiert.,0.4837688
+6978,de,health,noun,h_____,Gesundheit,"Ihre Gesundheit verbesserte sich radikal, als sie ihre Ernährung umstellte und mehr Sport betrieb.",2.926678088
+6979,de,rehabilitation,noun,r_____________,Genesung,Nach dem Autounfall musste er zur Genesung in eine Spezialklinik.,-1.828309941
+6980,de,swimsuit,noun,s_______,Badeanzug,Sie holte ihren Badeanzug und ein Handtuch.,0.656172287
+6981,de,streak,noun,s_____,Streifen,Man kann dieses Nagetier an seinen hellen Streifen am Kopf erkennen.,-5.342245369
+6982,de,disturbed,adjective,d________,"geistig verwirrt, emotional gestört",Die geistig verwirrten Kinder brauchen Hilfe.,-2.898023083
+6983,de,dilemma,noun,d______,Zwangslage,"Er befindet sich in einer Zwangslage und weiß nicht, wie er wieder rauskommt. ",-2.417873658
+6984,de,knight,verb,k_____,Ritter,Der Ritter kämpft um die Gunst der Prinzessin.,1.343082045
+6985,de,cake,noun,c___,Kuchen,Der Kuchen schmeckt lecker.,3.231178143
+6986,de,powerful,adjective,p_______,mächtig,Es handelt sich um einen besonders mächtigen und gefährlichen General.,0.399681065
+6987,de,large,adjective,l____,groß (nicht: big),Das Einfamilienhaus hat einen außergewöhnlich großen Gartenanteil.,2.12814504
+6988,de,official,adjective,o_______,offiziell,Es wird eine offizielle Untersuchung eingeleitet.,1.791591448
+6989,de,behind,adverb,b_____,"hinten, zurück",Tom blieb zurück.,0.255242618
+6990,de,swimming,noun,s_______,Schwimmen,"Vergiss nicht, dass heute noch Schwimmen ist.",2.340059347
+6991,de,newsletter,noun,n_________,Rundschreiben,Das Rundschreiben informiert die Stammkunden über die neue Produktpalette.,-0.846487664
+6992,de,appeal,verb,a_____,Berufung einlegen,Wir werden gegen das Urteil Berufung einlegen.,-2.215084034
+6993,de,state,noun,s____,Zustand,Der derzeitige Zustand der Schule ist wirklich nicht gut und wir müssen bald renovieren.,-0.731938387
+6994,de,shape,verb,s____,gestalten,Wir wollen mit diesem Programm auch die Zukunft unseres Ortes aktiv gestalten.,-2.346113689
+6995,de,mention,verb,m______,jdn/etw erwähnen,Sie hat das Thema den ganzen Abend nicht erwähnt.,0.680238849
+6996,de,plate,noun,p____,Teller,"Bitte spüle den Teller ab, bevor du ihn in den Geschirrspüler gibst.",1.79518487
+6997,de,firm,adjective,f___,fest,Anna schläft besser auf einer festen Matratze.,-1.948786371
+6998,de,edition,noun,e______,Ausgabe,Das Buch erscheint in einer neuen Ausgabe.,0.058864387
+6999,de,autopilot,noun,a________,automatische Steuerungsanlage in Flugzeugen,"Der Pilot entspannt sich, während das Flugzeug mit der automatischen Steuerungsanlage fliegt. ",-0.871575998
+7000,de,biology,noun,b______,Biologie,Biologie war in der Schule mein Lieblingsfach.,2.502236902
+7001,de,cattle,noun,c_____,Vieh,Das Vieh grast auf der Weide.,-0.778953735
+7002,de,newly,adverb,n____,"kürzlich, neulich (nicht: recently)",Der erst kürzlich ernannte König starb an einem Herzinfarkt.,-0.300352438
+7003,de,surgery,noun,s______,Operation,Nach der Operation muss der Patient noch drei Tage im Spital bleiben.,-0.02852395
+7004,de,communicative,adjective,c____________,"gesprächig, mitteilsam",Er ist ein sehr gesprächiger Junge. ,-1.269453224
+7005,de,message,noun,m______,Nachricht,Ich habe deine Nachricht erhalten.,1.806440187
+7006,de,status,noun,s_____,Status,"Ich will einen anderen Dienstvertrag, weil mein Status als Selbstständiger in dieser Firma zu unsicher geworden ist.",2.023606088
+7007,de,defy,verb,d___,"sich jdm/etw widersetzen, sich etw entziehen",Die Demonstranten widersetzten sich der Polizei.,-2.811446409
+7008,de,circular,adjective,c_______,rund,Sie brachte den Kaffee auf einem runden Tablett.,-1.561335335
+7009,de,oil,noun,o__,Erdöl,Das Land hat ein großes Erdölvorkommen.,2.47997424
+7010,de,preserve,verb,p_______,bewahren,Die Stadt möchte den Charme des ursprünglichen Stadtkerns bewahren.,-1.368643744
+7011,de,marked,adjective,m_____,"deutlich, auffallend",Die Mutter bemerkte eine deutliche Veränderung im Verhalten ihres Kindes.,-2.950016121
+7012,de,bow,noun,b__,Verbeugung,Er machte eine Verbeugung wie vor einem König.,-0.167683572
+7013,de,weakness,noun,w_______,Schwäche,Er wollte kein Zeichen von Schwäche zeigen.,0.947680948
+7014,de,residence,noun,r________,Wohnsitz,Der offizielle Wohnsitz des Präsidenten bietet viel Platz und ist gut erreichbar.,-0.049253781
+7015,de,repeated,adjective,r_______,wiederholt,Sein wiederholtes Klopfen an der Tür hat mich schließlich geweckt.,-0.315776805
+7016,de,rabbit,noun,r_____,"Kaninchen, Hase",Alice folgte dem weißen Kaninchen bis zu seinem Bau.,2.169797231
+7017,de,noun,noun,n___,Substantiv,Substantive beginnen im Deutschen mit einem Großbuchstaben.,0.469946803
+7018,de,reportedly,adverb,r_________,"angeblich, Berichten zufolge",Angeblich hat der Sturm kaum Schäden verursacht.,-1.981816291
+7019,de,domestically,adverb,d___________,im Inland,Die Waren wurden im Inland produziert.,-1.759238751
+7020,de,fatal,adjective,f____,tödlich (nicht: lethal),Gestern passierte ein tödlicher Unfall auf der Autobahn.,-0.104267291
+7021,de,heterosexual,noun,h___________,heterosexuell,Es gibt zahlreiche Forschungen zu häuslicher Gewalt in heterosexuellen Beziehungen.,0.468578791
+7022,de,permanently,adverb,p__________,ständig,"Sie sagt, dass sie ständig müde wäre.",-0.897798281
+7023,de,difficult,adjective,d________,"schwierig, schwer",Die Aufgabe ist schwierig.,1.431740346
+7024,de,mat,noun,m__,Matte,Sie liegt im Garten auf einer Strohmatte.,2.130179925
+7025,de,dance,noun,d____,Tanz,Sie führten einen traditionellen Tanz auf.,2.89014928
+7026,de,standby,noun,s______,Bereitschaft,"Wir haben immer ein Gerät in Bereitschaft für den Fall, das etwas in der Fabrik schiefgeht.",-2.281945859
+7027,de,very,adjective,v___,genau,"Das ist genau das Buch, nach dem ich gesucht habe!",-1.048354092
+7028,de,outrage,noun,o______,"Empörung, Entrüstung",Die öffentliche Empörung über den Vorfall ist groß.,-1.98561882
+7029,de,fear,verb,f___,fürchten,Die Familie fürchtet um das Leben der Großmutter.,1.744599842
+7030,de,ideal,adjective,i____,ideal,Das Wetter war ideal für eine Wanderung in den Bergen.,2.674588844
+7031,de,deploy,verb,d_____,jdn/etw einsetzen,Soldaten wurden in diesem Gebiet eingesetzt.,-2.210211782
+7032,de,divert,verb,d_____,"etw verlegen, umleiten",Der Verkehr muss wegen eines Unfalls umgeleitet werden. ,-2.807402757
+7033,de,suddenly,adverb,s_______,plötzlich,"Plötzlich fiel mir ein, dass ich meine Herdplatte noch nicht ausgeschalten hatte.",0.978372575
+7034,de,double,noun,d_____,Doppelgänger,Der Mann schaut wie mein Onkel aus – er ist sein Doppelgänger. ,0.75911819
+7035,de,backwards,adverb,b________,"rückwärts, nach hinten",Er fiel rückwärts auf den Boden.,1.892653553
+7036,de,detective,noun,d________,Kriminalbeamter,Die Kriminalbeamtin arbeitet pausenlos an dem Fall.,-0.181312748
+7037,de,steep,adjective,s____,steil,Der Hang war ihr zu steil und sie schnallte sich sofort ihre Skier ab.,-0.835547709
+7038,de,concert,noun,c______,Konzert,Ich besuche gerne klassische Konzerte.,2.841687445
+7039,de,birthplace,noun,b_________,Geburtsort,Von allen Studierenden wurden Name und Geburtsort erfasst.,1.023182191
+7040,de,crowned,adjective,c______,gekrönt,"Queen Elizabeth war erst 27 Jahre alt, als sie 1953 zur Königin gekrönt wurde. ",1.819301633
+7041,de,wave,verb,w___,winken,Kinder winken gerne den Leuten aus dem Zug.,-0.84408776
+7042,de,nowhere,adverb,n______,nirgends,Nirgends auf der Welt ist es schöner als hier.,1.823864054
+7043,de,preliminary,adjective,p__________,vorläufig,Die vorläufigen Ergebnisse der Studie werden nächste Woche veröffentlicht.,-2.282849523
+7044,de,hurt,adjective,h___,verletzt,Der verletzte Hund wurde zum Tierarzt gebracht. ,1.387425462
+7045,de,float,verb,f____,treiben,Die Blätter treiben auf der Wasseroberfläche. ,-0.755138966
+7046,de,exchange,noun,e_______,"Tausch, Austausch",Der Austausch der Gefangenen konnte wie geplant durchgeführt werden.,0.832896986
+7047,de,fall,noun,f___,"Fall, Sturz",Der Doktor untersuchte die Patienten nach dem Sturz.,2.265759829
+7048,de,fund,noun,f___,Fonds,"Die Gemeinde richtete einen Fond ein, um Waisen zu helfen.",-2.276057008
+7049,de,scratch,verb,s______,kratzen [nicht: scrape],Nachdenklich kratzt er sich am Kopf.,0.077611092
+7050,de,idealistic,adjective,i_________,idealistisch,"Er ist sehr idealistisch und versucht, alles perfekt zu machen. ",0.894063186
+7051,de,nationally,adverb,n_________,"national (nicht endend in ""-wide"")",Sie handeln innerhalb von national anerkannten Standards.,-0.384386036
+7052,de,express,verb,e______,etw ausdrücken,Er konnte seine Gefühle nicht richtig ausdrücken.,-0.14462243
+7053,de,synthetic,adjective,s________,künstlich,Nylon ist ein künstliches Gewebe.,-0.983518181
+7054,de,government,noun,g_________,Regierung,Wir wählen kommenden Sonntag eine neue Regierung.,0.644722602
+7055,de,man,noun,m__,Mann,Der alte Mann wohnt alleine.,2.569802504
+7056,de,everyone,misc,e_______,jeder (nicht: everybody),Jeder freute sich für die frisch gebackenen Eltern.,1.093799196
+7057,de,mentality,noun,m________,Mentalität,Dieses Volk hat eine besondere Mentalität.,1.208120219
+7058,de,movie,noun,m____,Kinofilm,Der Kinofilm hat mir gut gefallen.,1.967312286
+7059,de,cruise,verb,c_____,eine Kreuzfahrt machen,Ich mache eine Kreuzfahrt durch die Karibik mit meinem Ehemann.,0.610177266
+7060,de,architectural,adjective,a____________,architektonisch,Die Innenstadt ist voller architektonischer Details.,-2.127660556
+7061,de,online,adverb,o_____,online,Sie arbeitet hauptsächlich online.,2.540642703
+7062,de,old,adjective,o__,alt,Wie alt bist du?,3.176971681
+7063,de,related,adjective,r______,verwandt,"Wir sehen einander sehr ähnlich, aber wir sind sicher nicht miteinander verwandt.",-0.068286328
+7064,de,obstacle,noun,o_______,Hindernis,Menschen im Rollstuhl müssen im Alltag viele Hindernisse überwinden.,-0.2626458
+7065,de,criminal,adjective,c_______,kriminell,Er wurde für sein kriminelles Verhalten bestraft.,1.524781048
+7066,de,dining,noun,d_____,Speise-,Sie setzen sich im Zug in den Speisewagen.,-1.998361662
+7067,de,ship,noun,s___,Schiff,Bananen und Zucker werden meist mit einem Schiff transportiert.,2.910427417
+7068,de,war,noun,w__,Krieg,Der Krieg zwischen England und Frankreich dauerte mehr als 100 Jahre.,3.609436199
+7069,de,territorial,adjective,t__________,Gebiets-,Beide Länder wollen ihre Gebietsansprüche nicht aufgeben.,-0.952161106
+7070,de,topless,adjective,t______,oben ohne,Einige sonnten sich oben ohne.,0.167798194
+7071,de,retain,verb,r_____,(zurück)behalten,"Wenn du nicht zahlst, darf der Lieferant noch nicht gelieferte Ware zurückbehalten.",-2.500195316
+7072,de,frame,noun,f____,Rahmen,Die Zeichnung hat einen goldenen Bilderrahmen.,1.26034247
+7073,de,pretended,adjective,p________,"vorgetäuscht, geheuchelt",Sie lächelte ihm mit vorgetäuschter Freundlichkeit zu.,-1.931884181
+7074,de,clarity,noun,c______,Klarheit,Ich war über die Klarheit des Bildes erstaunt.,-0.987208683
+7075,de,execute,verb,e______,jdn hinrichten,Der Gefangene wurde begandigt und deshalb nicht hingerichtet.,0.223534135
+7076,de,unsuccessfully,adverb,u_____________,vergeblich,"Sie versuchte vergeblich, ihm zu imponieren.",-2.404249743
+7077,de,surrounding,adjective,s__________,umliegend,Von dem Balkon sieht man in die umliegenden Gärten.,0.182271014
+7078,de,demographically,adverb,d______________,demografisch,Die demographisch bedingten Probleme müssen gelöst werden.,-1.637331502
+7079,de,peaceful,adjective,p_______,friedlich,Es wird nach einer friedlichen Lösung des Konflikts gesucht.,1.660165067
+7080,de,pledge,noun,p_____,Zusicherung [nicht: promise],Die Zusicherung der Regierung wurde sogar schriftlich bestätigt.,-2.792496045
+7081,de,hard,adjective,h___,hart,Auf den harten Holzbänken kann man nicht den ganzen Tag sitzen.,2.415648147
+7082,de,instead,adverb,i______,stattdessen,"Wenn du keine Tomaten mehr hast, kannst du Paprika stattdessen verwenden.",0.742932549
+7083,de,spotlight,noun,s________,Scheinwerferlicht,Sie ist wie geschaffen für das Leben im Scheinwerferlicht.,-0.71264274
+7084,de,position,verb,p_______,"platzieren, aufstellen",Sie müssen das Mikrofon in direkter Nähe zu ihrem Mund aufstellen.,-1.808547573
+7085,de,covered,adjective,c______,überdacht,Der überdachte Markt ist gut besucht. ,-0.582706327
+7086,de,lifeguard,noun,l________,Rettungsschwimmer,Die Rettungsschwimmer retten einen Mann vor dem Ertrinken.,-1.221999366
+7087,de,coordinator,noun,c__________,Koordinator,Sie ist die Koordinatorin des Projekts und für alle Anfragen verantwortlich.,0.869956758
+7088,de,propose,verb,p______,"beantragen, vorschlagen","Ich schlage vor, dass wir das Meeting um eine Woche verschieben.",-0.422744534
+7089,de,package,noun,p______,"Paket, Päckchen (nicht: parcel)",Ich versende das Paket mit der Post.,-0.214128953
+7090,de,beginning,noun,b________,Anfang,Der Anfang des Films war sehr ungewöhnlich.,1.988736737
+7091,de,inverted,adjective,i_______,Anführungs-,In diesem Satz braucht es Anführungszeichen.,-2.624951494
+7092,de,stay,noun,s___,Aufenthalt,Sie scheinen ihren Aufenthalt wirklich genossen zu haben.,0.840807085
+7093,de,destroyer,noun,d________,Zerstörer,Der unbekannte Zerstörer wurde noch nicht gefunden.,0.896556677
+7094,de,surname,noun,s______,"Nachname, Familienname (nicht: second name, family name)",Wie lautet dein Familienname?,0.490861272
+7095,de,pile,verb,p___,etw stapeln,"Die Männer stapeln das Holz, damit sie es später besser verbrennen können.",-1.533033646
+7096,de,sunglasses,noun,s_________,Sonnenbrille,Jetzt habe ich doch schon wieder meine Sonnenbrille zu Hause vergessen.,1.934791444
+7097,de,surviving,adjective,s________,überlebend,Die überlebenden Tiere sehnten sich nach Freiheit. ,-0.029751093
+7098,de,construction,noun,c___________,Bau,Die Gemeinde wird den Bau eines neuen Kindergartens priorisieren.,-0.063485628
+7099,de,pipeline,noun,p_______,"lange Leitung von Rohren, v.a. zum Transport von Öl, Gas oder Wasser","Eine lange Leitung von Rohren wurde verlegt, um das Gas von Kasachstan nach China zu transportieren.",0.620589496
+7100,de,magnificent,adjective,m__________,"wunderbar, großartig (nicht: marvellous)",Das war eine wunderbare Vorstellung.,-2.050818878
+7101,de,juice,noun,j____,Saft,Zum Frühstück trinke ich gerne Orangensaft.,2.284668841
+7102,de,panorama,noun,p_______,Panorama,Das Panorama von der Bergspitze aus ist wunderschön.,2.320369401
+7103,de,connect,verb,c______,"anschließen, an etw angeschlossen werden",Sie schloss die beiden Boxen an den Fernseher an.,0.08038138
+7104,de,content,noun,c______,Inhalt,Wir verkaufen den gesamten Inhalt unserer Küche auf eBay.,-0.402550857
+7105,de,supervise,verb,s________,jdn beaufsichtigen,Die Lehrerin beaufsichtigt die Schüler während der Pause.,-1.349707346
+7106,de,financially,adverb,f__________,finanziell,Finanziell gesehen geht es der Familie gut.,0.372773738
+7107,de,protein,noun,p______,Eiweiß,Die meisten Menschen nehmen wichtiges Eiweiß über das Essen von Tierprodukten und Hülsenfrüchte zu sich.,0.930449089
+7108,de,loop,noun,l___,Schlaufe,Er zog seinen Gürtel durch die Gürtelschlaufen der Hose.,-1.255046857
+7109,de,frequently,adverb,f_________,häufig,Der Bus kommt häufig.,-0.037182915
+7110,de,intervention,noun,i___________,Eingriff (nicht: interference),Man ist über die vielen medizinischen Eingriffe besorgt.,-2.276461717
+7111,de,gymnastic,adjective,g________,turnerisch,Ihre turnerische Leistungen sind gut.,0.630600292
+7112,de,appearance,noun,a_________,Aussehen,Aussehen ist nicht alles.,-1.230974391
+7113,de,safely,adverb,s_____,sicher,Nach einer sehr langen Autofahrt kam sie sicher zu Hause an.,-1.294272845
+7114,de,notice,verb,n_____,jdn/etw bemerken,"Ich bemerkte, dass ich meinen Schal verloren hatte.",0.984118905
+7115,de,scary,adjective,s____,gruselig,Die Szene in dem Film fand ich richtig gruselig.,0.23205626
+7116,de,multiple,adjective,m_______,mehrfach,Christian wurde des mehrfachen Lügens bezichtigt.,-0.703375149
+7117,de,cruel,adjective,c____,"grausam, gemein",Wie kannst du nur so gemein zu ihr sein?,-0.484140148
+7118,de,keyword,noun,k______,"Schlüsselwort, Stichwort","Lüge mich nie an, Ehrlichkeit ist das Schlüsselwort.",1.739139998
+7119,de,paintball,noun,p________,Paintball,Hast du schon einmal Paintball gespielt?,3.18409641
+7120,de,cruise,noun,c_____,Kreuzfahrt,Ich mache eine Kreuzfahrt mit meinem Ehemann.,1.214599392
+7121,de,imagine,verb,i______,sich jdn/etw vorstellen,"Die gestresste Mutter versuchte sich vorzustellen, sie wäre jetzt am Meer. ",0.746387747
+7122,de,destructive,adjective,d__________,zerstörerisch (nicht: devastating),Die Bombe hat eine zerstörerische Gewalt.,-1.911459159
+7123,de,chief,adjective,c____,Haupt- (nicht: major),Arbeitslosigkeit war der Hauptgrund für die Unzufriedenheit der Menschen.,-3.297978405
+7124,de,permit,noun,p_____,"Erlaubnis, Schein","Sie können in diesem Land nur arbeiten, wenn sie eine Arbeitserlaubnis haben.",-0.216294578
+7125,de,footwear,noun,f_______,Schuhwerk,Für die Wanderung brauchen wir festes Schuhwerk.,-1.382104996
+7126,de,highlight,noun,h________,Höhepunkt,Der Höhepunkt des Abends sind die Bauchtänzerinnen.,-0.173104285
+7127,de,resolve,verb,r______,etwas lösen,Die beiden Kollegen konnten ihren Streit durch ein längeres Gespräch lösen.,-1.007185027
+7128,de,voluntary,adjective,v________,freiwillig,Die Mitarbeit bei den Workshops an den Nachmittagen ist freiwillig.,-1.161149862
+7129,de,starlight,noun,s________,Sternenlicht,"Selbst wenn der Mond nicht sichtbar ist, wird die Wüste von Sternenlicht erhellt.",1.413288676
+7130,de,instantly,adverb,i________,sofort ,"Obwohl sie sich jahrelang nicht gesehen hatten, hat sie ihn sofort erkannt. ",-2.853220838
+7131,de,earth,noun,e____,Erde,Der Planet Erde bietet vielen Lebewesen einen Lebensraum.,2.504942442
+7132,de,patient,noun,p______,Patient,Der Arzt verschreibt der Patientin Medikamente.,2.615707517
+7133,de,wasting,adjective,w______,zehrend,Er litt an einer zehrenden Krankheit.,-3.40623498
+7134,de,disturbing,adjective,d_________,"aufwühlend, bestürzend",Ich finde die Handlung des Films sehr aufwühlend.,-2.287863145
+7135,de,breaking,noun,b_______,Einbruch (nicht: burglary),Gestern fand ein Einbruch in dieser Wohnsiedlung statt.,-3.173521577
+7136,de,initiation,noun,i_________,Aufnahme,Der Club führt Aufnahmezeremonien für neue Mitglieder durch.,-2.625683207
+7137,de,calm,adjective,c___,"ruhig, gelassen",Erst einige Zeit nach dem Unfall wurde ich ruhiger.,1.792215768
+7138,de,excessive,adjective,e________,übermäßig,Übermäßiger Konsum von Alkohol ist ungesund.,-1.77892755
+7139,de,purchase,noun,p_______,Anschaffung,Die Anschaffung eines neuen Autos kann eine Familie belasten.,-1.178207859
+7140,de,spokesman,noun,s________,Sprecher,Der Sprecher der Gruppe hat noch keine Pressekonferenz einberufen.,-1.733111051
+7141,de,deserved,adjective,d_______,verdient,Das war ein verdienter Sieg.,-0.665320856
+7142,de,remix,noun,r____,Remix,Derzeit scheint den meisten Hörern nur der Remix des Liedes bekannt zu sein.,2.332489449
+7143,de,polarization,noun,p___________,Verhärtung von Meinungen,Die neuen Medien wie Facebook und Twitter tragen teilweise stark zu einer zunehmenden Verhärtung von gegensätzlichen Meinungen bei.,-4.397582663
+7144,de,recommend,verb,r________,empfehlen,"Ich kann dieses Buch durchaus empfehlen, weil es abwechslungsreich ist und eine emotional tiefgehende Geschichte erzählt.",-0.280985974
+7145,de,faster,adjective,f_____,schneller,Schnellere Autos mag ich lieber.,2.920690915
+7146,de,hysterical,adjective,h_________,hysterisch,Das Kind war total hysterisch und hörte nicht mehr auf die beruhigenden Worte der Eltern.,0.618557978
+7147,de,beer,noun,b___,Bier,"Während er das Match im Fernsehen anschaut, trinkt er ein paar Bier.",1.675966129
+7148,de,sleepwalking,adjective,s___________,schlafwandelnd,"Schlafwandelnde Kinder und Erwachsene können sich selbst in Gefahr bringen, wenn sie ihr Zimmer verlassen.",-1.052965876
+7149,de,requirement,noun,r__________,Anforderung,Erfolgreiche Bewerber und Bewerberinnen müssen einige Anforderungen erfüllen.,-1.786034627
+7150,de,dairy,noun,d____,Molkerei,Diese Molkerei produziert sehr gute Butter. ,-0.811943698
+7151,de,stereotypical,adjective,s____________,klischeehaft,In dem Roman werden alle Frauen klischeehaft als zartbesaitet und hilflos dargestellt.,-2.510156439
+7152,de,crisis,noun,c_____,Krise,"Manche behaupten, dass das Bildungswesen in Österreich in einer Krise steckt.",1.09927097
+7153,de,sister,noun,s_____,Schwester,Ihre Schwester ist um ganze dreizehn Jahre älter als sie.,3.113391935
+7154,de,amount,verb,a_____,sich auf etw belaufen,Die Kosten belaufen sich auf etwa 500 Euro.,-1.943648553
+7155,de,grid,noun,g___,"Raster, Gitter",Alle Straßen in dieser Großstadt bilden ein großes Raster.,-1.40101126
+7156,de,style,noun,s____,Art,Ich komme mit ihrer Art zu unterrichten gar nicht klar.,-0.780374065
+7157,de,prefer,verb,p_____,bevorzugen,"Ich würde es bevorzugen, wenn wir in Zukunft kürzere Meetings hätten.",0.644619226
+7158,de,hairstyle,noun,h________,Frisur,Die neue Frisur steht dir sehr gut!,-0.831428592
+7159,de,four,number,f___,vier,Das Ehepaar hat vier Kinder.,3.366705248
+7160,de,reward,noun,r_____,Belohnung,Für deine harte Arbeit diese Woche hast du eine Belohnung verdient.,-0.431348344
+7161,de,parody,verb,p_____,jdn/etw parodieren,Ein Mann parodiert Posen des klassischen Balletts.,-1.486142301
+7162,de,formally,adverb,f_______,offiziell (nicht: officially),Ich muss den Arbeitsvertrag im Büro des Chefs offiziell unterschreiben.,-0.936480075
+7163,de,soak,verb,s___,einweichen,"Bei dem Kurs habe ich gelernt, dass man Reis immer vor dem Kochen waschen und in Wasser einweichen sollte.",-1.21809504
+7164,de,discriminating,adjective,d_____________,"kritisch, anspruchsvoll",Kritische Kunden beschweren sich über die Qualität der letzten Kollektion.,-3.509571493
+7165,de,spa,noun,s__,Thermalbad,"Wenn das Wetter einmal schlecht ist, könnten wir auch ins Thermalbad fahren.",-0.32820753
+7166,de,guard,noun,g____,"Wache, Wächter",Der Wächter überprüfte meine Dokumente und öffnete mir dann den Schranken.,0.316849137
+7167,de,hierarchy,noun,h________,Rangordnung,In dieser Gemeinde steht die Bürgermeisterin an der Spitze der politischen Rangordnung.,-1.359510877
+7168,de,company,noun,c______,"Firma, Unternehmen",Sie arbeitet seit Jahren bei der gleichen Firma.,0.771852588
+7169,de,drum,noun,d___,Trommel,Er besucht einen Trommelkurs und es macht ihm viel Spaß.,3.422044816
+7170,de,bold,adjective,b___,mutig (nicht: brave),Das war eine mutige Entscheidung.,-1.360012104
+7171,de,peasant,noun,p______,Bauer (nicht: farmer),Viele Bauern starben während der Dürre in Afrika.,-1.959637778
+7172,de,pump,verb,p___,pumpen,Wir konnten mit einer Pumpe das Wasser aus dem Keller pumpen.,2.223035898
+7173,de,round,adverb,r____,rings um,Immer mehr Schaulustige versammelten sich rings um die Unfallstelle.,1.870760301
+7174,de,expense,noun,e______,Ausgabe,Die monatliche Miete fürs Haus zählt zu unseren größeren Ausgaben.,-1.402648652
+7175,de,poster,noun,p_____,Plakat,Überall werden derzeit Plakate für das anstehende Konzert aufgehängt.,-0.274893364
+7176,de,joint,adjective,j____,gemeinsam,Das Ehepaar hat ein gemeinsames Bankkonto eröffnet.,-0.539154711
+7177,de,adjust,verb,a_____,"etwas anpassen, zurechtrücken, justieren",Sie passen sich der neuen Situation schnell an.,-0.906261879
+7178,de,unprofessionally,adverb,u_______________,unprofessionell,Sie handelte oft sehr unprofessionell.,-1.981213329
+7179,de,privacy,noun,p______,Privatsphäre,Alle wollen ihre Privatsphäre so gut wie möglich schützen.,0.45080357
+7180,de,aerobic,adjective,a______,aerob,Regelmäßiges aerobes Training hilft nachweislich bei der Vermeidung von lebensbedrohlichen Leiden wie Bluthochdruck oder Herzkrankheiten.,0.001479274
+7181,de,considering,misc,c__________,in Anbetracht,"In Anbetracht der Menge an Seiten, die sie für die Prüfung lernen musste, war sie relativ lang dran.",-1.059246173
+7182,de,rehearsal,noun,r________,Probe,Wir haben schon die erste Probe abgehalten und werden das Stück in zwei Monaten aufführen.,-0.861900621
+7183,de,genetically,adverb,g__________,genetisch,Es handelt sich dabei um eine genetisch vererbte Krankheit.,0.413719141
+7184,de,train,verb,t____,ausbilden,Der Staat möchte mehr Polizisten ausbilden.,-0.312505553
+7185,de,differential,adjective,d___________,unterschiedlich ,Wir zahlen unterschiedliche Gehälter basierend auf der Ausbildung und Erfahrung der Mitarbeiter. ,-3.355825393
+7186,de,autograph,noun,a________,Autogramm,Ich sammle Autogramme von berühmten Menschen.,-0.579770726
+7187,de,national,adjective,n_______,national,Die Nachrichten berichten über die nationalen Wahlen in Deutschland.,2.14076472
+7188,de,pitch,noun,p____,Spielfeld,Die Fußballer versammelten sich auf dem Spielfeld.,-2.374962208
+7189,de,delay,noun,d____,"Verzögerung, Verspätung",Die Verspätung des Zuges liegt an einem technischen Mangel.,0.915425695
+7190,de,walker,noun,w_____,Spaziergänger,Am Ufer des Kanals traf ich auf eine weitere Spaziergängerin.,1.224137037
+7191,de,major,noun,m____,Major,Er ist ein Major in der Armee.,1.015707989
+7192,de,eight,number,e____,acht,Ich habe einen Termin am achten November.,0.748451007
+7193,de,bravely,adverb,b______,"tapfer, mutig",Er kämpfte tapfer weiter.,-0.484209694
+7194,de,gentleman,noun,g________,Kavalier,Mein Mann ist ein Kavalier der alten Schule.,0.34883251
+7195,de,reconnection,noun,r___________,Wiederverbinden,Das Wiederverbinden des Geräts mit dem Internet ist nur alle paar Wochen notwendig.,-2.012229066
+7196,de,attacker,noun,a_______,Angreifer,Der Angreifer war schwarz gekleidet.,-1.194684083
+7197,de,productive,adjective,p_________,ergebnisreich,"Ich finde, dass unser letztes Meeting wirklich ergebnisreich war, weil wir viele Probleme angesprochen und gelöst haben.",-1.472955142
+7198,de,assault,noun,a______,"Überfall, tätlicher Angriff (nicht: attack)",Die Zeitung berichtete von dem Überfall. ,-2.675396145
+7199,de,frequency,noun,f________,Häufigkeit,Die Häufigkeit der Erdbeben in letzter Zeit ist unheimlich.,-0.881935568
+7200,de,card,noun,c___,Karte,Sie gab mir ihre Karte mit den Kontaktdaten.,1.702532019
+7201,de,postman,noun,p______,Briefträger/in,Unser Briefträger kommt leider immer sehr spät zu unserem Haus.,1.157896197
+7202,de,cause,noun,c____,"Grund, Ursache",Die Ursache für den Defekt ist häufig ein technischer Mangel. ,0.65605768
+7203,de,overload,verb,o_______,"etw überladen, überlasten",Das Auto ist überladen. Wir haben zu viele Dinge reingetan.,1.104699134
+7204,de,neatly,adverb,n_____,ordentlich,Die frische Wäsche ist ordentlich gefaltet.,-0.671620115
+7205,de,irish,adjective,i____,irisch,Letze Woche hat ein irisches Pub in der Stadt eröffnet. ,2.952409374
+7206,de,sue,verb,s__,verklagen,"Es kann sein, dass sie uns für diesen Fehler verklagen.",-0.440873634
+7207,de,teaspoon,noun,t_______,Teelöffel,"Decken Sie zum üblichen Besteck auch noch Teelöffel, bitte.",0.150940263
+7208,de,supposedly,adverb,s_________,"angeblich, anscheinend",Angeblich wohnt sie nicht mehr in dem alten Haus.,-1.677017809
+7209,de,boomerang,noun,b________,Bumerang,Einen Bumerang richtig zu schleudern ist nicht so leicht.,-0.125707923
+7210,de,smoothly,adverb,s_______,glatt,"Obwohl alle Schauspieler sehr nervös waren, lief alles glatt am Abend der Premiere.",-1.432734246
+7211,de,futuristic,adjective,f_________,futuristische,Das Bild zeigt eine futuristische Ansicht der Stadt.,0.675955151
+7212,de,grade,verb,g____,"etw einteilen, klassifizieren",Das Holz wird nach seiner Qualität klassifiziert.,-2.066004254
+7213,de,dying,adjective,d____,sterbend,Die Rettungskräfte konnten dem sterbenden Mann nicht mehr helfen.,0.760584672
+7214,de,motivational,adjective,m___________,Motivations-,Sie arbeitet als Motivationsrednerin und ist damit erfolgreich.,-1.105470813
+7215,de,standing,noun,s_______,Ansehen,"Dass sie diesen Preis bekommen hat, wird sich sicher auf ihr Ansehen bei den Kolleginnen auswirken.",-2.35783002
+7216,de,forgive,verb,f______,"jdm vergeben, verzeihen",Danke für die Entschuldigung und die netten Worte. Ich vergebe dir.,1.293121549
+7217,de,recorder,noun,r_______,Blockflöte,Die meisten Grundschüler lernen als erstes Instrument Blockflöte.,-2.052051064
+7218,de,consulting,adjective,c_________,beratend,Er wurde als beratender Architekt zum Projekt hinzugezogen.,-1.925103985
+7219,de,photographer,noun,p___________,Fotograf,Sie arbeitet als Fotografin.,0.870963083
+7220,de,launch,verb,l_____,"etw beginnen, etw einführen",Die Firma führt ein neues Produkt ein.,-1.077298672
+7221,de,associate,verb,a________,"jdn/etw mit etw in Verbindung bringen, verbinden, assoziieren",Wir verbinden die Farbe Grün mit Hoffnung.,-0.114142202
+7222,de,language,noun,l_______,Sprache,Welche Sprachen sprichst du?,2.798038743
+7223,de,toll,noun,t___,Maut,Für diese Autobahn wird eine Maut erhoben.,-1.176276584
+7224,de,workbook,noun,w_______,Arbeitsbuch,Als Hausaufgabe macht ihr die passenden Übungen im Arbeitsbuch.,2.103856717
+7225,de,experienced,adjective,e__________,erfahren,Er ist ein erfahrener Lehrer.,-0.492860718
+7226,de,camera,noun,c_____,Fotoapparat,Ich mache viele Fotos mit meinem neuen Fotoapparat.,2.4287932
+7227,de,simulate,verb,s_______,simulieren,Dieses Programm kann alle Prozesse in einem menschlichen Körper simulieren.,2.015692184
+7228,de,credibility,noun,c__________,Glaubwürdigkeit,Der Zeuge hat an Glaubwürdigkeit verloren.,-1.091934534
+7229,de,deeply,adverb,d_____,"sehr, äußerst",Der Kommentar hat ihn sehr verletzt.,-2.501323603
+7230,de,alike,adverb,a____,ähnlich,Sie sehen sich ähnlich.,0.192325604
+7231,de,slight,adjective,s_____,leicht,"Es sind nur ein paar leichte Änderungen notwendig, bevor wir den Artikel veröffentlichen.",-1.779380327
+7232,de,endorsement,noun,e__________,"Befürwortung, Unterstützung",Der vorgebrachte Idee hat die volle Unterstützung des Präsidenten.,-3.397322952
+7233,de,desperate,adjective,d________,verzweifelt,"Ich weiß nicht, was ich tun soll, ich bin verzweifelt. ",-0.705513416
+7234,de,temptation,noun,t_________,Versuchung,Er konnte der Versuchung nicht widerstehen.,-0.837902649
+7235,de,performer,noun,p________,Künstler,Die Künstlerin betritt die Bühne.,-1.133987182
+7236,de,relationship,noun,r___________,Beziehung,Die beiden haben eine wirklich sehr harmonische Beziehung.,0.812310568
+7237,de,surely,adverb,s_____,"sicherlich, bestimmt","Weißt du, wo Maria ist? – Sie ist sicherlich draußen am Spielen. ",0.595904173
+7238,de,monthly,adjective,m______,monatlich,Die monatliche Zeitschrift wird von vielen Personen gelesen.,1.57748157
+7239,de,fewer,determiner,f____,weniger,Es kommen weniger Gäste seit einem Monat.,1.267969443
+7240,de,pain,noun,p___,Schmerz,Ich habe Schmerzen im Knie.,2.814781199
+7241,de,unrecorded,adjective,u_________,nicht aufgezeichnet,Viele dieser Taten sind in offiziellen Dokumenten nicht aufgezeichnet.,-2.232477271
+7242,de,waste,noun,w____,Verschwendung,"All diese Lebensmittel wegzuwerfen, ist wirklich Verschwendung.",0.677300024
+7243,de,unproductive,adjective,u___________,unergiebig,Das war wieder einmal ein unergiebiges Treffen.,-2.933097557
+7244,de,ask,verb,a__,fragen,"Ich wollte mehr über den Vorfall wissen, aber ich traute mich nicht, sie zu fragen.",2.798859652
+7245,de,miserably,adverb,m________,"jämmerlich, kläglich, elendig",Das Unternehmen scheiterte kläglich.,-2.667765769
+7246,de,wage,noun,w___,Lohn,Endlich haben sie ihren Lohn erhöht.,-0.023230989
+7247,de,inclusive,adjective,i________,einschließlich,Alle Preise in diesem Geschäft sind einschließlich Mehrwertsteuer.,-2.225006787
+7248,de,servant,noun,s______,Diener / Dienerin,Vor einigen Jahrzehnten hatte meine Großmutter noch eine Dienerin im Haus.,0.061804244
+7249,de,heroism,noun,h______,Heldentum,Das Heldentum ist ein wichtiger Aspekt vieler Märchen.,-0.546328233
+7250,de,beating,noun,b______,"Prügel, Schläge",Die Prügelstrafe gibt es in Deutschland zum Glück schon lange nicht mehr. ,-0.915304633
+7251,de,dinosaur,noun,d_______,Dinosaurier,Dinosaurier sind vor vielen tausend Jahren ausgestorben.,0.960996568
+7252,de,counterpart,noun,c__________,"Pendant, Amtskollege",Der britische Premierminister trifft in Brüssel auf den österreichischen Amtskollegen.,-2.956185433
+7253,de,fluently,adverb,f_______,fließend,"Sie spricht Englisch, Deutsch und Spanisch fließend.",0.864108283
+7254,de,network,noun,n______,Netzwerk,Sie arbeiten in einem gesicherten Computernetzwerk.,2.847661249
+7255,de,confrontation,noun,c____________,Auseinandersetzung,Ich wollte jeder weiteren Auseinandersetzung mit meiner Mutter aus dem Weg gehen.,-1.898976606
+7256,de,initiate,verb,i_______,etw initiieren,Der Vorstand initiierte ein Trainingsprogramm für Führungskräfte.,0.129394853
+7257,de,bronze,noun,b_____,Bronze,Er hat die Bronzemedaille gewonnen.,-0.58464586
+7258,de,shooter,noun,s______,shooter,Der Schütze wurde noch vor Ort verhaftet.,0.815822653
+7259,de,gear,noun,g___,Gang,Verwende den fünften Gang auf der Autobahn.,-0.875829529
+7260,de,advancing,adjective,a________,fortschreitend,"Die fortschreitende Globalisierung hat uns näher vernetzt, aber birgt auch viele Herausforderungen.",-2.32676114
+7261,de,biologist,noun,b________,Biologe,Er ist ein Meeresbiologe.,0.753350506
+7262,de,cheater,noun,c______,Schummler,Der Schummler wurde erwischt und der Test wurde ihm weggenommen.,0.163854698
+7263,de,hockey,noun,h_____,Feldhockey,Die Kinder spielen Hockey draußen.,2.58766688
+7264,de,closet,noun,c_____,Wandschrank,Sie bewahrt ihre alten Schulsachen im Wandschrank auf.,-1.265899669
+7265,de,received,adjective,r_______,"landläufig, (allgemein) anerkannt","Die landläufige Meinung ist, dass die Automatisierung unser Arbeitsleben verändern wird.",-5.059182133
+7266,de,looking,adjective,l______,aussehend,Die Frau ist für ihr Alter immer noch gut aussehend. ,0.936787239
+7267,de,critical,adjective,c_______,kritisch,Ihre Schwester ist ein kritischer Mensch.,1.396399786
+7268,de,hateful,adjective,h______,hasserfüllt,"Es ist kaum zu glauben, dass sie so hasserfüllte Dinge zu ihm sagte.",1.45872295
+7269,de,heavy,adjective,h____,schwer,Sie zog einen schweren Koffer.,1.088429997
+7270,de,uninterrupted,adjective,u____________,ununterbrochen,Er genoss zehn Stunden ununterbrochenen Schlaf.,-1.626704013
+7271,de,enemy,noun,e____,"Feind, Gegner",Der Feind muss wirkungsvoll bekämpft werden.,1.239954907
+7272,de,schoolmate,noun,s_________,Schulfreund / Schulfreundin,Ich treffe nächste Woche eine alte Schulfreundin wieder.,-0.263006609
+7273,de,essential,adjective,e________,unbedingt erforderlich,Eine gesunder Ernährung und ausreichend Schlaf sind unbedingt erforderlich für Kinder.,-1.371017118
+7274,de,human,adjective,h____,menschlich,Irren ist menschlich.,2.504705401
+7275,de,desktop,noun,d______,Desktop,Der Computerdesktop ist plötzlich schwarz geworden.,0.462962927
+7276,de,chocolate,noun,c________,Schokolade,Schweizer Schokolade ist die beste.,1.628978283
+7277,de,house,verb,h____,"jdn unterbringen, beherbergen","Einige Familien warten noch, bis sie in einer geförderten Wohnung untergebracht werden. ",-1.507346362
+7278,de,battleship,noun,b_________,"Schlachtschiff, großes Kriegsschiff",An dieser Stelle ist ein Schlachtschiff untergegangen.,-0.883550326
+7279,de,lifetime,noun,l_______,Leben,Ich wünsche dir ein glückliches Leben.,-1.984754102
+7280,de,perfectionist,noun,p____________,Perfektionist,"Sie ist eine Perfektionistin. Sie hört erst auf, wenn wirklich alles perfekt ist.",1.626767839
+7281,de,rip,verb,r__,reißen,Als ersten Schritt muss man das Papier in kleine Streifen reißen.,-0.305058336
+7282,de,millennium,noun,m_________,Jahrtausend,Die Jahrtausendwende wird mit einem großen Feuerwerk gefeiert.,-1.485191621
+7283,de,wetland,noun,w______,Feuchtgebiet,Das weltgrößte Feuchtgebiet liegt in Brasilien.,-2.052821031
+7284,de,similar,adjective,s______,ähnlich,Die beiden sind aus einem ähnlichen Garn gestrickt.,0.423274259
+7285,de,town,noun,t___,Stadt,Die nächste Stadt ist mehrere Meilen entfernt.,2.314377845
+7286,de,adventure,noun,a________,Abenteuer,Nach meinem Abitur war ich für ein richtiges Abenteuer bereit.,2.207584254
+7287,de,checkpoint,noun,c_________,Kontrollpunkt,"Die Soldaten überprüfen alle Autos, die am Kontrollpunkt vorbeifahren.",-0.569461037
+7288,de,sustain,verb,s______,am Leben erhalten,Nur Ihre Unterstützung kann das Projekt am Leben erhalten.,-3.511257971
+7289,de,thoughtful,adjective,t_________,aufmerksam,"Danke, das ist sehr aufmerksam von dir!",-2.13070916
+7290,de,build,verb,b____,bauen,Wir bauen gerade unser neues Haus.,0.652389827
+7291,de,blank,adjective,b____,leer,Ein leeres Blatt Papier liegt auf dem Tisch.,0.053865855
+7292,de,accident,noun,a_______,Unfall,Der Unfall ereignete sich gestern Abend. Zum Glück wurde niemand verletzt.,2.287822281
+7293,de,peacefully,adverb,p_________,friedlich,Die Kinder schlafen friedlich.,0.705995299
+7294,de,uncontrollable,adjective,u_____________,unkontrollierbar,Der Wagen wurde auf der vereisten Straße fast unkontrollierbar.,-1.325535611
+7295,de,expire,verb,e_____,"ablaufen, enden (nicht: run out)",Der Vertrag läuft in Kürze aus.,-1.952075785
+7296,de,herb,noun,h___,Kraut,Füge noch etwas frische Kräuter hinzu.,1.51664834
+7297,de,also,adverb,a___,auch,"Er ist ein begabter Geigenspieler, der auch Klavier spielt.",2.363746511
+7298,de,spring,verb,s_____,springen,"Er springt sofort aus dem Bett, um der Briefträgerin die Tür zu öffnen.",-1.231840331
+7299,de,lean,adjective,l___,schlank (nicht: slim),Die Frau ist fit und schlank.,-1.742638921
+7300,de,kingdom,noun,k______,Königreich,Die Königin herrscht über ein großes Königreich.,2.238082499
+7301,de,odds,noun,o___,Chancen,"Wie stehen die Chancen, dass wir davonkommen ohne erwischt zu werden?",-1.33527484
+7302,de,list,noun,l___,Liste,Ich schreibe eine Einkaufsliste.,2.922646156
+7303,de,clear,adverb,c____,"deutlich, klar","Der Endstand war 5:1, also ein klarer Sieg für die Heimmannschaft heute. ",2.644787676
+7304,de,glove,noun,g____,Handschuh,Ich habe mir neue Lederhandschuhe gekauft.,1.197031031
+7305,de,confuse,verb,c______,"jdn verwirren, durcheinanderbringen",Die Erklärungen des Lehrers verwirrte die Schüler.,1.230463966
+7306,de,footstep,noun,f_______,Schritt,Es ist jemand im Haus. Ich höre Schritte.,0.487865331
+7307,de,unexpected,adjective,u_________,unerwartet,Sie erhielten noch unerwarteten Besuch.,0.436526286
+7308,de,combat,verb,c_____,etw bekämpfen,"Wir brauchen sinnvolle Maßnahmen, um die Klimaerwärmung effektiv bekämpfen zu können.",-2.208115948
+7309,de,vitality,noun,v_______,Lebenskraft,Sie zeigte plötzlich eine überschäumende Lebenskraft.,0.17701481
+7310,de,return,verb,r_____,zurückkehren,Am Ende der Mission konnten alle Soldaten und Soldatinnen sicher zu ihren Familien zurückkehren.,0.780343077
+7311,de,horribly,adverb,h_______,schrecklich (nicht: terribly),Es läuft gerade alles schrecklich schief.,-2.005259993
+7312,de,tale,noun,t___,Erzählung,Das Buch ist eine recht spannende Erzählung.,-0.841878969
+7313,de,journey,noun,j______,Reise,Die Reise hat sehr lange gedauert.,2.365784565
+7314,de,dim,adjective,d__,"düster, dunkel, schummrig",Ich kann in diesem düsteren Zimmer nicht arbeiten. Ich brauche mehr Licht.,-1.345116301
+7315,de,lower,verb,l____,unterer,Sie blutete an der unteren Lippe.,0.911919166
+7316,de,firm,noun,f___,Firma (nicht: company),Er arbeitet für eine kleine Firma.,2.248081239
+7317,de,noble,adjective,n____,edle,Der edle Ritter reitet auf seinem weißen Pferd.,-0.203066269
+7318,de,sarcastic,adjective,s________,sarkastisch,Deine sarkastischen Bemerkungen kannst du dir heute wirklich sparen.,1.185303771
+7319,de,failure,noun,f______,"Scheitern, Versagen",Das Scheitern des Experiments war vorherzusagen.,-0.346416851
+7320,de,tolerant,adjective,t_______,tolerant,"Er hatte immer geglaubt, in einer toleranten Gesellschaft zu leben.",0.961112504
+7321,de,supplier,noun,s_______,"Lieferant, Anbieter",Der hiesige Stahllieferant konnte den Konkurs abwenden.,-1.361385245
+7322,de,prize,noun,p____,"Prämierung, Belohnung, Gewinn",Dieser Wein gewann die höchste Prämierung des Landes.,-2.415506851
+7323,de,question,noun,q_______,Frage,Ich hätte eine kurze Frage.,3.354683384
+7324,de,experience,verb,e_________,erleben,Auf meiner Reise habe ich sehr viel erlebt.,-0.124326523
+7325,de,pointless,adjective,p________,sinnlos,"Es ist sinnlos, hier noch länger zu warten.",-1.588534853
+7326,de,disposal,noun,d_______,"Beseitigung, Entsorgung",Die Beseitigung von Atommüll stellt ein großes Problem dar.,-2.309894167
+7327,de,soil,noun,s___,Boden,Der Boden ist sehr fruchtbar und Sie müssen in den ersten Jahren sicher nicht zusätzlich düngen.,-0.517554902
+7328,de,spray,noun,s____,Spray,Dieses Spray wird alle Mücken effektiv vertreiben.,2.497835077
+7329,de,biochemically,adverb,b____________,biochemisch,Die Lösung wird anschließend biochemisch gebunden.,-0.490555579
+7330,de,reach,verb,r____,erreichen,"Wenn alles gut läuft, erreichen wir unser Ziel bis morgen vormittags.",1.943593703
+7331,de,witness,verb,w______,Zeuge sein,Sie können nun Zeuge meiner wundersamen Verwandlung sein.,0.041615459
+7332,de,film,verb,f___,etw filmen,Die Dokumentation wurde in Europa gefilmt.,2.415731021
+7333,de,amount,noun,a_____,Menge,Du brauchst nur eine kleine Menge Salz.,0.470643986
+7334,de,bulldog,noun,b______,Bulldogge,Er geht mit der Bulldogge an der Leine spazieren.,2.315190886
+7335,de,appointment,noun,a__________,Termin,Ich habe um drei Uhr einen Termin.,0.697235814
+7336,de,recall,verb,r_____,sich erinnern,"Ich kann mich nicht erinnern, wann ich ihn zum letzten Mal gesehen habe.",-2.561482807
+7337,de,swear,verb,s____,fluchen,"Unsere Mutter mag es nicht, wenn wir fluchen.",-0.856234109
+7338,de,whole,adjective,w____,ganz,Er sagte uns nicht die ganze Wahrheit.,2.896118271
+7339,de,undecided,adjective,u________,unschlüssig,"Ich bin noch unschlüssig, wen ich wählen soll.",-2.09505419
+7340,de,open,verb,o___,offen,Die Bäckerei öffnet um sieben Uhr.,3.100198551
+7341,de,remark,noun,r_____,Bemerkung,Während dem Mittagsessen machte meine Kollegin eine wirklich lustige Bemerkung.,-0.502063513
+7342,de,scatter,verb,s______,verstreuen,Wir verstreuen im Winter immer etwas Vogelfutter im Garten.,-3.283170209
+7343,de,wash,verb,w___,waschen,Am nächsten Tag wollte sie das Auto waschen.,3.046647655
+7344,de,activity,noun,a_______,Aktivität,Jede Art von sportlicher Aktivität ist hier verboten.,1.486032758
+7345,de,multifunctional,adjective,m______________,multifunktional,"Wenn ich Sport mache, ziehe ich multifunktionale Kleidung an.",0.199321103
+7346,de,taxi,noun,t___,Taxi,Sie nahm sich ein Taxi zum Tiergarten.,2.466036493
+7347,de,next,preposition,n___,neben,Katharina sitzt neben dir.,0.168710689
+7348,de,hydrated,adjective,h_______,wasserhaltig,Am besten benutzt du wasserhaltige Gesichtscremen. ,-3.519273009
+7349,de,use,verb,u__,benutzen,Dürfte ich wohl Ihr Telefon benutzen?,2.52964883
+7350,de,music,noun,m____,Musik,Sie hört gerne Musik.,2.388242369
+7351,de,quest,noun,q____,"Suche, Mission",Die Ritter begaben sich auf die Suche nach dem Heiligen Gral.,-0.724919681
+7352,de,rank,verb,r___,"zählen, sich einreihen",Er zählt zu den besten Wissenschaftlern in diesem Bereich.,-2.334583446
+7353,de,arise,verb,a____,sich ergeben,Die Probleme ergeben sich durch den komplizierten Arbeitsprozess. ,-1.896677867
+7354,de,neck,noun,n___,"Hals, Nacken",Der neue Pullover kratzt mich am Hals.,2.803691045
+7355,de,sanitary,adjective,s_______,sanitär,Die sanitären Anlagen müssen bei einem Krankenhaus wirklich auf dem neuesten Stand sein.,0.2702778
+7356,de,evacuation,noun,e_________,Evakuierung,Wegen des Alarms musste eine Evakuierung durchgeführt werden.,1.383956456
+7357,de,accidentally,adverb,a___________,"zufällig, rein zufällig",Wir sind uns rein zufällig begegnet.,-1.89738705
+7358,de,listen,verb,l_____,zuhören,"Kinderlein, hört mir gut zu!",2.113188113
+7359,de,discover,verb,d_______,"etw herausfinden, entdecken","Sie hat herausgefunden, dass ihr Mann eine Affäre hat. ",-0.468195106
+7360,de,lately,adverb,l_____,"kürzlich, in letzter Zeit",Hast du Sandra in letzter Zeit gesehen?,-0.505873198
+7361,de,undetected,adjective,u_________,unentdeckt,Die Fälschungen blieben nicht lange unentdeckt.,-3.103461169
+7362,de,permit,verb,p_____,"etw gestatten, erlauben",Rauchen ist in diesem Café nicht gestattet.,-0.193967231
+7363,de,fracture,noun,f_______,Bruch ,Sie wurde mit mehreren Brüchen ins Krankenhaus eingeliefert. ,-0.950001293
+7364,de,familiarity,noun,f__________,Kenntnis,Die Bewerber müssen Kenntnisse des deutschen Rechts haben. ,-3.849054615
+7365,de,remake,verb,r_____,wieder neu machen,Diese Betten sind unordentlich und ihr müsst sie noch einmal neu machen.,-1.403276095
+7366,de,convertible,adjective,c__________,"verwandelbar, ausziehbar",Ist dieses Sofa ausziehbar?,-3.014046049
+7367,de,stop,verb,s___,abhalten,"Niemand kann ihn davon abhalten, dennoch auf das Konzert zu gehen.",0.463849523
+7368,de,poetry,noun,p_____,Dichtung,Ab und zu lesen wir im Unterricht auch aktuelle Dichtung von österreichischen Dichterinnen.,0.176612547
+7369,de,primary,noun,p______,Vorwahlen (in den Vereinigten Staaten),Donald Trump konnte sich bei der republikanischen Vorwahl gegen drei andere Kandidaten durchsetzen.,-2.951275684
+7370,de,illustrator,noun,i__________,Zeichner,Der Zeichner kreiert Cartoons für das Magazin.,-0.946815212
+7371,de,criticism,noun,c________,Kritik (nicht: critique),Deine Kritik ist ungerecht.,-0.976006728
+7372,de,gentle,adjective,g_____,sanft,Sie ist eine so sanfte und ruhige Frau.,-0.075889358
+7373,de,chairman,noun,c_______,Vorsitzender,Der Vorsitzende eröffnete das Treffen mit einer kurzen Rede.,-0.990415105
+7374,de,garbage,noun,g______,"Müll, Abfall (nicht: rubbish, waste)",Kannst du den Müll bitte in die Tonne werfen?,-0.503829164
+7375,de,impatient,adjective,i________,ungeduldig,Er ist ein sehr ungeduldiger Mensch. Lass ihn niemals warten!,-0.423563175
+7376,de,public,adjective,p_____,öffentlich,Um 15 Uhr wird es eine öffentliche Ankündigung geben.,1.792676546
+7377,de,zip,verb,z__,den Reißverschluss zumachen,Würdest du mir hinten bitte den Reißverschluss zumachen?,1.909886946
+7378,de,alternative,adjective,a__________,"zwischen zwei Möglichkeiten die Wahl lassend, eine andere ","Gibt es eine andere Möglichkeit, den Fall zu lösen?",-1.165136021
+7379,de,elevator,noun,e_______,Aufzug (nicht: lift),"Ich nehme den Lift, um in den vierten Stock des Hauses zu fahren.",0.839025469
+7380,de,force,noun,f____,Gewalt,Die Tür wurde von innen verriegelt. Die Polizei konnte sie nur mit Gewalt öffnen.,0.086030447
+7381,de,compensate,verb,c_________,jdn für etw entschädigen,Die Zahlung soll das Opfer für den Unfall entschädigen.,-1.504824221
+7382,de,admire,verb,a_____,bewundern,Ich bewundere ihre Leidenschaft für das Projekt.,0.277249662
+7383,de,shave,verb,s____,rasieren,Er hat sehr starken Bartwuchs und muss sich daher täglich rasieren.,2.621983122
+7384,de,widespread,adjective,w_________,"breit, großflächig",Die Kampagne erhielt breite Unterstützung von vielen Seiten.,-2.35384438
+7385,de,rating,noun,r_____,Bewertung,Dieses Hotel hat von allen in dieser Region die beste Bewertung bekommen.,-2.025363517
+7386,de,mill,noun,m___,Mühle,Das Getreide wird in der Mühle zu Mehl gemahlen.,0.097239958
+7387,de,everybody,misc,e________,jeder (nicht: everyone),"Jeder ist eingeladen, sogar meine Tanten und Cousinen.",1.572582068
+7388,de,beam,noun,b___,Balken,An der Decke sind Holzbalken.,-2.687009437
+7389,de,alongside,preposition,a________,parallel zu,Die Straße verläuft parallel zu dem Einkaufszentrum.,-2.927118131
+7390,de,roadside,noun,r_______,Straßenrand,In diesem Bezirk darf man überall am Straßenrand halten und parken.,-1.579463026
+7391,de,month,noun,m____,Monat,In welchem Monat hast du Geburtstag?,2.108999346
+7392,de,imperfect,adjective,i________,fehlerhaft,"Wir müssen es akzeptieren, dass wir in einer fehlerhaften und ungerechten Welt leben.",-2.60428466
+7393,de,amazing,adjective,a______,erstaunlich,Ihre Geschichte war ziemlich erstaunlich.,-1.418904328
+7394,de,destination,noun,d__________,Reiseziel,Italien ist ein beliebtes Reiseziel für Deutsche und Österreicher.,0.924807086
+7395,de,producer,noun,p_______,"Hersteller, Regisseur",Diese Firma ist der wichtigste Hersteller von Autos und Motorrädern des Landes.,1.277539711
+7396,de,demo,noun,d___,Demo,Die Schüler organisieren eine Demo.,3.488586248
+7397,de,deformed,adjective,d_______,verformt,Die verformte Plastikflasche können wir wegschmeißen.,-0.369325322
+7398,de,round,adjective,r____,rund,In der Mitte des Dorfes war ein kleiner runder Dorfplatz.,2.629855517
+7399,de,talented,adjective,t_______,begabt,Sie ist eine begabte Fußballerin.,1.025434345
+7400,de,bravo,noun,b____,"Ausruf des Beifalls und der Anerkennung, Bravorufe",Mindestens zehn Minuten lang kamen Bravorufe aus dem Publikum. ,0.372733288
+7401,de,terrified,adjective,t________,erschrocken,Er schaute sie mit erschrockenen Augen an.,-0.959946667
+7402,de,payroll,noun,p______,Gehaltsliste,Der Chef überprüft die Gehaltsliste.,-2.999227041
+7403,de,controllable,adjective,c___________,"kontrollierbar, steuerbar",Die Kosten für dieses Projekt sind kontrollierbar.,0.56738843
+7404,de,bay,noun,b__,Bucht,Ich gehe an die Bucht baden.,0.838888111
+7405,de,pleased,adjective,p______,zufrieden sein,Ich bin mit den Ergebnissen wirklich zufrieden.,-1.186444455
+7406,de,everything,misc,e_________,alles,Hast du alles eingepackt?,1.849854485
+7407,de,teenage,adjective,t______,jugendlich,Sie wurden zuerst als jugendliche Revoluzzer abgetan.,0.158915539
+7408,de,threat,noun,t_____,Bedrohung,Diese Aussage stellt eine Bedrohung der Friedensverhandlungen dar.,-0.672036773
+7409,de,thereby,adverb,t______,dadurch,Sport stärkt das Herz und verringert dadurch die Gefahr eines Herzinfarkts.,-2.53820906
+7410,de,crocodile,noun,c________,Krokodil,Im Zoo gibt eine Gehege mit Krokodilen.,1.800620458
+7411,de,holding,noun,h______,Anteile,Herr Müller hat seinen Anteil der Firma verkauft.,-2.377114112
+7412,de,correct,adjective,c______,richtig,Der Schüler gibt eine richtige Antwort.,2.92900978
+7413,de,judicial,adjective,j_______,Gerichts-,"Wir müssen wieder rein, die Gerichtsentscheidung steht fest.",-3.258676109
+7414,de,discourage,verb,d_________,"abhalten, abraten, entmutigen","Ich versuchte, ihn davon abzuraten, mit ihr zu reden, weil er so afugeregt war.",-2.42263018
+7415,de,traditional,adjective,t__________,traditionell,Die Chorsängerinnen trugen ihre traditionellen Kleider.,0.983387259
+7416,de,academically,adverb,a___________,schulisch gut sein,Seine beiden Kinder waren immer gut in der Schule.,-3.892050099
+7417,de,emerge,verb,e_____,aus etw herauskommen,"Als die fremden Leute weg waren, kam die Katze aus ihrem Versteck heraus.",-3.171705082
+7418,de,objective,noun,o________,Zielsetzung (nicht: goal),Die Zielsetzung der Übung ist jedem Mitarbeiter klar.,-2.053399471
+7419,de,cost,verb,c___,kosten,Wie viel kostet das T-Shirt?,2.659135881
+7420,de,document,noun,d_______,"Papier, Urkunde","Sie weigerte sich, die Papiere zu unterschreiben. ",0.641754302
+7421,de,flexible,adjective,f_______,flexibel,Ich habe einen flexiblen Zeitplan.,1.287932171
+7422,de,move,verb,m___,sich bewegen,Das Auto bewegt sich in die falsche Richtung.,2.96737988
+7423,de,prison,noun,p_____,Gefängnis,Er sitzt derzeit wegen Betrugs im Gefängnis.,1.68616324
+7424,de,determination,noun,d____________,"Entschlossenheit, Entschiedenheit",Er wird seine Ziele nie erreichen. Dazu fehlt es ihm an Entschlossenheit.,-1.571994425
+7425,de,black,adjective,b____,schwarz,Ich ziehe heute einen scharzen Pulli an.,2.581556769
+7426,de,enhance,verb,e______,etw verbessern,Die Neuerungen sollten die Lebensqualität der Einwohner verbessern.,-2.718791361
+7427,de,ever,adverb,e___,jemals,"Falls du jemals meine Hilfe brauchst, ruf mich an!",1.837414212
+7428,de,expanding,adjective,e________,wachsend,Mit wachsendem Export hat niemand gerechnet.,-1.602744637
+7429,de,school,noun,s_____,Schule,Nach den Ferien müsst ihr wieder in die Schule gehen.,2.528549716
+7430,de,goldfish,noun,g_______,Goldfisch,Sie hat drei Goldfische als Haustiere.,1.922259761
+7431,de,picture,verb,p______,sich etw vorstellen,"Er lächelte, als er sich die Szene vorstellte. ",-2.298942547
+7432,de,vulnerable,adjective,v_________,verletzlich,Trotz seiner Größe wirkte er irgendwie verletzlich.,-0.585304737
+7433,de,whenever,adverb,w_______,wann auch immer,"Wir können uns treffen, wann auch immer du willst.",1.539677666
+7434,de,increasingly,adverb,i___________,zunehmend,Die Arbeit gestaltet sich zunehmend schwieriger.,-0.910023063
+7435,de,enthusiastic,adjective,e___________,"begeistert, von etw begeistert sein",Sie sind von deinem Vorhaben begeistert.,-1.860160636
+7436,de,liberty,noun,l______,Freiheit (nicht: freedom),Sie kämpfen für Freiheit und Unabhängigkeit.,-0.190148725
+7437,de,nothing,misc,n______,nichts,Was machst du? -– Nichts. ,3.219899861
+7438,de,solar,adjective,s____,Sonnen-,Auf unserem Dach wurde eine Sonnenkraftanlage installiert.,-0.372059248
+7439,de,nail,noun,n___,Nagel,Sie hämmert den Nagel in die Wand.,1.810059048
+7440,de,eating,noun,e_____,Ess-,Seine Essgewohnheiten sind sehr ungesund.,2.255739233
+7441,de,unwanted,adjective,u_______,unerwünscht,Damit erzielte sie viel unerwünschte Aufmerksamkeit in den Medien.,-1.145019646
+7442,de,classic,adjective,c______,klassisch (nicht: usual),Er hat die klassischen Krankheitssymptome einer Grippe.,1.894825014
+7443,de,sometime,adverb,s_______,irgendwann einmal,Irgendwann einmal möchte ich mit einem Heißluftballon eine Rundfahrt machen.,0.016011183
+7444,de,runner,noun,r_____,Läufer / Läuferin,Sie ist eine leidenschaftliche Läuferin und zu jeder freien Minute unterwegs.,2.531779252
+7445,de,repetitive,adjective,r_________,wiederholend,Die Arbeitsaufgaben in diesem Job sind sehr wiederholend und ich langweile mich leider häufig.,-2.629851381
+7446,de,christian,noun,c________,Christ,Er ist ein gläubiger Christ.,1.043216216
+7447,de,brutal,adjective,b_____,brutal,Die Wachmänner gehen höchst brutal vor.,1.419892828
+7448,de,education,noun,e________,"Bildung, Ausbildung",Bildung ist im Leben sehr wichtig.,1.48055585
+7449,de,parent,noun,p_____,"Elternteil, Eltern",Darf ich dir meine Eltern vorstellen?,1.847093626
+7450,de,selfish,adjective,s______,egoistisch,Sie ist ein recht egoistisches Kind und teilt ihre Spielsachen kaum mit anderen Kindern.,0.392546986
+7451,de,constantly,adverb,c_________,ständig (nicht: continually),Die Preise sind unberechenbar und ändern sich ständig.,-1.50571751
+7452,de,boring,adjective,b_____,langweilig,Der langweilige Film hat mich müde gemacht.,2.008926734
+7453,de,summer,noun,s_____,Sommer,Im Sommer fahren sie immer nach Frankreich zu ihren Eltern.,2.079309895
+7454,de,implication,noun,i__________,"Auswirkung, Folge",Der Vorfall hat ernste Folgen auf die weitere Vorgehensweise.,-3.308603735
+7455,de,dimension,noun,d________,Ausmaß,Mir wurde allmählich das Ausmaß der Zerstörung bewusst.,-1.493060674
+7456,de,run,noun,r__,Lauf,In der Früh mache ich manchmal einen kurzen Lauf vor dem Frühstück.,2.715270021
+7457,de,fool,noun,f___,Dummkopf,"Nur ein Dummkopf glaubt, dass wir jetzt noch rechtzeitig ankommen werden!",0.019343797
+7458,de,obsession,noun,o________,"Fimmel, Fanatiker",Er putzt jeden Tag seine Wohnung. Er hat eindeutig einen Sauberkeitsfimmel.,-1.635549087
+7459,de,imaginable,adjective,i_________,vorstellbar,"Es ist nur schwer vorstellbar, wie man früher dieses Gebäude gebaut hat.",-0.047768753
+7460,de,salesman,noun,s_______,Verkäufer,Als Verkäufer verdiente er für seine Bedürfnisse genug.,0.189193358
+7461,de,left,adjective,l___,linke,Er hat sich am linken Bein verletzt.,2.184639501
+7462,de,committee,noun,c________,Ausschuss (nicht: commission),Der Ausschuss tagt heute.,-1.964025271
+7463,de,orange,adjective,o_____,orangefarben,Sie hat ein orangefarbenes Kleid an. ,3.862682818
+7464,de,smash,verb,s____,zerschlagen,Die Diebe zerschlagen geschickt das Fenster und klettern in das Haus.,-1.75257996
+7465,de,still,adjective,s____,ruhig,Keine Minuten können die beiden ruhig bleiben.,-0.527658332
+7466,de,blame,verb,b____,"jdn die Schuld an etw geben, jdn für etw verantwortlich machen",Ich gebe dir die Schuld für diese Unordnung!,-0.218675945
+7467,de,gasp,verb,g___,jdm stockt der Atem,"Ihm stockte der Atem, als er in das kalte Wasser sprang. ",-1.641630857
+7468,de,instrument,noun,i_________,Instrument,Das Spital hat neue chirurgische Instrumente bestellt.,1.803794372
+7469,de,breathing,noun,b________,"Atmung, Atemzug",Sie schlief und ich konnte ihre gleichmäßigen Atemzüge hören.,0.813747101
+7470,de,narrative,adjective,n________,erzählend,Er schrieb ein erzählendes Gedicht.,-0.936734989
+7471,de,tourist,noun,t______,Tourist,Sie schaute nicht gerade wie eine typische Touristin aus.,2.402091188
+7472,de,availability,noun,a___________,"Verfügbarkeit, Erhältlichkeit",Die Verfügbarkeit von allen Produkten kann momentan nicht gewährleistet werden.,-0.685652159
+7473,de,flame,noun,f____,Flamme,Er starrte gedankenverloren in die Flammen.,2.858197495
+7474,de,theoretical,adjective,t__________,theoretisch,Der Kurs war nicht so theoretisch wie befürchtet.,0.322462626
+7475,de,frontier,noun,f_______,Grenze (nicht: border),Die Grenze zwischen Israel und dem Libanon ist gut bewacht.,-0.94940512
+7476,de,wolf,noun,w___,Wolf,Der Wolf ist ein Rudeltier.,0.560248713
+7477,de,instance,noun,i_______,Fall,In den meisten Fällen hat das Medikament keine Nebenwirkungen.,-3.012710012
+7478,de,correlate,verb,c________,mit etw in Beziehung stehen,Die Fragen stehen nicht miteinander in Beziehung. Ich verstehe den Zusammenhang nicht.,-2.459226335
+7479,de,exercise,verb,e_______,etw trainieren,Wir sollten uns gesund ernähren und täglich trainieren.,-0.340889295
+7480,de,reduction,noun,r________,Verringerung,Die Maßnahmen haben gewirkt und es kam zu einer Verringerung der Durchfallrate.,-0.780937493
+7481,de,workshop,noun,w_______,Workshop,Alle Teilnehmerinnen waren mit dem Workshop sehr zufrieden.,3.347381168
+7482,de,shaped,adjective,s_____,geformt,Ihre Hüte waren wie Tulpen geformt.,-0.774255241
+7483,de,manifest,verb,m_______,etw zeigen,"Sie zeigte deutlich, dass sie sich dem Gespräch nicht stellen wollte.",-3.823706998
+7484,de,baking,noun,b_____,Backen,Backen macht Spaß!,0.730916762
+7485,de,under,preposition,u____,unter,Sie schaute zuerst unter dem Bett nach.,2.313261666
+7486,de,powered,adjective,p______,"angetrieben, betrieben",Wir haben nun eine solarbetriebene Klimaanlage installiert.,-0.93843856
+7487,de,horn,noun,h___,Hupe,Der Taxifahrer drückt auf die Hupe. ,-0.736899317
+7488,de,environmental,adjective,e____________,Umwelt-,Die steigende Umweltbelastung macht den Menschen zu schaffen.,-1.219943952
+7489,de,unnatural,adjective,u________,"ungewöhnlich, unnatürlich","Zuerst herrschte ungewöhnliche Stille, dann ertönte ein Schrei.",-1.874798393
+7490,de,prove,verb,p____,"etwas beweisen, etwas nachweisen","Er will seinen Eltern beweisen, dass er bereits auf eigenen Füßen stehen kann.",-0.755848857
+7491,de,elderly,adjective,e______,älterer,Der ältere Bruder übernimmt den Hof.,-1.283298543
+7492,de,barn,noun,b___,Scheune,Du findest die Heugabel in der Scheune hinter dem Haus.,-0.456246887
+7493,de,fat,adjective,f__,fett,Meine Katze muss abnehmen. Sie ist zu fett geworden.,2.07325012
+7494,de,disappoint,verb,d_________,jdn/etw enttäuschen,"Ich muss dich leider enttäuschen, es gibt keine freien Hotelzimmer mehr.",-0.574734502
+7495,de,korean,adjective,k_____,koreanisch,Bei diesem Imbiss gibt es koreanisches Essen.,3.905191774
+7496,de,colonial,adjective,c_______,"kolonial, Kolonial-",Dieses Antiquitätengeschäft verkauft Möbel aus der Kolonialzeit.,1.287933734
+7497,de,allege,verb,a_____,"behaupten, dass ","Die Männer behaupten, dass sie den Angeklagten bei der Tat beobachtet haben.",-5.149007752
+7498,de,inconvenience,noun,i____________,Unannehmlichkeit,"Wir entschuldigen uns für die Unannehmlichkeiten, die durch die Verspätung entstanden sind.",-1.608036497
+7499,de,physiological,adjective,p____________,physiologisch,Der Arzt versucht physiologische Funktionen wiederherzustellen.,-0.529708999
+7500,de,surgeon,noun,s______,Chirurg,Er arbeitet als Chirurg im Spital.,-0.844026798
+7501,de,holiday,noun,h______,"Urlaub, Ferien (nicht: vacation)",Wir machen Urlaub auf Mallorca.,2.275410357
+7502,de,assist,verb,a_____,jdm helfen,"Diese Maßnahmen wurden eingeführt, um Menschen mit Behinderung zu helfen. ",-1.219870345
+7503,de,prepared,adjective,p_______,bereit,"Er war in diesem Moment bereit, den nächsten Schritt zu machen.",-0.519240174
+7504,de,sugar,noun,s____,Zucker,Kannst du mir bitte den Zucker reichen?,2.811762425
+7505,de,reform,verb,r_____,"neugestalten, umformen","Wir müssen die Steuergesetze unbedingt neu gestalten, um diese Art von Betrug zu vermeiden.",-1.459734767
+7506,de,demand,verb,d_____,"etw verlangen, fordern",Sie fordern eine rasche Aufklärung des Falls.,-0.336291926
+7507,de,bureau,noun,b_____,Agentur,Die Agentur für Arbeit ist heute Nachmittag geschlossen.,-1.15528867
+7508,de,mandate,noun,m______,Mandat,Wir werden das Mandat sehr ernst nehmen und das Volk gut vertreten.,-0.077331344
+7509,de,bitter,adjective,b_____,bitter,Grapefruit hat einen bitteren Geschmack. ,1.229744894
+7510,de,ringing,noun,r______,Klingeln,Ich hatte in diesen Monaten sehr viel Stress und hörte dauernd ein Klingeln in meinen Ohren.,1.884408367
+7511,de,album,noun,a____,Album,Der Sänger hat ein neues Album herausgebracht.,2.789133318
+7512,de,overcome,verb,o_______,"etw bewältigen, überwinden",Wir haben die Krise endlich überwunden. Jetzt blicken wir positiv in unsere Zukunft.,-0.366096266
+7513,de,channel,noun,c______,"Kanal, Programm","Gib mir die Fernbedienung. Ich möchte schauen, was auf den anderen Kanälen läuft.",0.749798753
+7514,de,craft,noun,c____,"Handwerk, Kunst",Sie erlernte die Kunst des Korbwebens von ihrer Großmutter.,-0.849849752
+7515,de,ruler,noun,r____,Lineal,Kann ich mir bitte schnell dein Lineal ausleihen?,0.730296798
+7516,de,brightly,adverb,b_______,hell,Der Raum ist hell erleuchtet.,-0.573039918
