@@ -4,6 +4,8 @@ This repository contains **source code** of submissions of the Sakura team to th
 
 👀 [Explore SHAP-based explanations](https://ynklab.github.io/vocabulary-difficulty/) from our `explainable` system.
 
+<p align="center"><img alt="SHAP-based explanations: Screenshot" src="./docs/screenshot.png" width="801" height="376" /></p>
+
 📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257).
 
 📚 Learn more about the [BEA 2026 Shared Task on Vocabulary Difficulty Prediction](https://www.britishcouncil.org/data-science-and-insights/bea2026st) and check out its [Github repo](https://github.com/britishcouncil/bea2026st/).
