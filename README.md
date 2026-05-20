@@ -60,8 +60,9 @@ Some of our models also use these:
 - `gse_levels.csv`: [GSE](https://www.english.com/gse/teacher-toolkit/user/vocabulary) is another source of CEFR levels.
 -  `en-glasgow.csv`: [The Glasgow norms](https://link.springer.com/article/10.3758/s13428-018-1099-3#Sec13), available online as a supplementary CSV file “ESM 2”.
 
-All the other data (e.g. [TUBELEX](https://github.com/naist-nlp/tubelex) frequencies) will be downloaded automatically as you run the scripts
+All the other data (e.g. [TUBELEX](https://github.com/naist-nlp/tubelex) frequencies) will be downloaded automatically as you run the scripts.
 
+Note that each data file may have a different license. See [`data/LICENSE`](data/LICENSE) for the license covering the shared task data itself, which is also included in this repository.
 
 ## General Technical Information
 
