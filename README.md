@@ -33,8 +33,8 @@ conda activate bea2026st
 
 4. Next steps: To match models and results presented in our paper/submitted to the shared task against the codebase look at the following shell scripts:
 
-  - `make_submission.sh`: Runs the ensembles/feature-based models submitted to the shared task.
-  - `results_tables.sh`: Creates result tables (CSV and LaTeX) found in the paper.
+  - `scripts/make_submission.sh`: Runs the ensembles/feature-based models submitted to the shared task.
+  - `scripts/results_tables.sh`: Creates result tables (CSV and LaTeX) found in the paper.
   
   From these two files you can backtrack to individual features or models combined in the ensembles and their implementation. Scripts for fine-tuning open-weight models can be found in `jobs`. We also ran setups not included in the paper and some of the result/prediction files were renamed. If uncertain about hyperparameters or exact models, refer to the paper's appendices.
 
