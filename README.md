@@ -17,7 +17,7 @@ This repository contains **source code** of submissions of the Sakura team to th
 1. **Clone the repository** to your local machine:
 
 ```bash
-git clone git@github.com:adno/vocabulary-difficulty
+git clone git@github.com:ynklab/vocabulary-difficulty
 cd vocabulary-difficulty
 ```
 
