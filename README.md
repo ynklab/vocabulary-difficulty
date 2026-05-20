@@ -2,12 +2,13 @@
 
 This repository contains **source code** of submissions of the Sakura team to the BEA 2026 Shared Task on Vocabulary Difficulty Prediction, in particular, the winning submission in the open track, and our explainable system that performed competitively in the closed track. It also contains **all predictions**, including interim predictions made by each prompt or finetuned LLM.
 
-- [Explore SHAP-based explanations](TODO) from our `explainable` system.
-- [Read our paper on arXiv](https://arxiv.org/abs/2605.14257).
-- Learn more about the [BEA 2026 Shared Task on Vocabulary Difficulty Prediction](https://www.britishcouncil.org/data-science-and-insights/bea2026st) and check out its [Github repo](https://github.com/britishcouncil/bea2026st/).
-- [Full shared task results](https://github.com/britishcouncil/bea2026st/blob/main/results/results_summary_test.md).
+👀 [Explore SHAP-based explanations](https://ynklab.github.io/vocabulary-difficulty/) from our `explainable` system.
 
-(There may be minor updates to this repository until our paper is presented in July 2026.)
+📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257).
+
+📚 Learn more about the [BEA 2026 Shared Task on Vocabulary Difficulty Prediction](https://www.britishcouncil.org/data-science-and-insights/bea2026st) and check out its [Github repo](https://github.com/britishcouncil/bea2026st/).
+
+🥇 [Full shared task results](https://github.com/britishcouncil/bea2026st/blob/main/results/results_summary_test.md).
 
 ## Installation and Setup
 
