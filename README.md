@@ -33,10 +33,11 @@ conda activate bea2026st
 
 4. Next steps: To match models and results presented in our paper/submitted to the shared task against the codebase look at the following shell scripts:
 
-  - `scripts/make_submission.sh`: Runs the ensembles/feature-based models submitted to the shared task.
-  - `scripts/results_tables.sh`: Creates result tables (CSV and LaTeX) found in the paper.
+  - `scripts/make_submission.sh`: Run the ensembles/feature-based models submitted to the shared task.
+  - `scripts/results_tables.sh`: Create result tables (CSV and LaTeX) found in the paper.
+  - `scripts/make_shap.sh`: Create SHAP explanations and plots ([browsable online](https://ynklab.github.io/vocabulary-difficulty/)).
   
-  From these two files you can backtrack to individual features or models combined in the ensembles and their implementation. Scripts for fine-tuning open-weight models can be found in `jobs`. We also ran setups not included in the paper and some of the result/prediction files were renamed. If uncertain about hyperparameters or exact models, refer to the paper's appendices.
+  From the first two files you can backtrack to individual features or models combined in the ensembles and their implementations. Scripts for fine-tuning open-weight models can be found in `jobs`. We also ran setups not included in the paper and some of the result/prediction files were renamed. If uncertain about hyperparameters or exact models, refer to the paper's appendices.
 
 
 ## Data Files
@@ -58,7 +59,7 @@ We use the lowest level for each word in EVP, e.g. for “table”, we use A1 al
 Some of our models also use these:
 
 - `gse_levels.csv`: [GSE](https://www.english.com/gse/teacher-toolkit/user/vocabulary) is another source of CEFR levels.
--  `en-glasgow.csv`: [The Glasgow norms](https://link.springer.com/article/10.3758/s13428-018-1099-3#Sec13), available online as a supplementary CSV file “ESM 2”.
+- `en-glasgow.csv`: [The Glasgow norms](https://link.springer.com/article/10.3758/s13428-018-1099-3#Sec13), available online as a supplementary CSV file “ESM 2”.
 
 All the other data (e.g. [TUBELEX](https://github.com/naist-nlp/tubelex) frequencies) will be downloaded automatically as you run the scripts.
 

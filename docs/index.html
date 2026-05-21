@@ -161,8 +161,9 @@
 <body>
   <main class="page">
     <section class="left">
-      <h1>KVL Test Item Browser</h1>
-      <p class="meta">Search by target word and select an item to view grouped SHAP plots. The SHAP values are for the explainable model by team 🌸 Sakura at BEA 2026 Shared Task on Vocabulary Difficulty Prediction. See <a href="https://arxiv.org/abs/2605.14257">arXiv paper</a> and <a href="https://github.com/adno/vocabulary-difficulty">GitHub repo</a>.</p>
+      <h1>What Makes Words Hard?</h1>
+      <p class="meta">
+      The plots for each word explain the vocabulary difficulty predictions of the explainable model by team 🌸 Sakura at BEA 2026 Shared Task on Vocabulary Difficulty Prediction (<a href="https://arxiv.org/abs/2605.14257">arXiv paper</a> and <a href="https://github.com/adno/vocabulary-difficulty">GitHub repo</a>). The plotted SHAP values indicate the contribution of each group of features (e.g. L1 Similarity) to the specific prediction.</p>
       <input id="search" class="search" type="text" placeholder="Search..." aria-label="Filter words">
       <select id="itemList" size="20" aria-label="KVL items"></select>
       <div id="status" class="status"></div>
