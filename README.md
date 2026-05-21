@@ -1,4 +1,4 @@
-# What Makes Words Hard? 🌸 Sakura at BEA 2026 Shared Task on Vocabulary Difficulty Prediction
+# 🌸 Sakura at BEA 2026 Shared Task 1: What Makes Vocabulary Difficult?
 
 This repository contains **source code** of submissions of the Sakura team to the BEA 2026 Shared Task on Vocabulary Difficulty Prediction, in particular, the winning submission in the open track, and our explainable system that performed competitively in the closed track. It also contains **all predictions**, including interim predictions made by each prompt or finetuned LLM.
 
