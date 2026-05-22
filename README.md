@@ -28,7 +28,7 @@ conda env create -f environment.yml
 conda activate bea2026st
 ```
 
-3. Based on which models you want to run, get the necessary (#data-files).
+3. Based on which models you want to run, get the necessary [data files](#data-files).
 
 
 4. Next steps: To match models and results presented in our paper/submitted to the shared task against the codebase look at the following shell scripts:
