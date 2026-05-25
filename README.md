@@ -4,7 +4,7 @@ This repository contains **source code** of submissions of the Sakura team to th
 
 👀 [Explore SHAP-based explanations](https://ynklab.github.io/vocabulary-difficulty/) from our `explainable` system.
 
-<p align="center"><a href="https://ynklab.github.io/vocabulary-difficulty/"><img alt="Browse SHAP-based explanations of vocabulary difficulty predictions" src="./docs/screenshot.png" width="735" height="301" /></a></p>
+<p align="center"><a href="https://ynklab.github.io/vocabulary-difficulty/"><img alt="Browse SHAP-based explanations of vocabulary difficulty predictions" src="./docs/screenshot.png" width="698" height="324" /></a></p>
 
 📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257).
 
