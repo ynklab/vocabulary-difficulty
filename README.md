@@ -6,7 +6,7 @@ This repository contains **source code** of submissions of the Sakura team to th
 
 <p align="center"><a href="https://ynklab.github.io/vocabulary-difficulty/"><img alt="Browse SHAP-based explanations of vocabulary difficulty predictions" src="./docs/screenshot.png" width="698" height="324" /></a></p>
 
-📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257). ([citation](#citation-and-contact))
+📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257) ([citation](#citation-and-contact)).
 
 📚 Learn more about the [BEA 2026 Shared Task on Vocabulary Difficulty Prediction](https://www.britishcouncil.org/data-science-and-insights/bea2026st) and check out its [Github repo](https://github.com/britishcouncil/bea2026st/).
 
