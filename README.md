@@ -6,7 +6,7 @@ This repository contains **source code** of submissions of the Sakura team to th
 
 <p align="center"><a href="https://ynklab.github.io/vocabulary-difficulty/"><img alt="Browse SHAP-based explanations of vocabulary difficulty predictions" src="./docs/screenshot.png" width="698" height="324" /></a></p>
 
-📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257).
+📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257). ([citation](#citation-and-contact))
 
 📚 Learn more about the [BEA 2026 Shared Task on Vocabulary Difficulty Prediction](https://www.britishcouncil.org/data-science-and-insights/bea2026st) and check out its [Github repo](https://github.com/britishcouncil/bea2026st/).
 
@@ -257,3 +257,19 @@ python scripts/make_splits.py -k5 -o data/cv-split-ids-5.json
 python scripts/make_splits.py -k10 -o data/cv-split-ids-10.json
 ```
 
+# Citation and Contact
+
+The paper will be available in the ACL Anthology soon. You can currently read and cite it as an (ArXiv preprint)[http://arxiv.org/abs/2605.14257v2].
+
+```
+@article{nohejl_etal_2026_sakura,
+  title = {Sakura at {BEA} 2026 Shared Task 1: {What} Makes Vocabulary Difficult?},
+  author = {Nohejl, Adam and Wu, Xuanxin and Ide, Yusuke and Riera Machin, Maria Angelica and Chang, Yi-Ning and Yanaka, Hitomi},
+  year = {2026},
+  publisher = {arXiv},
+  journal = {ArXiv preprint},
+  volume = {arXiv:2605.14257v2 [cs.CL]},
+  url = {http://arxiv.org/abs/2605.14257v2}
+}
+```
+Contact: [Adam Nohejl](https://linktr.ee/adamnohejl), *first*`.`*last*`@riken.jp`
