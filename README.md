@@ -6,7 +6,7 @@ This repository contains **source code** of submissions of the Sakura team to th
 
 <p align="center"><a href="https://ynklab.github.io/vocabulary-difficulty/"><img alt="Browse SHAP-based explanations of vocabulary difficulty predictions" src="./docs/screenshot.png" width="698" height="324" /></a></p>
 
-📖 [Read our paper on arXiv](https://arxiv.org/abs/2605.14257) ([citation](#citation-and-contact)).
+📖 [Read our paper in the ACL Anthology](https://aclanthology.org/2026.bea-1.84/) or [on arXiv](https://arxiv.org/abs/2605.14257) ([citation](#citation-and-contact)).
 
 📚 Learn more about the [BEA 2026 Shared Task on Vocabulary Difficulty Prediction](https://www.britishcouncil.org/data-science-and-insights/bea2026st) and check out its [Github repo](https://github.com/britishcouncil/bea2026st/).
 
@@ -259,17 +259,23 @@ python scripts/make_splits.py -k10 -o data/cv-split-ids-10.json
 
 # Citation and Contact
 
-The paper will be available in the ACL Anthology soon. You can currently read and cite it as an (ArXiv preprint)[http://arxiv.org/abs/2605.14257v2].
+Cite [our paper in the ACL Anthology](https://aclanthology.org/2026.bea-1.84/).
 
 ```
-@article{nohejl_etal_2026_sakura,
-  title = {Sakura at {BEA} 2026 Shared Task 1: {What} Makes Vocabulary Difficult?},
-  author = {Nohejl, Adam and Wu, Xuanxin and Ide, Yusuke and Riera Machin, Maria Angelica and Chang, Yi-Ning and Yanaka, Hitomi},
-  year = {2026},
-  publisher = {arXiv},
-  journal = {ArXiv preprint},
-  volume = {arXiv:2605.14257v2 [cs.CL]},
-  url = {http://arxiv.org/abs/2605.14257v2}
+@inproceedings{nohejl-etal-2026-sakura,
+    title = "Sakura at {BEA} 2026 Shared Task 1: What Makes Vocabulary Difficult?",
+    author = "Nohejl, Adam and Wu, Xuanxin and Ide, Yusuke  and
+      Riera Machin, Maria and Chang, Yi-Ning",
+    editor = "Kochmar, Ekaterina  and Alhafni, Bashar and Bann{\`o}, Stefano and Bexte, Marie and Burstein, Jill and Horbach, Andrea and Laarmann-Quante, Ronja and Tack, Anais and Yaneva, Victoria and Yuan, Zheng",
+    booktitle = "Proceedings of the 21st Workshop on Innovative Use of {NLP} for Building Educational Applications ({BEA} 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.bea-1.84/",
+    doi = "10.18653/v1/2026.bea-1.84",
+    pages = "1161--1178",
+    ISBN = "979-8-89176-409-5",
 }
 ```
 Contact: [Adam Nohejl](https://linktr.ee/adamnohejl), *first*`.`*last*`@riken.jp`
