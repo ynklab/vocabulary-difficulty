@@ -264,7 +264,7 @@ Cite [our paper in the ACL Anthology](https://aclanthology.org/2026.bea-1.84/).
 ```
 @inproceedings{nohejl-etal-2026-sakura,
     title = "Sakura at {BEA} 2026 Shared Task 1: What Makes Vocabulary Difficult?",
-    author = "Nohejl, Adam and Wu, Xuanxin and Ide, Yusuke and Riera Machin, Maria and Chang, Yi-Ning",
+    author = "Nohejl, Adam and Wu, Xuanxin and Ide, Yusuke and Riera Machin, Maria and Chang, Yi-Ning and Yanaka, Hitomi",
     editor = "Kochmar, Ekaterina  and Alhafni, Bashar and Bann{\`o}, Stefano and Bexte, Marie and Burstein, Jill and Horbach, Andrea and Laarmann-Quante, Ronja and Tack, Anais and Yaneva, Victoria and Yuan, Zheng",
     booktitle = "Proceedings of the 21st Workshop on Innovative Use of {NLP} for Building Educational Applications ({BEA} 2026)",
     month = jul,
